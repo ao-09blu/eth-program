@@ -2992,3 +2992,70 @@ INFO [10-30|18:27:46.391] Persisted trie from memory database      nodes=0 size=
 INFO [10-30|18:27:46.394] Writing clean trie cache to disk         path=/home/aoinamai/eth_program/geth_test/geth/triecache threads=4
 INFO [10-30|18:27:46.395] Persisted the clean trie cache           path=/home/aoinamai/eth_program/geth_test/geth/triecache elapsed=1.243ms
 INFO [10-30|18:27:46.395] Blockchain stopped 
+INFO [10-31|23:44:21.987] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [10-31|23:44:21.989] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+INFO [10-31|23:44:21.992] Set global gas cap                       cap=50,000,000
+INFO [10-31|23:44:21.994] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [10-31|23:44:21.994] Allocated cache and file handles         database=/home/aoinamai/eth_program/geth_test/geth/chaindata cache=512.00MiB handles=2048
+INFO [10-31|23:44:22.009] Opened ancient database                  database=/home/aoinamai/eth_program/geth_test/geth/chaindata/ancient/chain readonly=false
+INFO [10-31|23:44:22.013]  
+INFO [10-31|23:44:22.013] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [10-31|23:44:22.013] Chain ID:  20 (unknown) 
+INFO [10-31|23:44:22.013] Consensus: unknown 
+INFO [10-31|23:44:22.013]  
+INFO [10-31|23:44:22.013] Pre-Merge hard forks: 
+INFO [10-31|23:44:22.013]  - Homestead:                   0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/homestead.md) 
+INFO [10-31|23:44:22.013]  - Tangerine Whistle (EIP 150): 0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/tangerine-whistle.md) 
+INFO [10-31|23:44:22.014]  - Spurious Dragon/1 (EIP 155): 0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [10-31|23:44:22.014]  - Spurious Dragon/2 (EIP 158): 0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [10-31|23:44:22.014]  - Byzantium:                   0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/byzantium.md) 
+INFO [10-31|23:44:22.014]  - Constantinople:              0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/constantinople.md) 
+INFO [10-31|23:44:22.014]  - Petersburg:                  0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/petersburg.md) 
+INFO [10-31|23:44:22.014]  - Istanbul:                    0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/istanbul.md) 
+INFO [10-31|23:44:22.014]  - Berlin:                      0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/berlin.md) 
+INFO [10-31|23:44:22.014]  - London:                      <nil> (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/london.md) 
+INFO [10-31|23:44:22.014]  
+INFO [10-31|23:44:22.014] The Merge is not yet available for this network! 
+INFO [10-31|23:44:22.015]  - Hard-fork specification: https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/paris.md 
+INFO [10-31|23:44:22.015] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [10-31|23:44:22.015]  
+INFO [10-31|23:44:22.015] Disk storage enabled for ethash caches   dir=/home/aoinamai/eth_program/geth_test/geth/ethash count=3
+INFO [10-31|23:44:22.015] Disk storage enabled for ethash DAGs     dir=/home/aoinamai/.ethash count=2
+INFO [10-31|23:44:22.015] Initialising Ethereum protocol           network=20 dbversion=8
+INFO [10-31|23:44:22.016] Loaded most recent local header          number=518 hash=75eb61..74ff59 td=74,466,690 age=2d20h36m
+INFO [10-31|23:44:22.016] Loaded most recent local full block      number=518 hash=75eb61..74ff59 td=74,466,690 age=2d20h36m
+INFO [10-31|23:44:22.016] Loaded most recent local fast block      number=518 hash=75eb61..74ff59 td=74,466,690 age=2d20h36m
+INFO [10-31|23:44:22.023] Loaded local transaction journal         transactions=0 dropped=0
+INFO [10-31|23:44:22.023] Regenerated local transaction journal    transactions=0 accounts=0
+WARN [10-31|23:44:22.023] Switch sync mode from snap sync to full sync 
+INFO [10-31|23:44:22.024] Gasprice oracle is ignoring threshold set threshold=2
+WARN [10-31|23:44:22.025] Engine API enabled                       protocol=eth
+WARN [10-31|23:44:22.025] Engine API started but chain not configured for merge yet 
+INFO [10-31|23:44:22.025] Starting peer-to-peer node               instance=Geth/v1.10.25-stable-69568c55/linux-amd64/go1.18.5
+INFO [10-31|23:44:22.038] IPC endpoint opened                      url=/home/aoinamai/eth_program/geth_test/geth.ipc
+INFO [10-31|23:44:22.038] Loaded JWT secret file                   path=/home/aoinamai/eth_program/geth_test/geth/jwtsecret crc32=0x11daab54
+INFO [10-31|23:44:22.039] New local node record                    seq=1,666,949,048,907 id=e9c62dbed05156fe ip=127.0.0.1 udp=0 tcp=30303
+INFO [10-31|23:44:22.039] Started P2P networking                   self="enode://b813495a5d78e2eb5c9e1ebc464cf89309a5111d6e4b66253f582e94dd40df8ee129a49e476336fccd62b96090bc838ed4eb0d7a042b951600e488e48c517f7b@127.0.0.1:30303?discport=0"
+INFO [10-31|23:44:22.041] HTTP server started                      endpoint=127.0.0.1:8101 auth=false prefix= cors= vhosts=*
+INFO [10-31|23:44:22.042] WebSocket enabled                        url=ws://127.0.0.1:8551
+INFO [10-31|23:44:22.042] HTTP server started                      endpoint=127.0.0.1:8551 auth=true  prefix= cors=localhost vhosts=localhost
+INFO [10-31|23:44:22.097] Etherbase automatically configured       address=0x0b05FC1720fD4789F9245373e9c6e1f94e53183B
+INFO [10-31|23:44:51.887] Setting new local account                address=0x0b05FC1720fD4789F9245373e9c6e1f94e53183B
+INFO [10-31|23:44:51.887] Submitted transaction                    hash=0x406fe79ae7fcb6608fe3b23046ff5e954c50929184b7be3cbe8c19a2ef19cadf from=0x0b05FC1720fD4789F9245373e9c6e1f94e53183B nonce=3 recipient=0x0b05FC1720fD4789F9245373e9c6e1f94e53183B value=10,000,000,000,000,000,000
+INFO [10-31|23:46:08.077] Updated mining threads                   threads=4
+INFO [10-31|23:46:08.078] Transaction pool price threshold updated price=1,000,000,000
+INFO [10-31|23:46:08.078] Commit new sealing work                  number=519 sealhash=8d1aea..9e6c3f uncles=0 txs=0 gas=0 fees=0 elapsed="203.949µs"
+INFO [10-31|23:46:08.078] Commit new sealing work                  number=519 sealhash=05a09a..08f61f uncles=0 txs=1 gas=21000 fees=0.00105 elapsed="547.993µs"
+INFO [10-31|23:46:13.326] Successfully sealed new block            number=519 sealhash=05a09a..08f61f hash=abd1c2..d2a9e6 elapsed=5.248s
+INFO [10-31|23:46:13.327] 🔨 mined potential block                  number=519 hash=abd1c2..d2a9e6
+INFO [10-31|23:46:13.327] Commit new sealing work                  number=520 sealhash=4cada6..da0d4a uncles=0 txs=0 gas=0     fees=0       elapsed="110.709µs"
+INFO [10-31|23:46:13.327] Commit new sealing work                  number=520 sealhash=4cada6..da0d4a uncles=0 txs=0 gas=0     fees=0       elapsed="497.865µs"
+INFO [10-31|23:46:14.469] Successfully sealed new block            number=520 sealhash=4cada6..da0d4a hash=bf43fe..b5fac1 elapsed=1.142s
+INFO [10-31|23:46:14.469] 🔨 mined potential block                  number=520 hash=bf43fe..b5fac1
+INFO [10-31|23:46:14.469] Commit new sealing work                  number=521 sealhash=1c8c96..12e6c9 uncles=0 txs=0 gas=0     fees=0       elapsed="166.941µs"
+INFO [10-31|23:46:14.469] Commit new sealing work                  number=521 sealhash=1c8c96..12e6c9 uncles=0 txs=0 gas=0     fees=0       elapsed="323.558µs"
+INFO [10-31|23:46:14.838] Successfully sealed new block            number=521 sealhash=1c8c96..12e6c9 hash=c73423..08334b elapsed=368.970ms
+INFO [10-31|23:46:14.838] 🔨 mined potential block                  number=521 hash=c73423..08334b
+INFO [10-31|23:46:14.838] Commit new sealing work                  number=522 sealhash=2f60da..30cb57 uncles=0 txs=0 gas=0     fees=0       elapsed="162.436µs"
+INFO [10-31|23:46:14.838] Commit new sealing work                  number=522 sealhash=2f60da..30cb57 uncles=0 txs=0 gas=0     fees=0       elapsed="266.113µs"
+INFO [11-01|00:01:27.299] Submitted transaction                    hash=0xb604d6f31c506aba859ba62d21ade4b6a8813ff5447cceb839155c724ca7ad50 from=0x0b05FC1720fD4789F9245373e9c6e1f94e53183B nonce=4 recipient=0x0b05FC1720fD4789F9245373e9c6e1f94e53183B value=10,000,000,000,000,000,000
