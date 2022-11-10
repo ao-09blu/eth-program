@@ -41,3 +41,20 @@
 23:44:22.034238 version@stat F·[3] S·505B[505B] Sc·[0.75]
 23:44:22.036552 db@janitor F·5 G·0
 23:44:22.036567 db@open done T·10.209908ms
+=============== Nov 9, 2022 (PST) ===============
+21:39:16.080837 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+21:39:16.081911 version@stat F·[3] S·505B[505B] Sc·[0.75]
+21:39:16.081940 db@open opening
+21:39:16.081978 journal@recovery F·1
+21:39:16.091983 journal@recovery recovering @9
+21:39:16.093331 memdb@flush created L0@11 N·1 S·162B "loc..seq,v8":"loc..seq,v8"
+21:39:16.104085 version@stat F·[4] S·667B[667B] Sc·[1.00]
+21:39:16.107059 db@janitor F·6 G·0
+21:39:16.107102 db@open done T·25.156973ms
+21:39:16.107218 table@compaction L0·4 -> L1·0 S·667B Q·9
+21:39:16.114701 table@build created L1@14 N·2 S·181B "loc..seq,v8":"version,v1"
+21:39:16.114730 version@stat F·[0 1] S·181B[0B 181B] Sc·[0.00 0.00]
+21:39:16.116418 table@compaction committed F-3 S-486B Ke·0 D·3 T·9.171933ms
+21:39:16.116472 table@remove removed @8
+21:39:16.116779 table@remove removed @5
+21:39:16.116802 table@remove removed @2

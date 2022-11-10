@@ -1,0 +1,32 @@
+=============== Oct 27, 2022 (PDT) ===============
+21:49:57.435740 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+21:49:57.436916 db@open opening
+21:49:57.437084 version@stat F·[] S·0B[] Sc·[]
+21:49:57.437455 db@janitor F·2 G·0
+21:49:57.437476 db@open done T·540.439µs
+21:49:57.443314 db@close closing
+21:49:57.443344 db@close done T·30.54µs
+=============== Oct 28, 2022 (PDT) ===============
+00:26:55.329159 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+00:26:55.329469 version@stat F·[] S·0B[] Sc·[]
+00:26:55.329490 db@open opening
+00:26:55.329513 journal@recovery F·1
+00:26:55.330421 journal@recovery recovering @1
+00:26:55.331668 memdb@flush created L0@2 N·11 S·652B "H{...~\x042,v4":"r\x00\x00..~\x042,v6"
+00:26:55.333868 version@stat F·[1] S·652B[652B] Sc·[0.25]
+00:26:55.336588 db@janitor F·3 G·0
+00:26:55.336610 db@open done T·7.115123ms
+00:26:55.339798 db@close closing
+00:26:55.339845 db@close done T·45.371µs
+=============== Oct 28, 2022 (PDT) ===============
+00:35:00.329318 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+00:35:00.329605 version@stat F·[1] S·652B[652B] Sc·[0.25]
+00:35:00.329616 db@open opening
+00:35:00.329640 journal@recovery F·1
+00:35:00.335344 journal@recovery recovering @3
+00:35:00.336155 memdb@flush created L0@5 N·1 S·363B "eth..~\x042,v13":"eth..~\x042,v13"
+00:35:00.343423 version@stat F·[2] S·1015B[1015B] Sc·[0.50]
+00:35:00.347126 db@janitor F·4 G·0
+00:35:00.347146 db@open done T·17.52637ms
+00:35:00.349166 db@close closing
+00:35:00.349221 db@close done T·55.048µs

@@ -1,5 +1,3 @@
-from eth_account import Account
-from transformers import DATA2VEC_AUDIO_PRETRAINED_MODEL_ARCHIVE_LIST
 from web3 import Web3
 from solcx import compile_source
 import web3

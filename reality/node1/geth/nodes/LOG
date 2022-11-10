@@ -1,0 +1,12 @@
+=============== Oct 27, 2022 (PDT) ===============
+23:29:15.736484 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+23:29:15.738371 db@open opening
+23:29:15.739899 version@stat F·[] S·0B[] Sc·[]
+23:29:15.740322 db@janitor F·2 G·0
+23:29:15.740335 db@open done T·1.954109ms
+=============== Oct 28, 2022 (PDT) ===============
+00:18:45.746282 memdb@flush N·36486 S·3MiB
+00:18:45.757793 memdb@flush created L0@3 N·36486 S·751KiB "loc..seq,v2":"version,v1"
+00:18:45.757864 version@stat F·[1] S·751KiB[751KiB] Sc·[0.25]
+00:18:45.758540 memdb@flush committed F·1 T·12.178118ms
+00:18:45.759278 journal@remove removed @1

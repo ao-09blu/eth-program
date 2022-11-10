@@ -8,7 +8,7 @@ web3 = Web3(HTTPProvider("HTTP://127.0.0.1:7545"))
 print(web3.isConnected())
 
 # 3. Account Address, private key
-key  = "4f3fd3f5656d065f2a396d547420d7f03e4117f5bdecf364e5e90c7248bbfd05"
+key  = "002d339b02006031e2928c662c062916403206ad944cb0f5311a219c80bf3a42"
 acct = web3.eth.account.privateKeyToAccount(key)
 
 # 4. Get smart contract information
@@ -17,7 +17,7 @@ abi         = truffleFile['abi']
 bytecode    = truffleFile['bytecode']
 
 # 5. Set contract address
-contract_address = "0xb70E94e46f6F712C0D51E2bce68cAf04c08DD464"
+contract_address = "0xDC89A3b4551835Cae75Bac1B32bdbFcA0d9E0c08"
 contract_address = Web3.toChecksumAddress(contract_address) #modify
 
 # 6. Instantiate and deploy contract
