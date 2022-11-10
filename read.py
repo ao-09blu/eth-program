@@ -13,7 +13,7 @@ abi = truffleFile['abi']
 bytecode = truffleFile['bytecode']
 
 # 5. Set contract address
-contract_address = "0xa1364d76bE9F3644c890Fb0c3922df3b42b4E5c1"
+contract_address = "0x85CD568b8c154Db5B96a7Aa14a863776222af16b"
 contract_address = Web3.toChecksumAddress(contract_address) #modify
 contract = web3.eth.contract(abi=abi, bytecode=bytecode)
 

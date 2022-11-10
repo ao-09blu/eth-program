@@ -1,0 +1,100 @@
+INFO [10-28|00:37:33.834] Maximum peer count                       ETH=0 LES=0 total=0
+INFO [10-28|00:37:33.835] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+INFO [10-28|00:37:33.837] Set global gas cap                       cap=50,000,000
+INFO [10-28|00:37:33.839] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [10-28|00:37:33.839] Allocated cache and file handles         database=/home/aoinamai/eth_program/eth_private_net/geth/chaindata cache=512.00MiB handles=2048
+INFO [10-28|00:37:33.850] Opened ancient database                  database=/home/aoinamai/eth_program/eth_private_net/geth/chaindata/ancient/chain readonly=false
+INFO [10-28|00:37:33.852]  
+INFO [10-28|00:37:33.852] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [10-28|00:37:33.852] Chain ID:  15 (unknown) 
+INFO [10-28|00:37:33.852] Consensus: unknown 
+INFO [10-28|00:37:33.852]  
+INFO [10-28|00:37:33.852] Pre-Merge hard forks: 
+INFO [10-28|00:37:33.852]  - Homestead:                   0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/homestead.md) 
+INFO [10-28|00:37:33.852]  - Tangerine Whistle (EIP 150): 0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/tangerine-whistle.md) 
+INFO [10-28|00:37:33.852]  - Spurious Dragon/1 (EIP 155): 0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [10-28|00:37:33.852]  - Spurious Dragon/2 (EIP 158): 0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [10-28|00:37:33.852]  - Byzantium:                   0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/byzantium.md) 
+INFO [10-28|00:37:33.852]  - Constantinople:              0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/constantinople.md) 
+INFO [10-28|00:37:33.852]  - Petersburg:                  0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/petersburg.md) 
+INFO [10-28|00:37:33.852]  - Istanbul:                    0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/istanbul.md) 
+INFO [10-28|00:37:33.852]  - Berlin:                      0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/berlin.md) 
+INFO [10-28|00:37:33.852]  - London:                      <nil> (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/london.md) 
+INFO [10-28|00:37:33.852]  
+INFO [10-28|00:37:33.852] The Merge is not yet available for this network! 
+INFO [10-28|00:37:33.852]  - Hard-fork specification: https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/paris.md 
+INFO [10-28|00:37:33.852] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [10-28|00:37:33.852]  
+INFO [10-28|00:37:33.852] Disk storage enabled for ethash caches   dir=/home/aoinamai/eth_program/eth_private_net/geth/ethash count=3
+INFO [10-28|00:37:33.852] Disk storage enabled for ethash DAGs     dir=/home/aoinamai/.ethash count=2
+INFO [10-28|00:37:33.852] Initialising Ethereum protocol           network=4649 dbversion=8
+INFO [10-28|00:37:33.854] Loaded most recent local header          number=74 hash=6e2da6..bed44c td=9,879,695 age=2h23m4s
+INFO [10-28|00:37:33.854] Loaded most recent local full block      number=74 hash=6e2da6..bed44c td=9,879,695 age=2h23m4s
+INFO [10-28|00:37:33.854] Loaded most recent local fast block      number=74 hash=6e2da6..bed44c td=9,879,695 age=2h23m4s
+INFO [10-28|00:37:33.857] Loaded local transaction journal         transactions=0 dropped=0
+INFO [10-28|00:37:33.857] Regenerated local transaction journal    transactions=0 accounts=0
+WARN [10-28|00:37:33.857] Switch sync mode from snap sync to full sync 
+INFO [10-28|00:37:33.858] Gasprice oracle is ignoring threshold set threshold=2
+WARN [10-28|00:37:33.858] Engine API enabled                       protocol=eth
+WARN [10-28|00:37:33.858] Engine API started but chain not configured for merge yet 
+INFO [10-28|00:37:33.858] Starting peer-to-peer node               instance=Geth/v1.10.25-stable-69568c55/linux-amd64/go1.18.5
+INFO [10-28|00:37:33.868] IPC endpoint opened                      url=/home/aoinamai/eth_program/eth_private_net/geth.ipc
+INFO [10-28|00:37:33.868] Loaded JWT secret file                   path=/home/aoinamai/eth_program/eth_private_net/geth/jwtsecret crc32=0x97baf85
+INFO [10-28|00:37:33.868] New local node record                    seq=1,666,932,686,040 id=4be479bf34eac004 ip=127.0.0.1 udp=0 tcp=30303
+INFO [10-28|00:37:33.868] Started P2P networking                   self="enode://effd9eb4b66737063d6b4b8a1a574716e271f0747bfe2518c649964d79d395a5d44330775a7c654b0023d26d191adabfc78256a766af6b29d800f50c43eda681@127.0.0.1:30303?discport=0"
+INFO [10-28|00:37:33.868] WebSocket enabled                        url=ws://127.0.0.1:8551
+INFO [10-28|00:37:33.868] HTTP server started                      endpoint=127.0.0.1:8551 auth=true prefix= cors=localhost vhosts=localhost
+INFO [10-28|00:37:33.895] Etherbase automatically configured       address=0x302e691B841913936084ebe70E119c823FB84C2d
+INFO [10-28|00:38:00.533] Your new key was generated               address=0x5C7DD95bd8C5475eC957fBC408230bFC0fEA13c3
+WARN [10-28|00:38:00.533] Please backup your key file!             path=/home/aoinamai/eth_program/eth_private_net/keystore/UTC--2022-10-28T07-37-58.377859745Z--5c7dd95bd8c5475ec957fbc408230bfc0fea13c3
+WARN [10-28|00:38:00.533] Please remember your password! 
+INFO [10-28|00:38:20.919] Your new key was generated               address=0x82c7F47E6106f13af20c0Edb307Ef0e47123ED41
+WARN [10-28|00:38:20.920] Please backup your key file!             path=/home/aoinamai/eth_program/eth_private_net/keystore/UTC--2022-10-28T07-38-19.330195900Z--82c7f47e6106f13af20c0edb307ef0e47123ed41
+WARN [10-28|00:38:20.920] Please remember your password! 
+WARN [10-28|00:55:03.392] Caller gas above allowance, capping      requested=124,734,343 cap=50,000,000
+WARN [10-28|00:55:03.394] Served eth_sendTransaction               reqid=18 duration=2.59451ms err="authentication needed: password or unlock"
+WARN [10-28|00:56:30.610] Caller gas above allowance, capping      requested=124,734,343 cap=50,000,000
+INFO [10-28|00:56:30.612] Setting new local account                address=0x302e691B841913936084ebe70E119c823FB84C2d
+INFO [10-28|00:56:30.612] Submitted transaction                    hash=0x73ffa2da1501bb3bd67486c1544094872f9099976938bd3685bf32e0aef055c6 from=0x302e691B841913936084ebe70E119c823FB84C2d nonce=0 recipient=0x184aB4CaCa1b9c8a0d464a67a44A8573e07220aD value=10,000,000,000,000,000,000
+INFO [10-28|00:58:20.197] Updated mining threads                   threads=1
+INFO [10-28|00:58:20.197] Transaction pool price threshold updated price=1,000,000,000
+INFO [10-28|00:58:20.198] Commit new sealing work                  number=75 sealhash=c7e070..3ca3e3 uncles=0 txs=0 gas=0 fees=0 elapsed="227.756µs"
+INFO [10-28|00:58:20.198] Commit new sealing work                  number=75 sealhash=c99214..a6ec16 uncles=0 txs=1 gas=21000 fees=2.1e-05 elapsed="478.774µs"
+INFO [10-28|00:58:26.926] Successfully sealed new block            number=75 sealhash=c99214..a6ec16 hash=7dac96..8b1f9d elapsed=6.728s
+INFO [10-28|00:58:26.926] 🔨 mined potential block                  number=75 hash=7dac96..8b1f9d
+INFO [10-28|00:58:26.927] Commit new sealing work                  number=76 sealhash=438e6d..1b8165 uncles=0 txs=0 gas=0     fees=0       elapsed="95.332µs"
+INFO [10-28|00:58:26.927] Commit new sealing work                  number=76 sealhash=438e6d..1b8165 uncles=0 txs=0 gas=0     fees=0       elapsed="152.677µs"
+INFO [10-28|00:58:30.375] Successfully sealed new block            number=76 sealhash=438e6d..1b8165 hash=1a0be0..49e969 elapsed=3.448s
+INFO [10-28|00:58:30.375] 🔨 mined potential block                  number=76 hash=1a0be0..49e969
+INFO [10-28|00:58:30.375] Commit new sealing work                  number=77 sealhash=fef406..42479d uncles=0 txs=0 gas=0     fees=0       elapsed="100.532µs"
+INFO [10-28|00:58:30.375] Commit new sealing work                  number=77 sealhash=fef406..42479d uncles=0 txs=0 gas=0     fees=0       elapsed="173.311µs"
+INFO [10-28|00:58:33.257] Successfully sealed new block            number=77 sealhash=fef406..42479d hash=e60b27..e84c14 elapsed=2.881s
+INFO [10-28|00:58:33.257] 🔨 mined potential block                  number=77 hash=e60b27..e84c14
+INFO [10-28|00:58:33.257] Commit new sealing work                  number=78 sealhash=239f7b..81760a uncles=0 txs=0 gas=0     fees=0       elapsed="115.893µs"
+INFO [10-28|00:58:33.258] Commit new sealing work                  number=78 sealhash=239f7b..81760a uncles=0 txs=0 gas=0     fees=0       elapsed="865.222µs"
+INFO [10-28|00:58:35.033] Successfully sealed new block            number=78 sealhash=239f7b..81760a hash=412472..a1ea76 elapsed=1.775s
+INFO [10-28|00:58:35.033] 🔨 mined potential block                  number=78 hash=412472..a1ea76
+INFO [10-28|00:58:35.033] Commit new sealing work                  number=79 sealhash=aa1924..0fd67e uncles=0 txs=0 gas=0     fees=0       elapsed="116.94µs"
+INFO [10-28|00:58:35.034] Commit new sealing work                  number=79 sealhash=aa1924..0fd67e uncles=0 txs=0 gas=0     fees=0       elapsed="237.466µs"
+INFO [10-28|00:58:35.702] Successfully sealed new block            number=79 sealhash=aa1924..0fd67e hash=b97b4c..3ffa91 elapsed=668.927ms
+INFO [10-28|00:58:35.702] 🔨 mined potential block                  number=79 hash=b97b4c..3ffa91
+INFO [10-28|00:58:35.703] Commit new sealing work                  number=80 sealhash=f02edc..c1b8c2 uncles=0 txs=0 gas=0     fees=0       elapsed="81.531µs"
+INFO [10-28|00:58:35.703] Commit new sealing work                  number=80 sealhash=f02edc..c1b8c2 uncles=0 txs=0 gas=0     fees=0       elapsed="169.872µs"
+INFO [10-28|00:58:36.600] Successfully sealed new block            number=80 sealhash=f02edc..c1b8c2 hash=d75dbc..7d7cc8 elapsed=897.719ms
+INFO [10-28|00:58:36.600] 🔨 mined potential block                  number=80 hash=d75dbc..7d7cc8
+INFO [10-28|00:58:36.601] Commit new sealing work                  number=81 sealhash=674335..e8a325 uncles=0 txs=0 gas=0     fees=0       elapsed="126.566µs"
+INFO [10-28|00:58:36.601] Commit new sealing work                  number=81 sealhash=674335..e8a325 uncles=0 txs=0 gas=0     fees=0       elapsed="193.717µs"
+WARN [10-28|01:03:13.980] HTTP server graceful shutdown timed out 
+INFO [10-28|01:03:13.980] HTTP server stopped                      endpoint=127.0.0.1:8551
+INFO [10-28|01:03:13.980] IPC endpoint closed                      url=/home/aoinamai/eth_program/eth_private_net/geth.ipc
+INFO [10-28|01:03:13.980] Ethereum protocol stopped 
+INFO [10-28|01:03:13.980] Transaction pool stopped 
+INFO [10-28|01:03:13.981] Writing cached state to disk             block=80 hash=d75dbc..7d7cc8 root=f85159..57de62
+INFO [10-28|01:03:13.981] Persisted trie from memory database      nodes=3 size=408.00B time="63.652µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=11 livesize=1.28KiB
+INFO [10-28|01:03:13.981] Writing cached state to disk             block=79 hash=b97b4c..3ffa91 root=b19d51..856136
+INFO [10-28|01:03:13.981] Persisted trie from memory database      nodes=2 size=262.00B time="20.91µs"  gcnodes=0 gcsize=0.00B gctime=0s livenodes=9  livesize=1.02KiB
+INFO [10-28|01:03:13.981] Writing snapshot state to disk           root=56e81f..63b421
+INFO [10-28|01:03:13.981] Persisted trie from memory database      nodes=0 size=0.00B   time=535ns      gcnodes=0 gcsize=0.00B gctime=0s livenodes=9  livesize=1.02KiB
+INFO [10-28|01:03:13.981] Writing clean trie cache to disk         path=/home/aoinamai/eth_program/eth_private_net/geth/triecache threads=4
+INFO [10-28|01:03:13.982] Persisted the clean trie cache           path=/home/aoinamai/eth_program/eth_private_net/geth/triecache elapsed="703.914µs"
+INFO [10-28|01:03:13.982] Blockchain stopped 

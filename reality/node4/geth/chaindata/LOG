@@ -1,0 +1,42 @@
+=============== Oct 27, 2022 (PDT) ===============
+23:27:40.360353 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+23:27:40.362676 db@open opening
+23:27:40.363188 version@stat F·[] S·0B[] Sc·[]
+23:27:40.363878 db@janitor F·2 G·0
+23:27:40.363909 db@open done T·1.201899ms
+23:27:40.367734 db@close closing
+23:27:40.367792 db@close done T·48.814µs
+=============== Oct 27, 2022 (PDT) ===============
+23:59:33.804103 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+23:59:33.804211 version@stat F·[] S·0B[] Sc·[]
+23:59:33.804232 db@open opening
+23:59:33.804255 journal@recovery F·1
+23:59:33.805670 journal@recovery recovering @1
+23:59:33.806817 memdb@flush created L0@2 N·11 S·652B "H{...~\x042,v4":"r\x00\x00..~\x042,v6"
+23:59:33.809440 version@stat F·[1] S·652B[652B] Sc·[0.25]
+23:59:33.811957 db@janitor F·3 G·0
+23:59:33.811967 db@open done T·7.729988ms
+23:59:35.922754 db@close closing
+23:59:35.922819 db@close done T·63.653µs
+=============== Oct 27, 2022 (PDT) ===============
+23:59:45.457667 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+23:59:45.457893 version@stat F·[1] S·652B[652B] Sc·[0.25]
+23:59:45.457948 db@open opening
+23:59:45.458018 journal@recovery F·1
+23:59:45.502306 journal@recovery recovering @3
+23:59:45.504283 memdb@flush created L0@5 N·8 S·533B "Dat..ion,v14":"unc..own,v19"
+23:59:45.507232 version@stat F·[2] S·1KiB[1KiB] Sc·[0.50]
+23:59:45.510182 db@janitor F·4 G·0
+23:59:45.510196 db@open done T·52.240812ms
+23:59:47.620059 db@close closing
+23:59:47.620139 db@close done T·78.763µs
+=============== Oct 28, 2022 (PDT) ===============
+00:00:08.600993 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+00:00:08.601097 version@stat F·[2] S·1KiB[1KiB] Sc·[0.50]
+00:00:08.601119 db@open opening
+00:00:08.601149 journal@recovery F·1
+00:00:08.602486 journal@recovery recovering @6
+00:00:08.603808 memdb@flush created L0@8 N·2 S·401B "eth..~\x042,v22":"unc..own,v23"
+00:00:08.606843 version@stat F·[3] S·1KiB[1KiB] Sc·[0.75]
+00:00:08.610316 db@janitor F·5 G·0
+00:00:08.610343 db@open done T·9.209562ms
