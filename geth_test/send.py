@@ -28,7 +28,7 @@ myAddr_C = w3.toChecksumAddress(myAddr)
 privatekey = get_private_key(myAddr_C, Pass_word)
 print(privatekey)
 
-nonce = w3.eth.getTransactionCount(my_Account_num)#送信元のnonceのセット
+nonce = w3.eth.getTransactionCount(myAddr_C)#送信元のnonceのセット
 
 #送信先情報取得
 D_addr = w3.toChecksumAddress(w3.eth.accounts[D_account_num])
@@ -38,9 +38,10 @@ tx = {
     'chainId': 20,
     'nonce': nonce,
     'to': D_addr,
-    'value': w3.toWei(10, "ether"),
+    'value': w3.toWei(100, "ether"),
     'gas': 2000000,
     'gasPrice': w3.toWei('50', 'gwei'),
+    'data': "0x1234",
 }
 
 
