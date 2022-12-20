@@ -1,0 +1,1117 @@
+flag provided but not defined: -rpcport
+flag provided but not defined: -rpcport
+invalid command: "30301"
+INFO [12-13|01:00:12.467] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [12-13|01:00:12.468] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+INFO [12-13|01:00:12.470] Set global gas cap                       cap=50,000,000
+INFO [12-13|01:00:12.472] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [12-13|01:00:12.472] Allocated cache and file handles         database=/home/aoinamai/eth_program/connect-test/geth_test/geth/chaindata cache=512.00MiB handles=2048
+INFO [12-13|01:00:12.481] Opened ancient database                  database=/home/aoinamai/eth_program/connect-test/geth_test/geth/chaindata/ancient/chain readonly=false
+INFO [12-13|01:00:12.482] Writing default main-net genesis block 
+INFO [12-13|01:00:12.702] Persisted trie from memory database      nodes=12356 size=1.78MiB time=18.580994ms gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [12-13|01:00:12.714]  
+INFO [12-13|01:00:12.714] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [12-13|01:00:12.714] Chain ID:  1 (mainnet) 
+INFO [12-13|01:00:12.714] Consensus: Beacon (proof-of-stake), merged from Ethash (proof-of-work) 
+INFO [12-13|01:00:12.714]  
+INFO [12-13|01:00:12.714] Pre-Merge hard forks: 
+INFO [12-13|01:00:12.714]  - Homestead:                   1150000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/homestead.md) 
+INFO [12-13|01:00:12.714]  - DAO Fork:                    1920000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/dao-fork.md) 
+INFO [12-13|01:00:12.714]  - Tangerine Whistle (EIP 150): 2463000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/tangerine-whistle.md) 
+INFO [12-13|01:00:12.714]  - Spurious Dragon/1 (EIP 155): 2675000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [12-13|01:00:12.714]  - Spurious Dragon/2 (EIP 158): 2675000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [12-13|01:00:12.714]  - Byzantium:                   4370000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/byzantium.md) 
+INFO [12-13|01:00:12.714]  - Constantinople:              7280000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/constantinople.md) 
+INFO [12-13|01:00:12.714]  - Petersburg:                  7280000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/petersburg.md) 
+INFO [12-13|01:00:12.714]  - Istanbul:                    9069000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/istanbul.md) 
+INFO [12-13|01:00:12.714]  - Muir Glacier:                9200000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/muir-glacier.md) 
+INFO [12-13|01:00:12.714]  - Berlin:                      12244000 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/berlin.md) 
+INFO [12-13|01:00:12.714]  - London:                      12965000 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/london.md) 
+INFO [12-13|01:00:12.714]  - Arrow Glacier:               13773000 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/arrow-glacier.md) 
+INFO [12-13|01:00:12.714]  - Gray Glacier:                15050000 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/gray-glacier.md) 
+INFO [12-13|01:00:12.714]  
+INFO [12-13|01:00:12.714] Merge configured: 
+INFO [12-13|01:00:12.714]  - Hard-fork specification:    https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/paris.md 
+INFO [12-13|01:00:12.714]  - Network known to be merged: true 
+INFO [12-13|01:00:12.714]  - Total terminal difficulty:  58750000000000000000000 
+INFO [12-13|01:00:12.714]  - Merge netsplit block:       <nil> 
+INFO [12-13|01:00:12.714] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [12-13|01:00:12.714]  
+INFO [12-13|01:00:12.714] Disk storage enabled for ethash caches   dir=/home/aoinamai/eth_program/connect-test/geth_test/geth/ethash count=3
+INFO [12-13|01:00:12.714] Disk storage enabled for ethash DAGs     dir=/home/aoinamai/.ethash count=2
+INFO [12-13|01:00:12.714] Initialising Ethereum protocol           network=20 dbversion=<nil>
+INFO [12-13|01:00:12.715] Loaded most recent local header          number=0 hash=d4e567..cb8fa3 td=17,179,869,184 age=53y8mo2w
+INFO [12-13|01:00:12.715] Loaded most recent local full block      number=0 hash=d4e567..cb8fa3 td=17,179,869,184 age=53y8mo2w
+INFO [12-13|01:00:12.715] Loaded most recent local fast block      number=0 hash=d4e567..cb8fa3 td=17,179,869,184 age=53y8mo2w
+WARN [12-13|01:00:12.715] Failed to load snapshot, regenerating    err="missing or corrupted snapshot"
+INFO [12-13|01:00:12.715] Rebuilding state snapshot 
+INFO [12-13|01:00:12.715] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [12-13|01:00:12.715] Resuming state snapshot generation       root=d7f897..0f0544 accounts=0 slots=0 storage=0.00B dangling=0 elapsed="245.625µs"
+INFO [12-13|01:00:12.715] Chain post-merge, sync via beacon client 
+INFO [12-13|01:00:12.716] Gasprice oracle is ignoring threshold set threshold=2
+WARN [12-13|01:00:12.716] Error reading unclean shutdown markers   error="leveldb: not found"
+WARN [12-13|01:00:12.716] Engine API enabled                       protocol=eth
+INFO [12-13|01:00:12.716] Starting peer-to-peer node               instance=Geth/v1.10.25-stable-69568c55/linux-amd64/go1.18.5
+INFO [12-13|01:00:12.721] New local node record                    seq=1,670,922,012,720 id=e9f5ecca78c76eb4 ip=127.0.0.1 udp=30303 tcp=30303
+INFO [12-13|01:00:12.721] Generated JWT secret                     path=/home/aoinamai/eth_program/connect-test/geth_test/geth/jwtsecret
+INFO [12-13|01:00:12.722] Started P2P networking                   self=enode://0b7447506f84c430ca2923e1a79e1067a92e6e31c95c62e3f9a200b106f51eb18814b9c0852e4a51116ce6208fa291f237fcd2c5510403b187e9aee44c584be8@127.0.0.1:30303
+INFO [12-13|01:00:12.722] WebSocket enabled                        url=ws://127.0.0.1:8551
+INFO [12-13|01:00:12.722] HTTP server started                      endpoint=127.0.0.1:8551 auth=true prefix= cors=localhost vhosts=localhost
+WARN [12-13|01:00:12.750] Served eth_coinbase                      reqid=3 duration="14.484µs" err="etherbase must be explicitly specified"
+INFO [12-13|01:00:12.769] Generated state snapshot                 accounts=8893 slots=0 storage=409.64KiB dangling=0 elapsed=54.287ms
+INFO [12-13|01:00:23.646] Looking for peers                        peercount=0 tried=139 static=0
+WARN [12-13|01:00:33.349] Snapshot extension registration failed   peer=0a807721 err="peer connected on snap without compatible eth support"
+WARN [12-13|01:00:34.178] HTTP server graceful shutdown timed out 
+INFO [12-13|01:00:34.178] HTTP server stopped                      endpoint=127.0.0.1:8551
+INFO [12-13|01:00:34.332] Ethereum protocol stopped 
+INFO [12-13|01:00:34.332] Transaction pool stopped 
+INFO [12-13|01:00:34.332] Writing snapshot state to disk           root=d7f897..0f0544
+INFO [12-13|01:00:34.333] Persisted trie from memory database      nodes=0     size=0.00B   time="12.401µs"  gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [12-13|01:00:34.333] Writing clean trie cache to disk         path=/home/aoinamai/eth_program/connect-test/geth_test/geth/triecache threads=4
+INFO [12-13|01:00:34.347] Persisted the clean trie cache           path=/home/aoinamai/eth_program/connect-test/geth_test/geth/triecache elapsed=13.577ms
+INFO [12-13|01:00:34.347] Blockchain stopped 
+INFO [12-13|01:01:12.951] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [12-13|01:01:12.952] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+INFO [12-13|01:01:12.955] Set global gas cap                       cap=50,000,000
+INFO [12-13|01:01:12.956] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [12-13|01:01:12.956] Allocated cache and file handles         database=/home/aoinamai/eth_program/connect-test/data/geth/chaindata cache=512.00MiB handles=2048
+INFO [12-13|01:01:12.965] Opened ancient database                  database=/home/aoinamai/eth_program/connect-test/data/geth/chaindata/ancient/chain readonly=false
+INFO [12-13|01:01:12.966]  
+INFO [12-13|01:01:12.966] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [12-13|01:01:12.966] Chain ID:  300 (unknown) 
+INFO [12-13|01:01:12.966] Consensus: unknown 
+INFO [12-13|01:01:12.966]  
+INFO [12-13|01:01:12.966] Pre-Merge hard forks: 
+INFO [12-13|01:01:12.966]  - Homestead:                   0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/homestead.md) 
+INFO [12-13|01:01:12.966]  - Tangerine Whistle (EIP 150): 0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/tangerine-whistle.md) 
+INFO [12-13|01:01:12.966]  - Spurious Dragon/1 (EIP 155): 0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [12-13|01:01:12.966]  - Spurious Dragon/2 (EIP 158): 0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [12-13|01:01:12.966]  - Byzantium:                   0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/byzantium.md) 
+INFO [12-13|01:01:12.966]  - Constantinople:              0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/constantinople.md) 
+INFO [12-13|01:01:12.966]  - Petersburg:                  0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/petersburg.md) 
+INFO [12-13|01:01:12.966]  - Istanbul:                    0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/istanbul.md) 
+INFO [12-13|01:01:12.966]  - Berlin:                      0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/berlin.md) 
+INFO [12-13|01:01:12.966]  - London:                      <nil> (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/london.md) 
+INFO [12-13|01:01:12.966]  
+INFO [12-13|01:01:12.966] The Merge is not yet available for this network! 
+INFO [12-13|01:01:12.966]  - Hard-fork specification: https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/paris.md 
+INFO [12-13|01:01:12.966] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [12-13|01:01:12.966]  
+INFO [12-13|01:01:12.966] Disk storage enabled for ethash caches   dir=/home/aoinamai/eth_program/connect-test/data/geth/ethash count=3
+INFO [12-13|01:01:12.966] Disk storage enabled for ethash DAGs     dir=/home/aoinamai/.ethash count=2
+INFO [12-13|01:01:12.966] Initialising Ethereum protocol           network=20 dbversion=<nil>
+INFO [12-13|01:01:12.967] Loaded most recent local header          number=0 hash=7b2e8b..7e0432 td=16384 age=53y8mo2w
+INFO [12-13|01:01:12.967] Loaded most recent local full block      number=0 hash=7b2e8b..7e0432 td=16384 age=53y8mo2w
+INFO [12-13|01:01:12.967] Loaded most recent local fast block      number=0 hash=7b2e8b..7e0432 td=16384 age=53y8mo2w
+WARN [12-13|01:01:12.967] Failed to load snapshot, regenerating    err="missing or corrupted snapshot"
+INFO [12-13|01:01:12.967] Rebuilding state snapshot 
+INFO [12-13|01:01:12.967] Resuming state snapshot generation       root=56e81f..63b421 accounts=0 slots=0 storage=0.00B dangling=0 elapsed="192.546µs"
+INFO [12-13|01:01:12.967] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [12-13|01:01:12.967] Generated state snapshot                 accounts=0 slots=0 storage=0.00B dangling=0 elapsed="353.585µs"
+INFO [12-13|01:01:12.968] Gasprice oracle is ignoring threshold set threshold=2
+WARN [12-13|01:01:12.968] Error reading unclean shutdown markers   error="leveldb: not found"
+WARN [12-13|01:01:12.968] Engine API enabled                       protocol=eth
+WARN [12-13|01:01:12.968] Engine API started but chain not configured for merge yet 
+INFO [12-13|01:01:12.968] Starting peer-to-peer node               instance=Geth/v1.10.25-stable-69568c55/linux-amd64/go1.18.5
+INFO [12-13|01:01:12.974] New local node record                    seq=1,670,922,072,972 id=168fcdfbd6091ac0 ip=127.0.0.1 udp=30303 tcp=30303
+INFO [12-13|01:01:12.974] Generated JWT secret                     path=/home/aoinamai/eth_program/connect-test/data/geth/jwtsecret
+INFO [12-13|01:01:12.975] WebSocket enabled                        url=ws://127.0.0.1:8551
+INFO [12-13|01:01:12.975] HTTP server started                      endpoint=127.0.0.1:8551 auth=true prefix= cors=localhost vhosts=localhost
+INFO [12-13|01:01:12.977] Started P2P networking                   self=enode://69359bc0945c08032568a2ff98e4321ae96fb70dff3456a692fe231afda4d7469efcffaa92166e11c8411a6bb1c4a5eaa54d2f6987b112613aef14f365f66250@127.0.0.1:30303
+WARN [12-13|01:01:13.036] Served eth_coinbase                      reqid=3 duration="17.236µs" err="etherbase must be explicitly specified"
+INFO [12-13|01:01:23.881] Looking for peers                        peercount=0 tried=79 static=0
+INFO [12-13|01:01:33.911] Looking for peers                        peercount=1 tried=137 static=0
+WARN [12-13|01:01:42.696] Snapshot extension registration failed   peer=93cf0652 err="peer connected on snap without compatible eth support"
+INFO [12-13|01:01:43.967] Looking for peers                        peercount=0 tried=132 static=0
+INFO [12-13|01:01:53.977] Looking for peers                        peercount=1 tried=70  static=0
+INFO [12-13|01:02:04.305] Looking for peers                        peercount=0 tried=135 static=0
+INFO [12-13|01:02:14.612] Looking for peers                        peercount=0 tried=96  static=0
+INFO [12-13|01:02:25.499] Looking for peers                        peercount=0 tried=107 static=0
+INFO [12-13|01:02:35.517] Looking for peers                        peercount=1 tried=90  static=0
+INFO [12-13|01:02:55.570] Looking for peers                        peercount=0 tried=97  static=0
+WARN [12-13|01:03:01.037] Snapshot extension registration failed   peer=1d4fc8e3 err="peer connected on snap without compatible eth support"
+INFO [12-13|01:03:05.594] Looking for peers                        peercount=0 tried=81  static=0
+INFO [12-13|01:03:15.630] Looking for peers                        peercount=2 tried=93  static=0
+INFO [12-13|01:03:25.648] Looking for peers                        peercount=0 tried=169 static=0
+WARN [12-13|01:03:31.802] Snapshot extension registration failed   peer=a90b10c7 err="peer connected on snap without compatible eth support"
+INFO [12-13|01:03:35.715] Looking for peers                        peercount=0 tried=107 static=0
+INFO [12-13|01:03:46.008] Looking for peers                        peercount=0 tried=85  static=0
+INFO [12-13|01:03:56.205] Looking for peers                        peercount=0 tried=114 static=0
+INFO [12-13|01:04:06.358] Looking for peers                        peercount=1 tried=85  static=0
+WARN [12-13|01:04:10.915] HTTP server graceful shutdown timed out 
+INFO [12-13|01:04:10.915] HTTP server stopped                      endpoint=127.0.0.1:8551
+INFO [12-13|01:04:10.915] Ethereum protocol stopped 
+INFO [12-13|01:04:10.915] Transaction pool stopped 
+INFO [12-13|01:04:10.915] Writing snapshot state to disk           root=56e81f..63b421
+INFO [12-13|01:04:10.915] Persisted trie from memory database      nodes=0 size=0.00B time="3.61µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [12-13|01:04:10.915] Writing clean trie cache to disk         path=/home/aoinamai/eth_program/connect-test/data/geth/triecache threads=4
+INFO [12-13|01:04:10.915] Persisted the clean trie cache           path=/home/aoinamai/eth_program/connect-test/data/geth/triecache elapsed="334.795µs"
+INFO [12-13|01:04:10.915] Blockchain stopped 
+INFO [12-13|01:04:47.748] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [12-13|01:04:47.749] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+INFO [12-13|01:04:47.751] Set global gas cap                       cap=50,000,000
+INFO [12-13|01:04:47.752] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [12-13|01:04:47.753] Allocated cache and file handles         database=/home/aoinamai/eth_program/connect-test/data/geth/chaindata cache=512.00MiB handles=2048
+INFO [12-13|01:04:47.883] Opened ancient database                  database=/home/aoinamai/eth_program/connect-test/data/geth/chaindata/ancient/chain readonly=false
+INFO [12-13|01:04:47.883]  
+INFO [12-13|01:04:47.883] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [12-13|01:04:47.883] Chain ID:  300 (unknown) 
+INFO [12-13|01:04:47.883] Consensus: unknown 
+INFO [12-13|01:04:47.883]  
+INFO [12-13|01:04:47.883] Pre-Merge hard forks: 
+INFO [12-13|01:04:47.884]  - Homestead:                   0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/homestead.md) 
+INFO [12-13|01:04:47.884]  - Tangerine Whistle (EIP 150): 0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/tangerine-whistle.md) 
+INFO [12-13|01:04:47.884]  - Spurious Dragon/1 (EIP 155): 0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [12-13|01:04:47.884]  - Spurious Dragon/2 (EIP 158): 0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [12-13|01:04:47.884]  - Byzantium:                   0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/byzantium.md) 
+INFO [12-13|01:04:47.884]  - Constantinople:              0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/constantinople.md) 
+INFO [12-13|01:04:47.884]  - Petersburg:                  0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/petersburg.md) 
+INFO [12-13|01:04:47.884]  - Istanbul:                    0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/istanbul.md) 
+INFO [12-13|01:04:47.884]  - Berlin:                      0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/berlin.md) 
+INFO [12-13|01:04:47.884]  - London:                      <nil> (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/london.md) 
+INFO [12-13|01:04:47.884]  
+INFO [12-13|01:04:47.884] The Merge is not yet available for this network! 
+INFO [12-13|01:04:47.884]  - Hard-fork specification: https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/paris.md 
+INFO [12-13|01:04:47.884] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [12-13|01:04:47.884]  
+INFO [12-13|01:04:47.884] Disk storage enabled for ethash caches   dir=/home/aoinamai/eth_program/connect-test/data/geth/ethash count=3
+INFO [12-13|01:04:47.884] Disk storage enabled for ethash DAGs     dir=/home/aoinamai/.ethash count=2
+INFO [12-13|01:04:47.884] Initialising Ethereum protocol           network=22 dbversion=8
+INFO [12-13|01:04:47.885] Loaded most recent local header          number=0 hash=7b2e8b..7e0432 td=16384 age=53y8mo2w
+INFO [12-13|01:04:47.885] Loaded most recent local full block      number=0 hash=7b2e8b..7e0432 td=16384 age=53y8mo2w
+INFO [12-13|01:04:47.885] Loaded most recent local fast block      number=0 hash=7b2e8b..7e0432 td=16384 age=53y8mo2w
+INFO [12-13|01:04:47.885] Loaded local transaction journal         transactions=0 dropped=0
+INFO [12-13|01:04:47.885] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [12-13|01:04:47.885] Gasprice oracle is ignoring threshold set threshold=2
+WARN [12-13|01:04:47.885] Engine API enabled                       protocol=eth
+WARN [12-13|01:04:47.885] Engine API started but chain not configured for merge yet 
+INFO [12-13|01:04:47.886] Starting peer-to-peer node               instance=Geth/v1.10.25-stable-69568c55/linux-amd64/go1.18.5
+INFO [12-13|01:04:47.897] New local node record                    seq=1,670,922,072,973 id=168fcdfbd6091ac0 ip=127.0.0.1 udp=30303 tcp=30303
+INFO [12-13|01:04:47.897] Loaded JWT secret file                   path=/home/aoinamai/eth_program/connect-test/data/geth/jwtsecret crc32=0xba74ded8
+INFO [12-13|01:04:47.897] Started P2P networking                   self=enode://69359bc0945c08032568a2ff98e4321ae96fb70dff3456a692fe231afda4d7469efcffaa92166e11c8411a6bb1c4a5eaa54d2f6987b112613aef14f365f66250@127.0.0.1:30303
+INFO [12-13|01:04:47.898] WebSocket enabled                        url=ws://127.0.0.1:8551
+INFO [12-13|01:04:47.898] HTTP server started                      endpoint=127.0.0.1:8551 auth=true prefix= cors=localhost vhosts=localhost
+WARN [12-13|01:04:47.922] Served eth_coinbase                      reqid=3 duration="23.373µs" err="etherbase must be explicitly specified"
+INFO [12-13|01:04:58.070] Looking for peers                        peercount=0 tried=75 static=0
+WARN [12-13|01:04:58.332] Snapshot extension registration failed   peer=98998f1a err="peer connected on snap without compatible eth support"
+WARN [12-13|01:05:15.724] Snapshot extension registration failed   peer=04dfa983 err="peer connected on snap without compatible eth support"
+INFO [12-13|01:05:20.104] Looking for peers                        peercount=0 tried=162 static=0
+INFO [12-13|01:05:30.301] Looking for peers                        peercount=0 tried=81  static=0
+INFO [12-13|01:05:40.464] Looking for peers                        peercount=1 tried=141 static=0
+INFO [12-13|01:05:50.488] Looking for peers                        peercount=2 tried=142 static=0
+INFO [12-13|01:06:30.624] Looking for peers                        peercount=0 tried=101 static=0
+INFO [12-13|01:06:40.649] Looking for peers                        peercount=1 tried=149 static=0
+INFO [12-13|01:06:51.107] Looking for peers                        peercount=0 tried=97  static=0
+INFO [12-13|01:07:02.110] Looking for peers                        peercount=0 tried=121 static=0
+WARN [12-13|01:07:05.204] Snapshot extension registration failed   peer=04dfa983 err="peer connected on snap without compatible eth support"
+WARN [12-13|01:07:05.920] HTTP server graceful shutdown timed out 
+INFO [12-13|01:07:05.920] HTTP server stopped                      endpoint=127.0.0.1:8551
+INFO [12-13|01:07:06.119] Ethereum protocol stopped 
+INFO [12-13|01:07:06.119] Transaction pool stopped 
+INFO [12-13|01:07:06.121] Writing snapshot state to disk           root=56e81f..63b421
+INFO [12-13|01:07:06.121] Persisted trie from memory database      nodes=0 size=0.00B time="12.091µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [12-13|01:07:06.121] Writing clean trie cache to disk         path=/home/aoinamai/eth_program/connect-test/data/geth/triecache threads=4
+INFO [12-13|01:07:06.123] Persisted the clean trie cache           path=/home/aoinamai/eth_program/connect-test/data/geth/triecache elapsed=2.306ms
+INFO [12-13|01:07:06.123] Blockchain stopped 
+INFO [12-13|01:07:35.260] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [12-13|01:07:35.262] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+INFO [12-13|01:07:35.263] Set global gas cap                       cap=50,000,000
+INFO [12-13|01:07:35.265] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [12-13|01:07:35.265] Allocated cache and file handles         database=/home/aoinamai/eth_program/connect-test/data/geth/chaindata cache=512.00MiB handles=2048
+INFO [12-13|01:07:35.273] Opened ancient database                  database=/home/aoinamai/eth_program/connect-test/data/geth/chaindata/ancient/chain readonly=false
+INFO [12-13|01:07:35.273]  
+INFO [12-13|01:07:35.273] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [12-13|01:07:35.273] Chain ID:  300 (unknown) 
+INFO [12-13|01:07:35.273] Consensus: unknown 
+INFO [12-13|01:07:35.273]  
+INFO [12-13|01:07:35.273] Pre-Merge hard forks: 
+INFO [12-13|01:07:35.273]  - Homestead:                   0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/homestead.md) 
+INFO [12-13|01:07:35.273]  - Tangerine Whistle (EIP 150): 0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/tangerine-whistle.md) 
+INFO [12-13|01:07:35.273]  - Spurious Dragon/1 (EIP 155): 0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [12-13|01:07:35.273]  - Spurious Dragon/2 (EIP 158): 0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [12-13|01:07:35.273]  - Byzantium:                   0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/byzantium.md) 
+INFO [12-13|01:07:35.273]  - Constantinople:              0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/constantinople.md) 
+INFO [12-13|01:07:35.273]  - Petersburg:                  0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/petersburg.md) 
+INFO [12-13|01:07:35.273]  - Istanbul:                    0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/istanbul.md) 
+INFO [12-13|01:07:35.273]  - Berlin:                      0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/berlin.md) 
+INFO [12-13|01:07:35.273]  - London:                      <nil> (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/london.md) 
+INFO [12-13|01:07:35.273]  
+INFO [12-13|01:07:35.273] The Merge is not yet available for this network! 
+INFO [12-13|01:07:35.273]  - Hard-fork specification: https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/paris.md 
+INFO [12-13|01:07:35.273] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [12-13|01:07:35.273]  
+INFO [12-13|01:07:35.273] Disk storage enabled for ethash caches   dir=/home/aoinamai/eth_program/connect-test/data/geth/ethash count=3
+INFO [12-13|01:07:35.273] Disk storage enabled for ethash DAGs     dir=/home/aoinamai/.ethash count=2
+INFO [12-13|01:07:35.273] Initialising Ethereum protocol           network=22 dbversion=8
+INFO [12-13|01:07:35.274] Loaded most recent local header          number=0 hash=7b2e8b..7e0432 td=16384 age=53y8mo2w
+INFO [12-13|01:07:35.274] Loaded most recent local full block      number=0 hash=7b2e8b..7e0432 td=16384 age=53y8mo2w
+INFO [12-13|01:07:35.274] Loaded most recent local fast block      number=0 hash=7b2e8b..7e0432 td=16384 age=53y8mo2w
+INFO [12-13|01:07:35.274] Loaded local transaction journal         transactions=0 dropped=0
+INFO [12-13|01:07:35.274] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [12-13|01:07:35.274] Gasprice oracle is ignoring threshold set threshold=2
+WARN [12-13|01:07:35.274] Engine API enabled                       protocol=eth
+WARN [12-13|01:07:35.275] Engine API started but chain not configured for merge yet 
+INFO [12-13|01:07:35.275] Starting peer-to-peer node               instance=Geth/v1.10.25-stable-69568c55/linux-amd64/go1.18.5
+INFO [12-13|01:07:35.281] Loaded JWT secret file                   path=/home/aoinamai/eth_program/connect-test/data/geth/jwtsecret crc32=0xba74ded8
+INFO [12-13|01:07:35.282] New local node record                    seq=1,670,922,072,974 id=168fcdfbd6091ac0 ip=127.0.0.1 udp=0 tcp=30303
+INFO [12-13|01:07:35.282] Started P2P networking                   self="enode://69359bc0945c08032568a2ff98e4321ae96fb70dff3456a692fe231afda4d7469efcffaa92166e11c8411a6bb1c4a5eaa54d2f6987b112613aef14f365f66250@127.0.0.1:30303?discport=0"
+INFO [12-13|01:07:35.282] WebSocket enabled                        url=ws://127.0.0.1:8551
+INFO [12-13|01:07:35.282] HTTP server started                      endpoint=127.0.0.1:8551 auth=true prefix= cors=localhost vhosts=localhost
+WARN [12-13|01:07:35.309] Served eth_coinbase                      reqid=3 duration="18.532µs" err="etherbase must be explicitly specified"
+INFO [12-13|01:11:53.751] Looking for peers                        peercount=0 tried=0 static=1
+INFO [12-13|01:12:28.752] Looking for peers                        peercount=0 tried=1 static=1
+INFO [12-13|01:13:03.753] Looking for peers                        peercount=0 tried=1 static=1
+INFO [12-13|01:13:19.530] Looking for peers                        peercount=0 tried=1 static=1
+INFO [12-13|01:13:38.754] Looking for peers                        peercount=0 tried=0 static=1
+INFO [12-13|01:14:13.754] Looking for peers                        peercount=0 tried=1 static=1
+INFO [12-13|01:14:48.755] Looking for peers                        peercount=0 tried=1 static=1
+WARN [12-13|01:15:15.298] HTTP server graceful shutdown timed out 
+INFO [12-13|01:15:15.298] HTTP server stopped                      endpoint=127.0.0.1:8551
+INFO [12-13|01:15:15.298] Ethereum protocol stopped 
+INFO [12-13|01:15:15.298] Transaction pool stopped 
+INFO [12-13|01:15:15.299] Writing snapshot state to disk           root=56e81f..63b421
+INFO [12-13|01:15:15.299] Persisted trie from memory database      nodes=0 size=0.00B time="4.418µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [12-13|01:15:15.299] Writing clean trie cache to disk         path=/home/aoinamai/eth_program/connect-test/data/geth/triecache threads=4
+INFO [12-13|01:15:15.300] Persisted the clean trie cache           path=/home/aoinamai/eth_program/connect-test/data/geth/triecache elapsed="901.061µs"
+INFO [12-13|01:15:15.300] Blockchain stopped 
+INFO [12-13|01:15:23.403] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [12-13|01:15:23.405] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+INFO [12-13|01:15:23.407] Set global gas cap                       cap=50,000,000
+INFO [12-13|01:15:23.409] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [12-13|01:15:23.409] Allocated cache and file handles         database=/home/aoinamai/eth_program/connect-test/data/geth/chaindata cache=512.00MiB handles=2048
+INFO [12-13|01:15:23.418] Opened ancient database                  database=/home/aoinamai/eth_program/connect-test/data/geth/chaindata/ancient/chain readonly=false
+INFO [12-13|01:15:23.418]  
+INFO [12-13|01:15:23.418] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [12-13|01:15:23.418] Chain ID:  300 (unknown) 
+INFO [12-13|01:15:23.418] Consensus: unknown 
+INFO [12-13|01:15:23.418]  
+INFO [12-13|01:15:23.418] Pre-Merge hard forks: 
+INFO [12-13|01:15:23.418]  - Homestead:                   0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/homestead.md) 
+INFO [12-13|01:15:23.418]  - Tangerine Whistle (EIP 150): 0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/tangerine-whistle.md) 
+INFO [12-13|01:15:23.418]  - Spurious Dragon/1 (EIP 155): 0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [12-13|01:15:23.418]  - Spurious Dragon/2 (EIP 158): 0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [12-13|01:15:23.418]  - Byzantium:                   0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/byzantium.md) 
+INFO [12-13|01:15:23.418]  - Constantinople:              0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/constantinople.md) 
+INFO [12-13|01:15:23.418]  - Petersburg:                  0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/petersburg.md) 
+INFO [12-13|01:15:23.418]  - Istanbul:                    0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/istanbul.md) 
+INFO [12-13|01:15:23.418]  - Berlin:                      0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/berlin.md) 
+INFO [12-13|01:15:23.418]  - London:                      <nil> (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/london.md) 
+INFO [12-13|01:15:23.418]  
+INFO [12-13|01:15:23.418] The Merge is not yet available for this network! 
+INFO [12-13|01:15:23.418]  - Hard-fork specification: https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/paris.md 
+INFO [12-13|01:15:23.418] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [12-13|01:15:23.418]  
+INFO [12-13|01:15:23.419] Disk storage enabled for ethash caches   dir=/home/aoinamai/eth_program/connect-test/data/geth/ethash count=3
+INFO [12-13|01:15:23.419] Disk storage enabled for ethash DAGs     dir=/home/aoinamai/.ethash count=2
+INFO [12-13|01:15:23.419] Initialising Ethereum protocol           network=300 dbversion=8
+INFO [12-13|01:15:23.419] Loaded most recent local header          number=0 hash=7b2e8b..7e0432 td=16384 age=53y8mo2w
+INFO [12-13|01:15:23.419] Loaded most recent local full block      number=0 hash=7b2e8b..7e0432 td=16384 age=53y8mo2w
+INFO [12-13|01:15:23.419] Loaded most recent local fast block      number=0 hash=7b2e8b..7e0432 td=16384 age=53y8mo2w
+INFO [12-13|01:15:23.420] Loaded local transaction journal         transactions=0 dropped=0
+INFO [12-13|01:15:23.420] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [12-13|01:15:23.420] Gasprice oracle is ignoring threshold set threshold=2
+WARN [12-13|01:15:23.420] Engine API enabled                       protocol=eth
+WARN [12-13|01:15:23.420] Engine API started but chain not configured for merge yet 
+INFO [12-13|01:15:23.420] Starting peer-to-peer node               instance=Geth/v1.10.25-stable-69568c55/linux-amd64/go1.18.5
+INFO [12-13|01:15:23.426] Loaded JWT secret file                   path=/home/aoinamai/eth_program/connect-test/data/geth/jwtsecret crc32=0xba74ded8
+INFO [12-13|01:15:23.426] WebSocket enabled                        url=ws://127.0.0.1:8551
+INFO [12-13|01:15:23.426] HTTP server started                      endpoint=127.0.0.1:8551 auth=true prefix= cors=localhost vhosts=localhost
+INFO [12-13|01:15:23.428] New local node record                    seq=1,670,922,072,975 id=168fcdfbd6091ac0 ip=127.0.0.1 udp=0 tcp=30303
+INFO [12-13|01:15:23.428] Started P2P networking                   self="enode://69359bc0945c08032568a2ff98e4321ae96fb70dff3456a692fe231afda4d7469efcffaa92166e11c8411a6bb1c4a5eaa54d2f6987b112613aef14f365f66250@127.0.0.1:30303?discport=0"
+WARN [12-13|01:15:23.452] Served eth_coinbase                      reqid=3 duration="20.366µs" err="etherbase must be explicitly specified"
+INFO [12-13|01:20:47.567] Looking for peers                        peercount=0 tried=0 static=1
+INFO [12-13|01:21:22.570] Looking for peers                        peercount=0 tried=1 static=1
+INFO [12-13|01:21:57.570] Looking for peers                        peercount=0 tried=1 static=1
+INFO [12-13|01:22:32.571] Looking for peers                        peercount=0 tried=1 static=1
+INFO [12-13|01:23:07.573] Looking for peers                        peercount=0 tried=1 static=1
+INFO [12-13|01:23:42.574] Looking for peers                        peercount=0 tried=1 static=1
+INFO [12-13|01:24:17.574] Looking for peers                        peercount=0 tried=1 static=1
+WARN [12-13|01:24:23.056] HTTP server graceful shutdown timed out 
+INFO [12-13|01:24:23.056] HTTP server stopped                      endpoint=127.0.0.1:8551
+INFO [12-13|01:24:23.056] Ethereum protocol stopped 
+INFO [12-13|01:24:23.056] Transaction pool stopped 
+INFO [12-13|01:24:23.056] Writing snapshot state to disk           root=56e81f..63b421
+INFO [12-13|01:24:23.056] Persisted trie from memory database      nodes=0 size=0.00B time="3.576µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [12-13|01:24:23.056] Writing clean trie cache to disk         path=/home/aoinamai/eth_program/connect-test/data/geth/triecache threads=4
+INFO [12-13|01:24:23.057] Persisted the clean trie cache           path=/home/aoinamai/eth_program/connect-test/data/geth/triecache elapsed="547.086µs"
+INFO [12-13|01:24:23.057] Blockchain stopped 
+INFO [12-13|01:24:58.720] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [12-13|01:24:58.720] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+INFO [12-13|01:24:58.722] Set global gas cap                       cap=50,000,000
+INFO [12-13|01:24:58.724] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [12-13|01:24:58.724] Allocated cache and file handles         database=/home/aoinamai/eth_program/connect-test/data/geth/chaindata cache=512.00MiB handles=2048
+INFO [12-13|01:24:58.734] Opened ancient database                  database=/home/aoinamai/eth_program/connect-test/data/geth/chaindata/ancient/chain readonly=false
+INFO [12-13|01:24:58.734]  
+INFO [12-13|01:24:58.734] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [12-13|01:24:58.734] Chain ID:  300 (unknown) 
+INFO [12-13|01:24:58.735] Consensus: unknown 
+INFO [12-13|01:24:58.735]  
+INFO [12-13|01:24:58.735] Pre-Merge hard forks: 
+INFO [12-13|01:24:58.735]  - Homestead:                   0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/homestead.md) 
+INFO [12-13|01:24:58.735]  - Tangerine Whistle (EIP 150): 0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/tangerine-whistle.md) 
+INFO [12-13|01:24:58.735]  - Spurious Dragon/1 (EIP 155): 0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [12-13|01:24:58.735]  - Spurious Dragon/2 (EIP 158): 0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [12-13|01:24:58.735]  - Byzantium:                   0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/byzantium.md) 
+INFO [12-13|01:24:58.735]  - Constantinople:              0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/constantinople.md) 
+INFO [12-13|01:24:58.735]  - Petersburg:                  0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/petersburg.md) 
+INFO [12-13|01:24:58.735]  - Istanbul:                    0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/istanbul.md) 
+INFO [12-13|01:24:58.735]  - Berlin:                      0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/berlin.md) 
+INFO [12-13|01:24:58.735]  - London:                      <nil> (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/london.md) 
+INFO [12-13|01:24:58.735]  
+INFO [12-13|01:24:58.735] The Merge is not yet available for this network! 
+INFO [12-13|01:24:58.735]  - Hard-fork specification: https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/paris.md 
+INFO [12-13|01:24:58.735] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [12-13|01:24:58.735]  
+INFO [12-13|01:24:58.735] Disk storage enabled for ethash caches   dir=/home/aoinamai/eth_program/connect-test/data/geth/ethash count=3
+INFO [12-13|01:24:58.735] Disk storage enabled for ethash DAGs     dir=/home/aoinamai/.ethash count=2
+INFO [12-13|01:24:58.735] Initialising Ethereum protocol           network=300 dbversion=8
+INFO [12-13|01:24:58.736] Loaded most recent local header          number=0 hash=7b2e8b..7e0432 td=16384 age=53y8mo2w
+INFO [12-13|01:24:58.736] Loaded most recent local full block      number=0 hash=7b2e8b..7e0432 td=16384 age=53y8mo2w
+INFO [12-13|01:24:58.736] Loaded most recent local fast block      number=0 hash=7b2e8b..7e0432 td=16384 age=53y8mo2w
+INFO [12-13|01:24:58.736] Loaded local transaction journal         transactions=0 dropped=0
+INFO [12-13|01:24:58.736] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [12-13|01:24:58.736] Gasprice oracle is ignoring threshold set threshold=2
+WARN [12-13|01:24:58.736] Engine API enabled                       protocol=eth
+WARN [12-13|01:24:58.736] Engine API started but chain not configured for merge yet 
+INFO [12-13|01:24:58.737] Starting peer-to-peer node               instance=Geth/v1.10.25-stable-69568c55/linux-amd64/go1.18.5
+INFO [12-13|01:24:58.744] Loaded JWT secret file                   path=/home/aoinamai/eth_program/connect-test/data/geth/jwtsecret crc32=0xba74ded8
+INFO [12-13|01:24:58.744] New local node record                    seq=1,670,922,072,976 id=168fcdfbd6091ac0 ip=127.0.0.1 udp=0 tcp=30303
+INFO [12-13|01:24:58.745] Started P2P networking                   self="enode://69359bc0945c08032568a2ff98e4321ae96fb70dff3456a692fe231afda4d7469efcffaa92166e11c8411a6bb1c4a5eaa54d2f6987b112613aef14f365f66250@127.0.0.1:30303?discport=0"
+INFO [12-13|01:24:58.745] WebSocket enabled                        url=ws://127.0.0.1:8551
+INFO [12-13|01:24:58.745] HTTP server started                      endpoint=127.0.0.1:8551 auth=true prefix= cors=localhost vhosts=localhost
+WARN [12-13|01:24:58.770] Served eth_coinbase                      reqid=3 duration="20.087µs" err="etherbase must be explicitly specified"
+INFO [12-13|01:25:59.273] Looking for peers                        peercount=0 tried=0 static=1
+INFO [12-13|01:26:34.274] Looking for peers                        peercount=1 tried=1 static=1
+INFO [12-13|01:31:41.568] Your new key was generated               address=0x9191F4bC037cF792cC4389a463b74AA590C43b69
+WARN [12-13|01:31:41.568] Please backup your key file!             path=/home/aoinamai/eth_program/connect-test/data/keystore/UTC--2022-12-13T09-31-39.938472022Z--9191f4bc037cf792cc4389a463b74aa590c43b69
+WARN [12-13|01:31:41.568] Please remember your password! 
+INFO [12-13|01:32:33.751] Updated mining threads                   threads=4
+INFO [12-13|01:32:33.751] Transaction pool price threshold updated price=1,000,000,000
+INFO [12-13|01:32:33.751] Etherbase automatically configured       address=0x9191F4bC037cF792cC4389a463b74AA590C43b69
+INFO [12-13|01:32:33.752] Commit new sealing work                  number=1 sealhash=35eef1..a4c3d8 uncles=0 txs=0 gas=0 fees=0 elapsed="386.096µs"
+INFO [12-13|01:32:33.752] Commit new sealing work                  number=1 sealhash=35eef1..a4c3d8 uncles=0 txs=0 gas=0 fees=0 elapsed="684.515µs"
+INFO [12-13|01:32:34.071] Successfully sealed new block            number=1 sealhash=35eef1..a4c3d8 hash=3ada28..78f5a4 elapsed=319.397ms
+INFO [12-13|01:32:34.071] 🔨 mined potential block                  number=1 hash=3ada28..78f5a4
+INFO [12-13|01:32:34.072] Commit new sealing work                  number=2 sealhash=7205f3..d7f740 uncles=0 txs=0 gas=0 fees=0 elapsed="464.342µs"
+INFO [12-13|01:32:34.072] Commit new sealing work                  number=2 sealhash=7205f3..d7f740 uncles=0 txs=0 gas=0 fees=0 elapsed="545.992µs"
+INFO [12-13|01:32:34.912] Successfully sealed new block            number=2 sealhash=7205f3..d7f740 hash=b0cb8c..d72bfd elapsed=840.239ms
+INFO [12-13|01:32:34.917] 🔨 mined potential block                  number=2 hash=b0cb8c..d72bfd
+INFO [12-13|01:32:34.912] Commit new sealing work                  number=3 sealhash=8bc00e..24dd64 uncles=0 txs=0 gas=0 fees=0 elapsed="101.629µs"
+INFO [12-13|01:32:34.917] Commit new sealing work                  number=3 sealhash=8bc00e..24dd64 uncles=0 txs=0 gas=0 fees=0 elapsed=5.254ms
+INFO [12-13|01:32:35.658] Successfully sealed new block            number=3 sealhash=8bc00e..24dd64 hash=026185..4030a1 elapsed=746.199ms
+INFO [12-13|01:32:35.659] 🔨 mined potential block                  number=3 hash=026185..4030a1
+INFO [12-13|01:32:35.659] Commit new sealing work                  number=4 sealhash=4556f5..185cf6 uncles=0 txs=0 gas=0 fees=0 elapsed="152.883µs"
+INFO [12-13|01:32:35.659] Commit new sealing work                  number=4 sealhash=4556f5..185cf6 uncles=0 txs=0 gas=0 fees=0 elapsed="291.847µs"
+INFO [12-13|01:32:36.651] Successfully sealed new block            number=4 sealhash=4556f5..185cf6 hash=a59ad3..cdeef1 elapsed=992.561ms
+INFO [12-13|01:32:36.652] 🔨 mined potential block                  number=4 hash=a59ad3..cdeef1
+INFO [12-13|01:32:36.651] Commit new sealing work                  number=5 sealhash=66841a..0f88ba uncles=0 txs=0 gas=0 fees=0 elapsed="160.199µs"
+INFO [12-13|01:32:36.653] Commit new sealing work                  number=5 sealhash=66841a..0f88ba uncles=0 txs=0 gas=0 fees=0 elapsed=1.810ms
+INFO [12-13|01:32:38.972] Successfully sealed new block            number=5 sealhash=66841a..0f88ba hash=5d8238..874e42 elapsed=2.320s
+INFO [12-13|01:32:38.972] 🔨 mined potential block                  number=5 hash=5d8238..874e42
+INFO [12-13|01:32:38.972] Commit new sealing work                  number=6 sealhash=4b227a..a1ed95 uncles=0 txs=0 gas=0 fees=0 elapsed="110.369µs"
+INFO [12-13|01:32:38.974] Commit new sealing work                  number=6 sealhash=4b227a..a1ed95 uncles=0 txs=0 gas=0 fees=0 elapsed=1.668ms
+INFO [12-13|01:32:39.345] Successfully sealed new block            number=6 sealhash=4b227a..a1ed95 hash=6194e1..551d49 elapsed=372.780ms
+INFO [12-13|01:32:39.345] 🔨 mined potential block                  number=6 hash=6194e1..551d49
+INFO [12-13|01:32:39.345] Commit new sealing work                  number=7 sealhash=f6c3ac..e9de55 uncles=0 txs=0 gas=0 fees=0 elapsed="144.853µs"
+INFO [12-13|01:32:39.345] Commit new sealing work                  number=7 sealhash=f6c3ac..e9de55 uncles=0 txs=0 gas=0 fees=0 elapsed="244.566µs"
+INFO [12-13|01:32:40.062] Successfully sealed new block            number=7 sealhash=f6c3ac..e9de55 hash=7a4fad..175789 elapsed=717.066ms
+INFO [12-13|01:32:40.063] 🔨 mined potential block                  number=7 hash=7a4fad..175789
+INFO [12-13|01:32:40.063] Commit new sealing work                  number=8 sealhash=581403..d4ae26 uncles=0 txs=0 gas=0 fees=0 elapsed="113.664µs"
+INFO [12-13|01:32:40.063] Commit new sealing work                  number=8 sealhash=581403..d4ae26 uncles=0 txs=0 gas=0 fees=0 elapsed="224.438µs"
+INFO [12-13|01:32:40.405] Successfully sealed new block            number=8 sealhash=581403..d4ae26 hash=559cdc..0c95c4 elapsed=342.281ms
+INFO [12-13|01:32:40.405] 🔗 block reached canonical chain          number=1 hash=3ada28..78f5a4
+INFO [12-13|01:32:40.405] 🔨 mined potential block                  number=8 hash=559cdc..0c95c4
+INFO [12-13|01:32:40.405] Commit new sealing work                  number=9 sealhash=f7df90..753d3f uncles=0 txs=0 gas=0 fees=0 elapsed="151.049µs"
+INFO [12-13|01:32:40.405] Commit new sealing work                  number=9 sealhash=f7df90..753d3f uncles=0 txs=0 gas=0 fees=0 elapsed="217.44µs"
+INFO [12-13|01:32:41.039] Successfully sealed new block            number=9 sealhash=f7df90..753d3f hash=63fb73..a26f93 elapsed=634.109ms
+INFO [12-13|01:32:41.039] 🔗 block reached canonical chain          number=2 hash=b0cb8c..d72bfd
+INFO [12-13|01:32:41.039] Commit new sealing work                  number=10 sealhash=89f745..95d1d6 uncles=0 txs=0 gas=0 fees=0 elapsed="218.807µs"
+INFO [12-13|01:32:41.039] Commit new sealing work                  number=10 sealhash=89f745..95d1d6 uncles=0 txs=0 gas=0 fees=0 elapsed="337.489µs"
+INFO [12-13|01:32:41.040] 🔨 mined potential block                  number=9  hash=63fb73..a26f93
+INFO [12-13|01:32:41.310] Successfully sealed new block            number=10 sealhash=89f745..95d1d6 hash=eab480..7f391b elapsed=270.600ms
+INFO [12-13|01:32:41.310] 🔗 block reached canonical chain          number=3  hash=026185..4030a1
+INFO [12-13|01:32:41.310] 🔨 mined potential block                  number=10 hash=eab480..7f391b
+INFO [12-13|01:32:41.310] Commit new sealing work                  number=11 sealhash=210fe7..377533 uncles=0 txs=0 gas=0 fees=0 elapsed="148.679µs"
+INFO [12-13|01:32:41.310] Commit new sealing work                  number=11 sealhash=210fe7..377533 uncles=0 txs=0 gas=0 fees=0 elapsed="202.472µs"
+INFO [12-13|01:32:41.529] Successfully sealed new block            number=11 sealhash=210fe7..377533 hash=8e835c..6836a7 elapsed=219.431ms
+INFO [12-13|01:32:41.530] 🔗 block reached canonical chain          number=4  hash=a59ad3..cdeef1
+INFO [12-13|01:32:41.530] 🔨 mined potential block                  number=11 hash=8e835c..6836a7
+INFO [12-13|01:32:41.530] Commit new sealing work                  number=12 sealhash=ab40d1..733e29 uncles=0 txs=0 gas=0 fees=0 elapsed="128.954µs"
+INFO [12-13|01:32:41.530] Commit new sealing work                  number=12 sealhash=ab40d1..733e29 uncles=0 txs=0 gas=0 fees=0 elapsed="183.002µs"
+INFO [12-13|01:32:41.538] Successfully sealed new block            number=12 sealhash=ab40d1..733e29 hash=a4e66d..1089ee elapsed=8.865ms
+INFO [12-13|01:32:41.539] 🔗 block reached canonical chain          number=5  hash=5d8238..874e42
+INFO [12-13|01:32:41.539] 🔨 mined potential block                  number=12 hash=a4e66d..1089ee
+INFO [12-13|01:32:41.539] Commit new sealing work                  number=13 sealhash=f6035c..2919fa uncles=0 txs=0 gas=0 fees=0 elapsed="235.336µs"
+INFO [12-13|01:32:41.539] Commit new sealing work                  number=13 sealhash=f6035c..2919fa uncles=0 txs=0 gas=0 fees=0 elapsed="427.654µs"
+INFO [12-13|01:32:42.449] Successfully sealed new block            number=13 sealhash=f6035c..2919fa hash=1221ae..7ee5b4 elapsed=910.711ms
+INFO [12-13|01:32:42.450] 🔗 block reached canonical chain          number=6  hash=6194e1..551d49
+INFO [12-13|01:32:42.450] 🔨 mined potential block                  number=13 hash=1221ae..7ee5b4
+INFO [12-13|01:32:42.450] Commit new sealing work                  number=14 sealhash=3bdd31..8dade2 uncles=0 txs=0 gas=0 fees=0 elapsed="170.628µs"
+INFO [12-13|01:32:42.450] Commit new sealing work                  number=14 sealhash=3bdd31..8dade2 uncles=0 txs=0 gas=0 fees=0 elapsed="224.512µs"
+INFO [12-13|01:32:42.694] Successfully sealed new block            number=14 sealhash=3bdd31..8dade2 hash=426f82..56ab6e elapsed=244.601ms
+INFO [12-13|01:32:42.694] 🔗 block reached canonical chain          number=7  hash=7a4fad..175789
+INFO [12-13|01:32:42.694] 🔨 mined potential block                  number=14 hash=426f82..56ab6e
+INFO [12-13|01:32:42.694] Commit new sealing work                  number=15 sealhash=ad698c..fa9f9b uncles=0 txs=0 gas=0 fees=0 elapsed="206.302µs"
+INFO [12-13|01:32:42.695] Commit new sealing work                  number=15 sealhash=ad698c..fa9f9b uncles=0 txs=0 gas=0 fees=0 elapsed="284.785µs"
+INFO [12-13|01:32:43.538] Successfully sealed new block            number=15 sealhash=ad698c..fa9f9b hash=91db26..e31abf elapsed=843.483ms
+INFO [12-13|01:32:43.538] 🔗 block reached canonical chain          number=8  hash=559cdc..0c95c4
+INFO [12-13|01:32:43.541] Commit new sealing work                  number=16 sealhash=67baf9..172a66 uncles=0 txs=0 gas=0 fees=0 elapsed=3.539ms
+INFO [12-13|01:32:43.542] Commit new sealing work                  number=16 sealhash=67baf9..172a66 uncles=0 txs=0 gas=0 fees=0 elapsed=3.637ms
+INFO [12-13|01:32:43.542] 🔨 mined potential block                  number=15 hash=91db26..e31abf
+INFO [12-13|01:32:44.675] Successfully sealed new block            number=16 sealhash=67baf9..172a66 hash=2f41aa..d4d5ac elapsed=1.136s
+INFO [12-13|01:32:44.675] 🔗 block reached canonical chain          number=9  hash=63fb73..a26f93
+INFO [12-13|01:32:44.680] Commit new sealing work                  number=17 sealhash=a125c4..3fba9e uncles=0 txs=0 gas=0 fees=0 elapsed=5.317ms
+INFO [12-13|01:32:44.681] Commit new sealing work                  number=17 sealhash=a125c4..3fba9e uncles=0 txs=0 gas=0 fees=0 elapsed=5.495ms
+INFO [12-13|01:32:44.681] 🔨 mined potential block                  number=16 hash=2f41aa..d4d5ac
+INFO [12-13|01:32:45.625] Successfully sealed new block            number=17 sealhash=a125c4..3fba9e hash=541a64..3823a4 elapsed=949.819ms
+INFO [12-13|01:32:45.625] 🔗 block reached canonical chain          number=10 hash=eab480..7f391b
+INFO [12-13|01:32:45.650] Commit new sealing work                  number=18 sealhash=2ca46a..15c306 uncles=0 txs=0 gas=0 fees=0 elapsed=24.764ms
+INFO [12-13|01:32:45.650] Commit new sealing work                  number=18 sealhash=2ca46a..15c306 uncles=0 txs=0 gas=0 fees=0 elapsed=24.919ms
+INFO [12-13|01:32:45.650] 🔨 mined potential block                  number=17 hash=541a64..3823a4
+INFO [12-13|01:32:46.040] Successfully sealed new block            number=18 sealhash=2ca46a..15c306 hash=795dee..504eda elapsed=414.835ms
+INFO [12-13|01:32:46.040] 🔗 block reached canonical chain          number=11 hash=8e835c..6836a7
+INFO [12-13|01:32:46.040] 🔨 mined potential block                  number=18 hash=795dee..504eda
+INFO [12-13|01:32:46.040] Commit new sealing work                  number=19 sealhash=951de9..ecf7e2 uncles=0 txs=0 gas=0 fees=0 elapsed="123.692µs"
+INFO [12-13|01:32:46.041] Commit new sealing work                  number=19 sealhash=951de9..ecf7e2 uncles=0 txs=0 gas=0 fees=0 elapsed="281.833µs"
+INFO [12-13|01:32:46.148] Successfully sealed new block            number=19 sealhash=951de9..ecf7e2 hash=94f33e..f51c60 elapsed=107.469ms
+INFO [12-13|01:32:46.148] 🔗 block reached canonical chain          number=12 hash=a4e66d..1089ee
+INFO [12-13|01:32:46.148] 🔨 mined potential block                  number=19 hash=94f33e..f51c60
+INFO [12-13|01:32:46.148] Commit new sealing work                  number=20 sealhash=9c728d..35fde3 uncles=0 txs=0 gas=0 fees=0 elapsed="123.172µs"
+INFO [12-13|01:32:46.148] Commit new sealing work                  number=20 sealhash=9c728d..35fde3 uncles=0 txs=0 gas=0 fees=0 elapsed="222.932µs"
+INFO [12-13|01:32:46.511] Successfully sealed new block            number=20 sealhash=9c728d..35fde3 hash=ead2ea..200e25 elapsed=362.910ms
+INFO [12-13|01:32:46.511] 🔗 block reached canonical chain          number=13 hash=1221ae..7ee5b4
+INFO [12-13|01:32:46.511] 🔨 mined potential block                  number=20 hash=ead2ea..200e25
+INFO [12-13|01:32:46.511] Commit new sealing work                  number=21 sealhash=c80c9c..03aa03 uncles=0 txs=0 gas=0 fees=0 elapsed="246.706µs"
+INFO [12-13|01:32:46.512] Commit new sealing work                  number=21 sealhash=c80c9c..03aa03 uncles=0 txs=0 gas=0 fees=0 elapsed="317.259µs"
+INFO [12-13|01:32:49.532] Successfully sealed new block            number=21 sealhash=c80c9c..03aa03 hash=e5464f..520c3a elapsed=3.020s
+INFO [12-13|01:32:49.532] 🔗 block reached canonical chain          number=14 hash=426f82..56ab6e
+INFO [12-13|01:32:49.532] 🔨 mined potential block                  number=21 hash=e5464f..520c3a
+INFO [12-13|01:32:49.532] Commit new sealing work                  number=22 sealhash=3f1f79..6b8b5d uncles=0 txs=0 gas=0 fees=0 elapsed="107.582µs"
+INFO [12-13|01:32:49.532] Commit new sealing work                  number=22 sealhash=3f1f79..6b8b5d uncles=0 txs=0 gas=0 fees=0 elapsed="220.464µs"
+INFO [12-13|01:32:49.951] Successfully sealed new block            number=22 sealhash=3f1f79..6b8b5d hash=d0b276..dad320 elapsed=419.213ms
+INFO [12-13|01:32:49.952] 🔗 block reached canonical chain          number=15 hash=91db26..e31abf
+INFO [12-13|01:32:49.952] 🔨 mined potential block                  number=22 hash=d0b276..dad320
+INFO [12-13|01:32:49.952] Commit new sealing work                  number=23 sealhash=f9b6ad..85f61e uncles=0 txs=0 gas=0 fees=0 elapsed="179.704µs"
+INFO [12-13|01:32:49.952] Commit new sealing work                  number=23 sealhash=f9b6ad..85f61e uncles=0 txs=0 gas=0 fees=0 elapsed="247.117µs"
+INFO [12-13|01:32:50.770] Successfully sealed new block            number=23 sealhash=f9b6ad..85f61e hash=f71a77..bc0683 elapsed=818.209ms
+INFO [12-13|01:32:50.770] 🔗 block reached canonical chain          number=16 hash=2f41aa..d4d5ac
+INFO [12-13|01:32:50.770] 🔨 mined potential block                  number=23 hash=f71a77..bc0683
+INFO [12-13|01:32:50.770] Commit new sealing work                  number=24 sealhash=38d905..c40b95 uncles=0 txs=0 gas=0 fees=0 elapsed="228.13µs"
+INFO [12-13|01:32:50.773] Commit new sealing work                  number=24 sealhash=38d905..c40b95 uncles=0 txs=0 gas=0 fees=0 elapsed=3.201ms
+INFO [12-13|01:32:52.408] Successfully sealed new block            number=24 sealhash=38d905..c40b95 hash=d32df1..913002 elapsed=1.637s
+INFO [12-13|01:32:52.408] 🔗 block reached canonical chain          number=17 hash=541a64..3823a4
+INFO [12-13|01:32:52.409] Commit new sealing work                  number=25 sealhash=d09f20..fc7f38 uncles=0 txs=0 gas=0 fees=0 elapsed=1.653ms
+INFO [12-13|01:32:52.409] Commit new sealing work                  number=25 sealhash=d09f20..fc7f38 uncles=0 txs=0 gas=0 fees=0 elapsed=1.747ms
+INFO [12-13|01:32:52.409] 🔨 mined potential block                  number=24 hash=d32df1..913002
+INFO [12-13|01:32:52.762] Successfully sealed new block            number=25 sealhash=d09f20..fc7f38 hash=051638..cdd75a elapsed=354.652ms
+INFO [12-13|01:32:52.763] 🔗 block reached canonical chain          number=18 hash=795dee..504eda
+INFO [12-13|01:32:52.763] 🔨 mined potential block                  number=25 hash=051638..cdd75a
+INFO [12-13|01:32:52.763] Commit new sealing work                  number=26 sealhash=803dee..088b89 uncles=0 txs=0 gas=0 fees=0 elapsed="117.562µs"
+INFO [12-13|01:32:52.763] Commit new sealing work                  number=26 sealhash=803dee..088b89 uncles=0 txs=0 gas=0 fees=0 elapsed="256.867µs"
+INFO [12-13|01:32:53.071] Successfully sealed new block            number=26 sealhash=803dee..088b89 hash=cfd9cc..6783ea elapsed=308.005ms
+INFO [12-13|01:32:53.071] 🔗 block reached canonical chain          number=19 hash=94f33e..f51c60
+INFO [12-13|01:32:53.071] 🔨 mined potential block                  number=26 hash=cfd9cc..6783ea
+INFO [12-13|01:32:53.071] Commit new sealing work                  number=27 sealhash=884a07..865042 uncles=0 txs=0 gas=0 fees=0 elapsed="103.409µs"
+INFO [12-13|01:32:53.071] Commit new sealing work                  number=27 sealhash=884a07..865042 uncles=0 txs=0 gas=0 fees=0 elapsed="237.425µs"
+INFO [12-13|01:32:53.399] Successfully sealed new block            number=27 sealhash=884a07..865042 hash=31316e..7df2bc elapsed=328.047ms
+INFO [12-13|01:32:53.399] 🔗 block reached canonical chain          number=20 hash=ead2ea..200e25
+INFO [12-13|01:32:53.399] 🔨 mined potential block                  number=27 hash=31316e..7df2bc
+INFO [12-13|01:32:53.399] Commit new sealing work                  number=28 sealhash=4cdace..28baef uncles=0 txs=0 gas=0 fees=0 elapsed="191.433µs"
+INFO [12-13|01:32:53.399] Commit new sealing work                  number=28 sealhash=4cdace..28baef uncles=0 txs=0 gas=0 fees=0 elapsed="329.529µs"
+INFO [12-13|01:32:53.675] Successfully sealed new block            number=28 sealhash=4cdace..28baef hash=372b0b..253f35 elapsed=275.427ms
+INFO [12-13|01:32:53.675] 🔗 block reached canonical chain          number=21 hash=e5464f..520c3a
+INFO [12-13|01:32:53.675] 🔨 mined potential block                  number=28 hash=372b0b..253f35
+INFO [12-13|01:32:53.675] Commit new sealing work                  number=29 sealhash=a08f89..d50e95 uncles=0 txs=0 gas=0 fees=0 elapsed="175.131µs"
+INFO [12-13|01:32:53.675] Commit new sealing work                  number=29 sealhash=a08f89..d50e95 uncles=0 txs=0 gas=0 fees=0 elapsed="228.643µs"
+INFO [12-13|01:32:54.397] Successfully sealed new block            number=29 sealhash=a08f89..d50e95 hash=079ece..a1c717 elapsed=722.558ms
+INFO [12-13|01:32:54.398] 🔗 block reached canonical chain          number=22 hash=d0b276..dad320
+INFO [12-13|01:32:54.401] Commit new sealing work                  number=30 sealhash=b7e78d..d8b15b uncles=0 txs=0 gas=0 fees=0 elapsed=3.720ms
+INFO [12-13|01:32:54.401] Commit new sealing work                  number=30 sealhash=b7e78d..d8b15b uncles=0 txs=0 gas=0 fees=0 elapsed=3.862ms
+INFO [12-13|01:32:54.401] 🔨 mined potential block                  number=29 hash=079ece..a1c717
+INFO [12-13|01:32:55.707] Successfully sealed new block            number=30 sealhash=b7e78d..d8b15b hash=4d6c11..06869a elapsed=1.309s
+INFO [12-13|01:32:55.707] 🔗 block reached canonical chain          number=23 hash=f71a77..bc0683
+INFO [12-13|01:32:55.707] 🔨 mined potential block                  number=30 hash=4d6c11..06869a
+INFO [12-13|01:32:55.708] Commit new sealing work                  number=31 sealhash=b4f3eb..94ebbb uncles=0 txs=0 gas=0 fees=0 elapsed=1.672ms
+INFO [12-13|01:32:55.708] Commit new sealing work                  number=31 sealhash=b4f3eb..94ebbb uncles=0 txs=0 gas=0 fees=0 elapsed=1.797ms
+INFO [12-13|01:32:56.889] Successfully sealed new block            number=31 sealhash=b4f3eb..94ebbb hash=4a1cb6..11ffe6 elapsed=1.181s
+INFO [12-13|01:32:56.889] 🔗 block reached canonical chain          number=24 hash=d32df1..913002
+INFO [12-13|01:32:56.889] 🔨 mined potential block                  number=31 hash=4a1cb6..11ffe6
+INFO [12-13|01:32:56.890] Commit new sealing work                  number=32 sealhash=4e83e3..0d946a uncles=0 txs=0 gas=0 fees=0 elapsed="154.38µs"
+INFO [12-13|01:32:56.890] Commit new sealing work                  number=32 sealhash=4e83e3..0d946a uncles=0 txs=0 gas=0 fees=0 elapsed="306.664µs"
+INFO [12-13|01:32:57.672] Successfully sealed new block            number=32 sealhash=4e83e3..0d946a hash=608fa1..abc60b elapsed=782.200ms
+INFO [12-13|01:32:57.672] 🔗 block reached canonical chain          number=25 hash=051638..cdd75a
+INFO [12-13|01:32:57.672] 🔨 mined potential block                  number=32 hash=608fa1..abc60b
+INFO [12-13|01:32:57.672] Commit new sealing work                  number=33 sealhash=67ae3a..8253fb uncles=0 txs=0 gas=0 fees=0 elapsed="170.78µs"
+INFO [12-13|01:32:57.672] Commit new sealing work                  number=33 sealhash=67ae3a..8253fb uncles=0 txs=0 gas=0 fees=0 elapsed="262.938µs"
+INFO [12-13|01:32:58.351] Successfully sealed new block            number=33 sealhash=67ae3a..8253fb hash=199ed2..02ca7e elapsed=679.129ms
+INFO [12-13|01:32:58.351] 🔗 block reached canonical chain          number=26 hash=cfd9cc..6783ea
+INFO [12-13|01:32:58.351] 🔨 mined potential block                  number=33 hash=199ed2..02ca7e
+INFO [12-13|01:32:58.352] Commit new sealing work                  number=34 sealhash=5fd670..e65e8d uncles=0 txs=0 gas=0 fees=0 elapsed="94.339µs"
+INFO [12-13|01:32:58.352] Commit new sealing work                  number=34 sealhash=5fd670..e65e8d uncles=0 txs=0 gas=0 fees=0 elapsed="200.4µs"
+INFO [12-13|01:32:58.625] Successfully sealed new block            number=34 sealhash=5fd670..e65e8d hash=0b782c..f258ba elapsed=273.590ms
+INFO [12-13|01:32:58.625] 🔗 block reached canonical chain          number=27 hash=31316e..7df2bc
+INFO [12-13|01:32:58.625] 🔨 mined potential block                  number=34 hash=0b782c..f258ba
+INFO [12-13|01:32:58.625] Commit new sealing work                  number=35 sealhash=41265a..0ff1d4 uncles=0 txs=0 gas=0 fees=0 elapsed="164.615µs"
+INFO [12-13|01:32:58.625] Commit new sealing work                  number=35 sealhash=41265a..0ff1d4 uncles=0 txs=0 gas=0 fees=0 elapsed="220.159µs"
+INFO [12-13|01:32:58.938] Successfully sealed new block            number=35 sealhash=41265a..0ff1d4 hash=1e019e..5fcc8d elapsed=312.456ms
+INFO [12-13|01:32:58.938] 🔗 block reached canonical chain          number=28 hash=372b0b..253f35
+INFO [12-13|01:32:58.938] Commit new sealing work                  number=36 sealhash=b517dd..1b1a5c uncles=0 txs=0 gas=0 fees=0 elapsed="367.817µs"
+INFO [12-13|01:32:58.938] Commit new sealing work                  number=36 sealhash=b517dd..1b1a5c uncles=0 txs=0 gas=0 fees=0 elapsed="436.292µs"
+INFO [12-13|01:32:58.938] 🔨 mined potential block                  number=35 hash=1e019e..5fcc8d
+INFO [12-13|01:32:59.024] Successfully sealed new block            number=36 sealhash=b517dd..1b1a5c hash=209bf0..d5e244 elapsed=86.415ms
+INFO [12-13|01:32:59.024] 🔗 block reached canonical chain          number=29 hash=079ece..a1c717
+INFO [12-13|01:32:59.024] 🔨 mined potential block                  number=36 hash=209bf0..d5e244
+INFO [12-13|01:32:59.024] Commit new sealing work                  number=37 sealhash=f0ce76..9242f6 uncles=0 txs=0 gas=0 fees=0 elapsed="98.071µs"
+INFO [12-13|01:32:59.025] Commit new sealing work                  number=37 sealhash=f0ce76..9242f6 uncles=0 txs=0 gas=0 fees=0 elapsed="262.144µs"
+INFO [12-13|01:32:59.985] Successfully sealed new block            number=37 sealhash=f0ce76..9242f6 hash=1337d3..f473a9 elapsed=960.719ms
+INFO [12-13|01:32:59.985] 🔗 block reached canonical chain          number=30 hash=4d6c11..06869a
+INFO [12-13|01:32:59.985] 🔨 mined potential block                  number=37 hash=1337d3..f473a9
+INFO [12-13|01:32:59.985] Commit new sealing work                  number=38 sealhash=e54b8f..d74c82 uncles=0 txs=0 gas=0 fees=0 elapsed="97.192µs"
+INFO [12-13|01:32:59.986] Commit new sealing work                  number=38 sealhash=e54b8f..d74c82 uncles=0 txs=0 gas=0 fees=0 elapsed="205.908µs"
+INFO [12-13|01:33:00.978] Successfully sealed new block            number=38 sealhash=e54b8f..d74c82 hash=ef8461..718c48 elapsed=992.298ms
+INFO [12-13|01:33:00.978] 🔗 block reached canonical chain          number=31 hash=4a1cb6..11ffe6
+INFO [12-13|01:33:00.978] 🔨 mined potential block                  number=38 hash=ef8461..718c48
+INFO [12-13|01:33:00.978] Commit new sealing work                  number=39 sealhash=924605..66d80d uncles=0 txs=0 gas=0 fees=0 elapsed="121.697µs"
+INFO [12-13|01:33:00.978] Commit new sealing work                  number=39 sealhash=924605..66d80d uncles=0 txs=0 gas=0 fees=0 elapsed="177.596µs"
+INFO [12-13|01:33:01.229] Successfully sealed new block            number=39 sealhash=924605..66d80d hash=2a8f98..343e8c elapsed=251.425ms
+INFO [12-13|01:33:01.230] 🔗 block reached canonical chain          number=32 hash=608fa1..abc60b
+INFO [12-13|01:33:01.230] 🔨 mined potential block                  number=39 hash=2a8f98..343e8c
+INFO [12-13|01:33:01.230] Commit new sealing work                  number=40 sealhash=4fb509..769d8c uncles=0 txs=0 gas=0 fees=0 elapsed="233.924µs"
+INFO [12-13|01:33:01.230] Commit new sealing work                  number=40 sealhash=4fb509..769d8c uncles=0 txs=0 gas=0 fees=0 elapsed="291.376µs"
+INFO [12-13|01:33:01.795] Successfully sealed new block            number=40 sealhash=4fb509..769d8c hash=4abfcc..44e06f elapsed=565.298ms
+INFO [12-13|01:33:01.795] 🔗 block reached canonical chain          number=33 hash=199ed2..02ca7e
+INFO [12-13|01:33:01.795] 🔨 mined potential block                  number=40 hash=4abfcc..44e06f
+INFO [12-13|01:33:01.795] Commit new sealing work                  number=41 sealhash=078d0b..1fd507 uncles=0 txs=0 gas=0 fees=0 elapsed="150.256µs"
+INFO [12-13|01:33:01.795] Commit new sealing work                  number=41 sealhash=078d0b..1fd507 uncles=0 txs=0 gas=0 fees=0 elapsed="215.29µs"
+INFO [12-13|01:33:02.008] Successfully sealed new block            number=41 sealhash=078d0b..1fd507 hash=d4136f..6c49c5 elapsed=213.230ms
+INFO [12-13|01:33:02.008] 🔗 block reached canonical chain          number=34 hash=0b782c..f258ba
+INFO [12-13|01:33:02.008] 🔨 mined potential block                  number=41 hash=d4136f..6c49c5
+INFO [12-13|01:33:02.008] Commit new sealing work                  number=42 sealhash=ebc6cb..39fcd4 uncles=0 txs=0 gas=0 fees=0 elapsed="149.16µs"
+INFO [12-13|01:33:02.009] Commit new sealing work                  number=42 sealhash=ebc6cb..39fcd4 uncles=0 txs=0 gas=0 fees=0 elapsed="207.69µs"
+INFO [12-13|01:33:02.640] Successfully sealed new block            number=42 sealhash=ebc6cb..39fcd4 hash=47fe37..c47736 elapsed=631.988ms
+INFO [12-13|01:33:02.641] 🔗 block reached canonical chain          number=35 hash=1e019e..5fcc8d
+INFO [12-13|01:33:02.641] 🔨 mined potential block                  number=42 hash=47fe37..c47736
+INFO [12-13|01:33:02.641] Commit new sealing work                  number=43 sealhash=5bff95..1f897b uncles=0 txs=0 gas=0 fees=0 elapsed="162.433µs"
+INFO [12-13|01:33:02.641] Commit new sealing work                  number=43 sealhash=5bff95..1f897b uncles=0 txs=0 gas=0 fees=0 elapsed="218.04µs"
+INFO [12-13|01:33:03.145] Successfully sealed new block            number=43 sealhash=5bff95..1f897b hash=0819be..57a3cb elapsed=504.300ms
+INFO [12-13|01:33:03.145] 🔗 block reached canonical chain          number=36 hash=209bf0..d5e244
+INFO [12-13|01:33:03.145] 🔨 mined potential block                  number=43 hash=0819be..57a3cb
+INFO [12-13|01:33:03.145] Commit new sealing work                  number=44 sealhash=1e0580..8fa76d uncles=0 txs=0 gas=0 fees=0 elapsed="185.068µs"
+INFO [12-13|01:33:03.145] Commit new sealing work                  number=44 sealhash=1e0580..8fa76d uncles=0 txs=0 gas=0 fees=0 elapsed="270.592µs"
+INFO [12-13|01:33:04.265] Successfully sealed new block            number=44 sealhash=1e0580..8fa76d hash=79b6a7..d8536e elapsed=1.120s
+INFO [12-13|01:33:04.266] 🔗 block reached canonical chain          number=37 hash=1337d3..f473a9
+INFO [12-13|01:33:04.269] Commit new sealing work                  number=45 sealhash=8a98e2..a4a5df uncles=0 txs=0 gas=0 fees=0 elapsed=3.807ms
+INFO [12-13|01:33:04.269] Commit new sealing work                  number=45 sealhash=8a98e2..a4a5df uncles=0 txs=0 gas=0 fees=0 elapsed=3.988ms
+INFO [12-13|01:33:04.269] 🔨 mined potential block                  number=44 hash=79b6a7..d8536e
+INFO [12-13|01:33:06.402] Successfully sealed new block            number=45 sealhash=8a98e2..a4a5df hash=de0446..7c547d elapsed=2.136s
+INFO [12-13|01:33:06.402] 🔗 block reached canonical chain          number=38 hash=ef8461..718c48
+INFO [12-13|01:33:06.404] Commit new sealing work                  number=46 sealhash=dc10b2..4304b9 uncles=0 txs=0 gas=0 fees=0 elapsed=1.858ms
+INFO [12-13|01:33:06.404] Commit new sealing work                  number=46 sealhash=dc10b2..4304b9 uncles=0 txs=0 gas=0 fees=0 elapsed=1.954ms
+INFO [12-13|01:33:06.404] 🔨 mined potential block                  number=45 hash=de0446..7c547d
+INFO [12-13|01:33:07.493] Successfully sealed new block            number=46 sealhash=dc10b2..4304b9 hash=86b908..baa517 elapsed=1.090s
+INFO [12-13|01:33:07.493] 🔗 block reached canonical chain          number=39 hash=2a8f98..343e8c
+INFO [12-13|01:33:07.493] 🔨 mined potential block                  number=46 hash=86b908..baa517
+INFO [12-13|01:33:07.493] Commit new sealing work                  number=47 sealhash=5b5e8c..cb569c uncles=0 txs=0 gas=0 fees=0 elapsed="211.782µs"
+INFO [12-13|01:33:07.493] Commit new sealing work                  number=47 sealhash=5b5e8c..cb569c uncles=0 txs=0 gas=0 fees=0 elapsed="285.025µs"
+INFO [12-13|01:33:10.848] Successfully sealed new block            number=47 sealhash=5b5e8c..cb569c hash=a2f9ea..cd1c5a elapsed=3.354s
+INFO [12-13|01:33:10.848] 🔗 block reached canonical chain          number=40 hash=4abfcc..44e06f
+INFO [12-13|01:33:10.848] 🔨 mined potential block                  number=47 hash=a2f9ea..cd1c5a
+INFO [12-13|01:33:10.848] Commit new sealing work                  number=48 sealhash=447829..f9a04a uncles=0 txs=0 gas=0 fees=0 elapsed="168.566µs"
+INFO [12-13|01:33:10.848] Commit new sealing work                  number=48 sealhash=447829..f9a04a uncles=0 txs=0 gas=0 fees=0 elapsed="230.012µs"
+INFO [12-13|01:33:12.354] Successfully sealed new block            number=48 sealhash=447829..f9a04a hash=acab16..155803 elapsed=1.506s
+INFO [12-13|01:33:12.354] 🔗 block reached canonical chain          number=41 hash=d4136f..6c49c5
+INFO [12-13|01:33:12.354] 🔨 mined potential block                  number=48 hash=acab16..155803
+INFO [12-13|01:33:12.355] Commit new sealing work                  number=49 sealhash=374f7f..f0be0e uncles=0 txs=0 gas=0 fees=0 elapsed="193.386µs"
+INFO [12-13|01:33:12.355] Commit new sealing work                  number=49 sealhash=374f7f..f0be0e uncles=0 txs=0 gas=0 fees=0 elapsed="356.185µs"
+INFO [12-13|01:33:12.663] Successfully sealed new block            number=49 sealhash=374f7f..f0be0e hash=d16ad1..5eb648 elapsed=308.612ms
+INFO [12-13|01:33:12.663] 🔗 block reached canonical chain          number=42 hash=47fe37..c47736
+INFO [12-13|01:33:12.663] 🔨 mined potential block                  number=49 hash=d16ad1..5eb648
+INFO [12-13|01:33:12.663] Commit new sealing work                  number=50 sealhash=8bbe40..c49047 uncles=0 txs=0 gas=0 fees=0 elapsed="177.675µs"
+INFO [12-13|01:33:12.664] Commit new sealing work                  number=50 sealhash=8bbe40..c49047 uncles=0 txs=0 gas=0 fees=0 elapsed="312.972µs"
+INFO [12-13|01:33:14.163] Successfully sealed new block            number=50 sealhash=8bbe40..c49047 hash=a5f2de..f56fd9 elapsed=1.499s
+INFO [12-13|01:33:14.163] 🔗 block reached canonical chain          number=43 hash=0819be..57a3cb
+INFO [12-13|01:33:14.165] Commit new sealing work                  number=51 sealhash=7734f5..1887e5 uncles=0 txs=0 gas=0 fees=0 elapsed=1.856ms
+INFO [12-13|01:33:14.165] Commit new sealing work                  number=51 sealhash=7734f5..1887e5 uncles=0 txs=0 gas=0 fees=0 elapsed=1.961ms
+INFO [12-13|01:33:14.165] 🔨 mined potential block                  number=50 hash=a5f2de..f56fd9
+INFO [12-13|02:24:58.737] Writing clean trie cache to disk         path=/home/aoinamai/eth_program/connect-test/data/geth/triecache threads=1
+INFO [12-13|02:24:58.737] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [12-13|02:24:58.742] Persisted the clean trie cache           path=/home/aoinamai/eth_program/connect-test/data/geth/triecache elapsed=4.506ms
+INFO [12-13|03:24:58.738] Writing clean trie cache to disk         path=/home/aoinamai/eth_program/connect-test/data/geth/triecache threads=1
+INFO [12-13|03:24:58.738] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [12-13|03:24:58.740] Persisted the clean trie cache           path=/home/aoinamai/eth_program/connect-test/data/geth/triecache elapsed=2.417ms
+INFO [12-13|04:24:58.736] Writing clean trie cache to disk         path=/home/aoinamai/eth_program/connect-test/data/geth/triecache threads=1
+INFO [12-13|04:24:58.738] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [12-13|04:24:58.741] Persisted the clean trie cache           path=/home/aoinamai/eth_program/connect-test/data/geth/triecache elapsed=4.051ms
+INFO [12-13|05:24:58.738] Writing clean trie cache to disk         path=/home/aoinamai/eth_program/connect-test/data/geth/triecache threads=1
+INFO [12-13|05:24:58.738] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [12-13|05:24:58.741] Persisted the clean trie cache           path=/home/aoinamai/eth_program/connect-test/data/geth/triecache elapsed=2.476ms
+INFO [12-13|06:24:58.738] Writing clean trie cache to disk         path=/home/aoinamai/eth_program/connect-test/data/geth/triecache threads=1
+INFO [12-13|06:24:58.738] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [12-13|06:24:58.741] Persisted the clean trie cache           path=/home/aoinamai/eth_program/connect-test/data/geth/triecache elapsed=2.849ms
+INFO [12-13|07:24:58.736] Writing clean trie cache to disk         path=/home/aoinamai/eth_program/connect-test/data/geth/triecache threads=1
+INFO [12-13|07:24:58.738] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [12-13|07:24:58.743] Persisted the clean trie cache           path=/home/aoinamai/eth_program/connect-test/data/geth/triecache elapsed=6.250ms
+INFO [12-13|08:24:58.738] Writing clean trie cache to disk         path=/home/aoinamai/eth_program/connect-test/data/geth/triecache threads=1
+INFO [12-13|08:24:58.739] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [12-13|08:24:58.741] Persisted the clean trie cache           path=/home/aoinamai/eth_program/connect-test/data/geth/triecache elapsed=3.299ms
+INFO [12-13|09:24:58.738] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [12-13|09:24:58.738] Writing clean trie cache to disk         path=/home/aoinamai/eth_program/connect-test/data/geth/triecache threads=1
+INFO [12-13|09:24:58.742] Persisted the clean trie cache           path=/home/aoinamai/eth_program/connect-test/data/geth/triecache elapsed=3.274ms
+INFO [12-13|10:24:58.738] Writing clean trie cache to disk         path=/home/aoinamai/eth_program/connect-test/data/geth/triecache threads=1
+INFO [12-13|10:24:58.738] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [12-13|10:24:58.741] Persisted the clean trie cache           path=/home/aoinamai/eth_program/connect-test/data/geth/triecache elapsed=3.145ms
+INFO [12-13|11:24:58.736] Writing clean trie cache to disk         path=/home/aoinamai/eth_program/connect-test/data/geth/triecache threads=1
+INFO [12-13|11:24:58.737] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [12-13|11:24:58.739] Persisted the clean trie cache           path=/home/aoinamai/eth_program/connect-test/data/geth/triecache elapsed=2.391ms
+INFO [12-13|12:24:58.737] Writing clean trie cache to disk         path=/home/aoinamai/eth_program/connect-test/data/geth/triecache threads=1
+INFO [12-13|12:24:58.737] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [12-13|12:24:58.737] Persisted the clean trie cache           path=/home/aoinamai/eth_program/connect-test/data/geth/triecache elapsed="500.759µs"
+INFO [12-13|13:24:58.736] Writing clean trie cache to disk         path=/home/aoinamai/eth_program/connect-test/data/geth/triecache threads=1
+INFO [12-13|13:24:58.737] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [12-13|13:24:58.739] Persisted the clean trie cache           path=/home/aoinamai/eth_program/connect-test/data/geth/triecache elapsed=2.297ms
+INFO [12-13|14:24:58.738] Writing clean trie cache to disk         path=/home/aoinamai/eth_program/connect-test/data/geth/triecache threads=1
+INFO [12-13|14:24:58.738] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [12-13|14:24:58.740] Persisted the clean trie cache           path=/home/aoinamai/eth_program/connect-test/data/geth/triecache elapsed=1.795ms
+INFO [12-13|15:24:58.738] Writing clean trie cache to disk         path=/home/aoinamai/eth_program/connect-test/data/geth/triecache threads=1
+INFO [12-13|15:24:58.738] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [12-13|15:24:58.743] Persisted the clean trie cache           path=/home/aoinamai/eth_program/connect-test/data/geth/triecache elapsed=4.656ms
+INFO [12-13|16:24:58.738] Writing clean trie cache to disk         path=/home/aoinamai/eth_program/connect-test/data/geth/triecache threads=1
+INFO [12-13|16:24:58.738] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [12-13|16:24:58.741] Persisted the clean trie cache           path=/home/aoinamai/eth_program/connect-test/data/geth/triecache elapsed=2.515ms
+INFO [12-13|17:24:58.738] Writing clean trie cache to disk         path=/home/aoinamai/eth_program/connect-test/data/geth/triecache threads=1
+INFO [12-13|17:24:58.738] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [12-13|17:24:58.740] Persisted the clean trie cache           path=/home/aoinamai/eth_program/connect-test/data/geth/triecache elapsed=2.179ms
+INFO [12-13|18:07:15.493] Looking for peers                        peercount=0 tried=0 static=1
+WARN [12-13|18:07:20.274] HTTP server graceful shutdown timed out 
+INFO [12-13|18:07:20.274] HTTP server stopped                      endpoint=127.0.0.1:8551
+INFO [12-13|18:07:20.275] Ethereum protocol stopped 
+INFO [12-13|18:07:20.275] Transaction pool stopped 
+INFO [12-13|18:07:20.277] Writing cached state to disk             block=50 hash=a5f2de..f56fd9 root=75b22c..4f2fa6
+INFO [12-13|18:07:20.277] Persisted trie from memory database      nodes=1 size=148.00B time="277.332µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=50 livesize=7.07KiB
+INFO [12-13|18:07:20.277] Writing cached state to disk             block=49 hash=d16ad1..5eb648 root=b9d7bc..f17d61
+INFO [12-13|18:07:20.277] Persisted trie from memory database      nodes=1 size=148.00B time="65.118µs"  gcnodes=0 gcsize=0.00B gctime=0s livenodes=49 livesize=6.93KiB
+INFO [12-13|18:07:20.277] Writing snapshot state to disk           root=56e81f..63b421
+INFO [12-13|18:07:20.277] Persisted trie from memory database      nodes=0 size=0.00B   time="1.856µs"   gcnodes=0 gcsize=0.00B gctime=0s livenodes=49 livesize=6.93KiB
+INFO [12-13|18:07:20.278] Writing clean trie cache to disk         path=/home/aoinamai/eth_program/connect-test/data/geth/triecache threads=4
+INFO [12-13|18:07:20.280] Persisted the clean trie cache           path=/home/aoinamai/eth_program/connect-test/data/geth/triecache elapsed=1.644ms
+INFO [12-13|18:07:20.280] Blockchain stopped 
+INFO [12-18|19:40:38.188] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [12-18|19:40:38.190] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+INFO [12-18|19:40:38.193] Set global gas cap                       cap=50,000,000
+INFO [12-18|19:40:38.194] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [12-18|19:40:38.196] Allocated cache and file handles         database=/home/aoinamai/eth_program/connect-test/data/geth/chaindata cache=512.00MiB handles=2048
+INFO [12-18|19:40:38.209] Opened ancient database                  database=/home/aoinamai/eth_program/connect-test/data/geth/chaindata/ancient/chain readonly=false
+INFO [12-18|19:40:38.210]  
+INFO [12-18|19:40:38.210] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [12-18|19:40:38.210] Chain ID:  300 (unknown) 
+INFO [12-18|19:40:38.210] Consensus: unknown 
+INFO [12-18|19:40:38.210]  
+INFO [12-18|19:40:38.210] Pre-Merge hard forks: 
+INFO [12-18|19:40:38.210]  - Homestead:                   0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/homestead.md) 
+INFO [12-18|19:40:38.210]  - Tangerine Whistle (EIP 150): 0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/tangerine-whistle.md) 
+INFO [12-18|19:40:38.210]  - Spurious Dragon/1 (EIP 155): 0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [12-18|19:40:38.210]  - Spurious Dragon/2 (EIP 158): 0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [12-18|19:40:38.210]  - Byzantium:                   0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/byzantium.md) 
+INFO [12-18|19:40:38.210]  - Constantinople:              0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/constantinople.md) 
+INFO [12-18|19:40:38.210]  - Petersburg:                  0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/petersburg.md) 
+INFO [12-18|19:40:38.210]  - Istanbul:                    0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/istanbul.md) 
+INFO [12-18|19:40:38.210]  - Berlin:                      0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/berlin.md) 
+INFO [12-18|19:40:38.210]  - London:                      <nil> (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/london.md) 
+INFO [12-18|19:40:38.210]  
+INFO [12-18|19:40:38.210] The Merge is not yet available for this network! 
+INFO [12-18|19:40:38.210]  - Hard-fork specification: https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/paris.md 
+INFO [12-18|19:40:38.210] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [12-18|19:40:38.210]  
+INFO [12-18|19:40:38.210] Disk storage enabled for ethash caches   dir=/home/aoinamai/eth_program/connect-test/data/geth/ethash count=3
+INFO [12-18|19:40:38.210] Disk storage enabled for ethash DAGs     dir=/home/aoinamai/.ethash count=2
+INFO [12-18|19:40:38.211] Initialising Ethereum protocol           network=300 dbversion=8
+INFO [12-18|19:40:38.212] Loaded most recent local header          number=50 hash=a5f2de..f56fd9 td=6,648,537 age=5d18h7m
+INFO [12-18|19:40:38.212] Loaded most recent local full block      number=50 hash=a5f2de..f56fd9 td=6,648,537 age=5d18h7m
+INFO [12-18|19:40:38.212] Loaded most recent local fast block      number=50 hash=a5f2de..f56fd9 td=6,648,537 age=5d18h7m
+INFO [12-18|19:40:38.214] Loaded local transaction journal         transactions=0 dropped=0
+INFO [12-18|19:40:38.214] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [12-18|19:40:38.215] Gasprice oracle is ignoring threshold set threshold=2
+WARN [12-18|19:40:38.215] Engine API enabled                       protocol=eth
+WARN [12-18|19:40:38.216] Engine API started but chain not configured for merge yet 
+INFO [12-18|19:40:38.216] Starting peer-to-peer node               instance=Geth/v1.10.26-stable-e5eb32ac/linux-amd64/go1.18.5
+INFO [12-18|19:40:38.223] Loaded JWT secret file                   path=/home/aoinamai/eth_program/connect-test/data/geth/jwtsecret crc32=0xba74ded8
+INFO [12-18|19:40:38.223] New local node record                    seq=1,670,922,072,977 id=168fcdfbd6091ac0 ip=127.0.0.1 udp=0 tcp=30303
+INFO [12-18|19:40:38.223] Started P2P networking                   self="enode://69359bc0945c08032568a2ff98e4321ae96fb70dff3456a692fe231afda4d7469efcffaa92166e11c8411a6bb1c4a5eaa54d2f6987b112613aef14f365f66250@127.0.0.1:30303?discport=0"
+INFO [12-18|19:40:38.224] WebSocket enabled                        url=ws://127.0.0.1:8551
+INFO [12-18|19:40:38.224] HTTP server started                      endpoint=127.0.0.1:8551 auth=true prefix= cors=localhost vhosts=localhost
+INFO [12-18|19:40:38.325] Etherbase automatically configured       address=0x9191F4bC037cF792cC4389a463b74AA590C43b69
+INFO [12-18|19:43:55.855] Looking for peers                        peercount=0 tried=0 static=1
+INFO [12-18|19:44:30.856] Looking for peers                        peercount=1 tried=1 static=1
+INFO [12-18|19:52:37.623] Updated mining threads                   threads=4
+INFO [12-18|19:52:37.623] Transaction pool price threshold updated price=1,000,000,000
+INFO [12-18|19:52:37.649] Commit new sealing work                  number=51 sealhash=4a446a..4b100f uncles=0 txs=0 gas=0 fees=0 elapsed=24.965ms
+INFO [12-18|19:52:37.649] Commit new sealing work                  number=51 sealhash=4a446a..4b100f uncles=0 txs=0 gas=0 fees=0 elapsed=25.311ms
+INFO [12-18|19:52:39.405] Successfully sealed new block            number=51 sealhash=4a446a..4b100f hash=56e266..c6f6df elapsed=1.756s
+INFO [12-18|19:52:39.405] 🔨 mined potential block                  number=51 hash=56e266..c6f6df
+INFO [12-18|19:52:39.405] Commit new sealing work                  number=52 sealhash=edbb09..359580 uncles=0 txs=0 gas=0 fees=0 elapsed="176.494µs"
+INFO [12-18|19:52:39.405] Commit new sealing work                  number=52 sealhash=edbb09..359580 uncles=0 txs=0 gas=0 fees=0 elapsed="376.27µs"
+INFO [12-18|19:52:40.038] Successfully sealed new block            number=52 sealhash=edbb09..359580 hash=100ee6..5090f3 elapsed=633.468ms
+INFO [12-18|19:52:40.039] 🔨 mined potential block                  number=52 hash=100ee6..5090f3
+INFO [12-18|19:52:40.039] Commit new sealing work                  number=53 sealhash=e3266c..c1d09b uncles=0 txs=0 gas=0 fees=0 elapsed="96.151µs"
+INFO [12-18|19:52:40.039] Commit new sealing work                  number=53 sealhash=e3266c..c1d09b uncles=0 txs=0 gas=0 fees=0 elapsed="242.026µs"
+INFO [12-18|19:52:40.095] Successfully sealed new block            number=53 sealhash=e3266c..c1d09b hash=3eacd5..7f6afe elapsed=56.269ms
+INFO [12-18|19:52:40.095] 🔨 mined potential block                  number=53 hash=3eacd5..7f6afe
+INFO [12-18|19:52:40.095] Commit new sealing work                  number=54 sealhash=c06279..159260 uncles=0 txs=0 gas=0 fees=0 elapsed="109.6µs"
+INFO [12-18|19:52:40.096] Commit new sealing work                  number=54 sealhash=c06279..159260 uncles=0 txs=0 gas=0 fees=0 elapsed="500.364µs"
+INFO [12-18|19:52:40.351] Successfully sealed new block            number=54 sealhash=c06279..159260 hash=5b8b0c..a6a635 elapsed=255.898ms
+INFO [12-18|19:52:40.352] 🔨 mined potential block                  number=54 hash=5b8b0c..a6a635
+INFO [12-18|19:52:40.352] Commit new sealing work                  number=55 sealhash=1942a0..124144 uncles=0 txs=0 gas=0 fees=0 elapsed="220.492µs"
+INFO [12-18|19:52:40.352] Commit new sealing work                  number=55 sealhash=1942a0..124144 uncles=0 txs=0 gas=0 fees=0 elapsed="365.476µs"
+INFO [12-18|19:52:41.920] Successfully sealed new block            number=55 sealhash=1942a0..124144 hash=efeb62..89a134 elapsed=1.567s
+INFO [12-18|19:52:41.935] 🔨 mined potential block                  number=55 hash=efeb62..89a134
+INFO [12-18|19:52:41.920] Commit new sealing work                  number=56 sealhash=465c28..98f7a8 uncles=0 txs=0 gas=0 fees=0 elapsed="130.916µs"
+INFO [12-18|19:52:41.949] Commit new sealing work                  number=56 sealhash=465c28..98f7a8 uncles=0 txs=0 gas=0 fees=0 elapsed=29.783ms
+INFO [12-18|19:52:42.023] Successfully sealed new block            number=56 sealhash=465c28..98f7a8 hash=49618c..7024a5 elapsed=102.790ms
+INFO [12-18|19:52:42.023] 🔨 mined potential block                  number=56 hash=49618c..7024a5
+INFO [12-18|19:52:42.023] Commit new sealing work                  number=57 sealhash=a5f58e..ca0cfe uncles=0 txs=0 gas=0 fees=0 elapsed="127.953µs"
+INFO [12-18|19:52:42.023] Commit new sealing work                  number=57 sealhash=a5f58e..ca0cfe uncles=0 txs=0 gas=0 fees=0 elapsed="642.68µs"
+INFO [12-18|19:52:43.248] Successfully sealed new block            number=57 sealhash=a5f58e..ca0cfe hash=12c7c4..15f528 elapsed=1.225s
+INFO [12-18|19:52:43.249] 🔨 mined potential block                  number=57 hash=12c7c4..15f528
+INFO [12-18|19:52:43.249] Commit new sealing work                  number=58 sealhash=44d896..26e6dc uncles=0 txs=0 gas=0 fees=0 elapsed="308.386µs"
+INFO [12-18|19:52:43.249] Commit new sealing work                  number=58 sealhash=44d896..26e6dc uncles=0 txs=0 gas=0 fees=0 elapsed="421.993µs"
+INFO [12-18|19:52:43.679] Successfully sealed new block            number=58 sealhash=44d896..26e6dc hash=893fa7..842223 elapsed=429.872ms
+INFO [12-18|19:52:43.679] 🔗 block reached canonical chain          number=51 hash=56e266..c6f6df
+INFO [12-18|19:52:43.679] Commit new sealing work                  number=59 sealhash=d890e1..4d0b67 uncles=0 txs=0 gas=0 fees=0 elapsed="567.341µs"
+INFO [12-18|19:52:43.679] Commit new sealing work                  number=59 sealhash=d890e1..4d0b67 uncles=0 txs=0 gas=0 fees=0 elapsed="721.572µs"
+INFO [12-18|19:52:43.679] 🔨 mined potential block                  number=58 hash=893fa7..842223
+INFO [12-18|19:52:44.045] Successfully sealed new block            number=59 sealhash=d890e1..4d0b67 hash=778cc3..1dde9d elapsed=366.308ms
+INFO [12-18|19:52:44.045] 🔗 block reached canonical chain          number=52 hash=100ee6..5090f3
+INFO [12-18|19:52:44.045] Commit new sealing work                  number=60 sealhash=521aa6..8108c2 uncles=0 txs=0 gas=0 fees=0 elapsed="257.205µs"
+INFO [12-18|19:52:44.046] Commit new sealing work                  number=60 sealhash=521aa6..8108c2 uncles=0 txs=0 gas=0 fees=0 elapsed="420.956µs"
+INFO [12-18|19:52:44.046] 🔨 mined potential block                  number=59 hash=778cc3..1dde9d
+INFO [12-18|19:52:44.672] Successfully sealed new block            number=60 sealhash=521aa6..8108c2 hash=7ac662..c96dbe elapsed=626.923ms
+INFO [12-18|19:52:44.672] 🔗 block reached canonical chain          number=53 hash=3eacd5..7f6afe
+INFO [12-18|19:52:44.673] Commit new sealing work                  number=61 sealhash=bb732f..59a18a uncles=0 txs=0 gas=0 fees=0 elapsed="442.597µs"
+INFO [12-18|19:52:44.673] Commit new sealing work                  number=61 sealhash=bb732f..59a18a uncles=0 txs=0 gas=0 fees=0 elapsed="624.837µs"
+INFO [12-18|19:52:44.673] 🔨 mined potential block                  number=60 hash=7ac662..c96dbe
+INFO [12-18|19:52:44.935] Successfully sealed new block            number=61 sealhash=bb732f..59a18a hash=ae854c..07335c elapsed=262.870ms
+INFO [12-18|19:52:44.935] 🔗 block reached canonical chain          number=54 hash=5b8b0c..a6a635
+INFO [12-18|19:52:44.936] Commit new sealing work                  number=62 sealhash=82b2a0..1921a9 uncles=0 txs=0 gas=0 fees=0 elapsed="639.009µs"
+INFO [12-18|19:52:44.936] Commit new sealing work                  number=62 sealhash=82b2a0..1921a9 uncles=0 txs=0 gas=0 fees=0 elapsed="750.669µs"
+INFO [12-18|19:52:44.936] 🔨 mined potential block                  number=61 hash=ae854c..07335c
+INFO [12-18|19:52:45.764] Successfully sealed new block            number=62 sealhash=82b2a0..1921a9 hash=0a6d16..0ed756 elapsed=828.131ms
+INFO [12-18|19:52:45.764] 🔗 block reached canonical chain          number=55 hash=efeb62..89a134
+INFO [12-18|19:52:45.764] Commit new sealing work                  number=63 sealhash=824cb5..817825 uncles=0 txs=0 gas=0 fees=0 elapsed="431.757µs"
+INFO [12-18|19:52:45.764] Commit new sealing work                  number=63 sealhash=824cb5..817825 uncles=0 txs=0 gas=0 fees=0 elapsed="614.482µs"
+INFO [12-18|19:52:45.764] 🔨 mined potential block                  number=62 hash=0a6d16..0ed756
+INFO [12-18|19:52:46.339] Successfully sealed new block            number=63 sealhash=824cb5..817825 hash=37bc01..b8bbab elapsed=575.028ms
+INFO [12-18|19:52:46.339] 🔗 block reached canonical chain          number=56 hash=49618c..7024a5
+INFO [12-18|19:52:46.340] Commit new sealing work                  number=64 sealhash=d44a38..166a70 uncles=0 txs=0 gas=0 fees=0 elapsed="659.698µs"
+INFO [12-18|19:52:46.340] Commit new sealing work                  number=64 sealhash=d44a38..166a70 uncles=0 txs=0 gas=0 fees=0 elapsed="764.783µs"
+INFO [12-18|19:52:46.340] 🔨 mined potential block                  number=63 hash=37bc01..b8bbab
+INFO [12-18|19:52:46.772] Successfully sealed new block            number=64 sealhash=d44a38..166a70 hash=d7f6ac..31f287 elapsed=433.230ms
+INFO [12-18|19:52:46.772] 🔗 block reached canonical chain          number=57 hash=12c7c4..15f528
+INFO [12-18|19:52:46.773] Commit new sealing work                  number=65 sealhash=8b80c3..10d171 uncles=0 txs=0 gas=0 fees=0 elapsed="432.234µs"
+INFO [12-18|19:52:46.773] Commit new sealing work                  number=65 sealhash=8b80c3..10d171 uncles=0 txs=0 gas=0 fees=0 elapsed="568.774µs"
+INFO [12-18|19:52:46.773] 🔨 mined potential block                  number=64 hash=d7f6ac..31f287
+INFO [12-18|19:52:47.185] Successfully sealed new block            number=65 sealhash=8b80c3..10d171 hash=9e31cb..d5ad46 elapsed=412.188ms
+INFO [12-18|19:52:47.185] 🔗 block reached canonical chain          number=58 hash=893fa7..842223
+INFO [12-18|19:52:47.185] 🔨 mined potential block                  number=65 hash=9e31cb..d5ad46
+INFO [12-18|19:52:47.185] Commit new sealing work                  number=66 sealhash=d64bc8..33ebcc uncles=0 txs=0 gas=0 fees=0 elapsed="172.804µs"
+INFO [12-18|19:52:47.185] Commit new sealing work                  number=66 sealhash=d64bc8..33ebcc uncles=0 txs=0 gas=0 fees=0 elapsed="314.334µs"
+INFO [12-18|19:52:47.654] Successfully sealed new block            number=66 sealhash=d64bc8..33ebcc hash=77764f..fe5479 elapsed=469.245ms
+INFO [12-18|19:52:47.654] 🔗 block reached canonical chain          number=59 hash=778cc3..1dde9d
+INFO [12-18|19:52:47.654] Commit new sealing work                  number=67 sealhash=9d7cab..931741 uncles=0 txs=0 gas=0 fees=0 elapsed="141.436µs"
+INFO [12-18|19:52:47.654] 🔨 mined potential block                  number=66 hash=77764f..fe5479
+INFO [12-18|19:52:47.654] Commit new sealing work                  number=67 sealhash=9d7cab..931741 uncles=0 txs=0 gas=0 fees=0 elapsed="256.782µs"
+INFO [12-18|19:52:48.438] Successfully sealed new block            number=67 sealhash=9d7cab..931741 hash=8e11a6..1a4b98 elapsed=783.688ms
+INFO [12-18|19:52:48.438] 🔗 block reached canonical chain          number=60 hash=7ac662..c96dbe
+INFO [12-18|19:52:48.438] 🔨 mined potential block                  number=67 hash=8e11a6..1a4b98
+INFO [12-18|19:52:48.438] Commit new sealing work                  number=68 sealhash=50f121..9f1603 uncles=0 txs=0 gas=0 fees=0 elapsed="330.428µs"
+INFO [12-18|19:52:48.439] Commit new sealing work                  number=68 sealhash=50f121..9f1603 uncles=0 txs=0 gas=0 fees=0 elapsed="483.988µs"
+INFO [12-18|19:52:50.322] Successfully sealed new block            number=68 sealhash=50f121..9f1603 hash=64bc49..6b175a elapsed=1.883s
+INFO [12-18|19:52:50.322] 🔗 block reached canonical chain          number=61 hash=ae854c..07335c
+INFO [12-18|19:52:50.324] Commit new sealing work                  number=69 sealhash=23b0c5..d3e951 uncles=0 txs=0 gas=0 fees=0 elapsed=1.994ms
+INFO [12-18|19:52:50.324] Commit new sealing work                  number=69 sealhash=23b0c5..d3e951 uncles=0 txs=0 gas=0 fees=0 elapsed=2.179ms
+INFO [12-18|19:52:50.324] 🔨 mined potential block                  number=68 hash=64bc49..6b175a
+INFO [12-18|19:52:51.346] Successfully sealed new block            number=69 sealhash=23b0c5..d3e951 hash=2b8ad8..f0bce3 elapsed=1.023s
+INFO [12-18|19:52:51.346] 🔗 block reached canonical chain          number=62 hash=0a6d16..0ed756
+INFO [12-18|19:52:51.363] Commit new sealing work                  number=70 sealhash=2e76c3..c6a037 uncles=0 txs=0 gas=0 fees=0 elapsed=16.818ms
+INFO [12-18|19:52:51.363] Commit new sealing work                  number=70 sealhash=2e76c3..c6a037 uncles=0 txs=0 gas=0 fees=0 elapsed=17.015ms
+INFO [12-18|19:52:51.363] 🔨 mined potential block                  number=69 hash=2b8ad8..f0bce3
+INFO [12-18|19:52:51.505] Successfully sealed new block            number=70 sealhash=2e76c3..c6a037 hash=14db87..54dde1 elapsed=158.824ms
+INFO [12-18|19:52:51.505] 🔗 block reached canonical chain          number=63 hash=37bc01..b8bbab
+INFO [12-18|19:52:51.505] 🔨 mined potential block                  number=70 hash=14db87..54dde1
+INFO [12-18|19:52:51.505] Commit new sealing work                  number=71 sealhash=a80e7c..2c35c0 uncles=0 txs=0 gas=0 fees=0 elapsed="97.375µs"
+INFO [12-18|19:52:51.505] Commit new sealing work                  number=71 sealhash=a80e7c..2c35c0 uncles=0 txs=0 gas=0 fees=0 elapsed="280.528µs"
+INFO [12-18|19:52:51.791] Successfully sealed new block            number=71 sealhash=a80e7c..2c35c0 hash=72fcf9..0d02e5 elapsed=285.751ms
+INFO [12-18|19:52:51.791] 🔗 block reached canonical chain          number=64 hash=d7f6ac..31f287
+INFO [12-18|19:52:51.791] 🔨 mined potential block                  number=71 hash=72fcf9..0d02e5
+INFO [12-18|19:52:51.791] Commit new sealing work                  number=72 sealhash=b7445e..3b1d58 uncles=0 txs=0 gas=0 fees=0 elapsed="277.836µs"
+INFO [12-18|19:52:51.791] Commit new sealing work                  number=72 sealhash=b7445e..3b1d58 uncles=0 txs=0 gas=0 fees=0 elapsed="405.162µs"
+INFO [12-18|19:52:51.954] Successfully sealed new block            number=72 sealhash=b7445e..3b1d58 hash=c888b8..f3ce9b elapsed=162.918ms
+INFO [12-18|19:52:51.954] 🔗 block reached canonical chain          number=65 hash=9e31cb..d5ad46
+INFO [12-18|19:52:51.954] 🔨 mined potential block                  number=72 hash=c888b8..f3ce9b
+INFO [12-18|19:52:51.954] Commit new sealing work                  number=73 sealhash=b22419..84a6de uncles=0 txs=0 gas=0 fees=0 elapsed="101.604µs"
+INFO [12-18|19:52:51.954] Commit new sealing work                  number=73 sealhash=b22419..84a6de uncles=0 txs=0 gas=0 fees=0 elapsed="317.079µs"
+INFO [12-18|19:52:51.978] Successfully sealed new block            number=73 sealhash=b22419..84a6de hash=62c9cf..9958bc elapsed=24.012ms
+INFO [12-18|19:52:51.978] 🔗 block reached canonical chain          number=66 hash=77764f..fe5479
+INFO [12-18|19:52:51.979] 🔨 mined potential block                  number=73 hash=62c9cf..9958bc
+INFO [12-18|19:52:51.979] Commit new sealing work                  number=74 sealhash=863e26..16aeeb uncles=0 txs=0 gas=0 fees=0 elapsed="121.157µs"
+INFO [12-18|19:52:51.979] Commit new sealing work                  number=74 sealhash=863e26..16aeeb uncles=0 txs=0 gas=0 fees=0 elapsed="358.016µs"
+INFO [12-18|19:52:52.246] Successfully sealed new block            number=74 sealhash=863e26..16aeeb hash=c63cbc..2453f6 elapsed=267.444ms
+INFO [12-18|19:52:52.246] 🔗 block reached canonical chain          number=67 hash=8e11a6..1a4b98
+INFO [12-18|19:52:52.246] 🔨 mined potential block                  number=74 hash=c63cbc..2453f6
+INFO [12-18|19:52:52.246] Commit new sealing work                  number=75 sealhash=db2d03..9dcb32 uncles=0 txs=0 gas=0 fees=0 elapsed="146.886µs"
+INFO [12-18|19:52:52.247] Commit new sealing work                  number=75 sealhash=db2d03..9dcb32 uncles=0 txs=0 gas=0 fees=0 elapsed="283.408µs"
+INFO [12-18|19:52:52.285] Successfully sealed new block            number=75 sealhash=db2d03..9dcb32 hash=97a795..075de0 elapsed=38.891ms
+INFO [12-18|19:52:52.285] 🔗 block reached canonical chain          number=68 hash=64bc49..6b175a
+INFO [12-18|19:52:52.286] 🔨 mined potential block                  number=75 hash=97a795..075de0
+INFO [12-18|19:52:52.286] Commit new sealing work                  number=76 sealhash=8fcd3d..0dcff9 uncles=0 txs=0 gas=0 fees=0 elapsed="156.929µs"
+INFO [12-18|19:52:52.286] Commit new sealing work                  number=76 sealhash=8fcd3d..0dcff9 uncles=0 txs=0 gas=0 fees=0 elapsed="316.231µs"
+INFO [12-18|19:52:52.945] Successfully sealed new block            number=76 sealhash=8fcd3d..0dcff9 hash=d7358b..bb3e33 elapsed=659.554ms
+INFO [12-18|19:52:52.945] 🔗 block reached canonical chain          number=69 hash=2b8ad8..f0bce3
+INFO [12-18|19:52:52.946] Commit new sealing work                  number=77 sealhash=e77e52..6dec81 uncles=0 txs=0 gas=0 fees=0 elapsed="538.137µs"
+INFO [12-18|19:52:52.946] Commit new sealing work                  number=77 sealhash=e77e52..6dec81 uncles=0 txs=0 gas=0 fees=0 elapsed="757.366µs"
+INFO [12-18|19:52:52.946] 🔨 mined potential block                  number=76 hash=d7358b..bb3e33
+INFO [12-18|19:52:53.963] Successfully sealed new block            number=77 sealhash=e77e52..6dec81 hash=9e928d..010a4a elapsed=1.017s
+INFO [12-18|19:52:53.963] 🔗 block reached canonical chain          number=70 hash=14db87..54dde1
+INFO [12-18|19:52:53.963] Commit new sealing work                  number=78 sealhash=84aa8a..de33ce uncles=0 txs=0 gas=0 fees=0 elapsed="529.091µs"
+INFO [12-18|19:52:53.964] Commit new sealing work                  number=78 sealhash=84aa8a..de33ce uncles=0 txs=0 gas=0 fees=0 elapsed="630.728µs"
+INFO [12-18|19:52:53.964] 🔨 mined potential block                  number=77 hash=9e928d..010a4a
+INFO [12-18|19:52:54.604] Successfully sealed new block            number=78 sealhash=84aa8a..de33ce hash=d59ae0..1a421b elapsed=640.488ms
+INFO [12-18|19:52:54.604] 🔗 block reached canonical chain          number=71 hash=72fcf9..0d02e5
+INFO [12-18|19:52:54.604] 🔨 mined potential block                  number=78 hash=d59ae0..1a421b
+INFO [12-18|19:52:54.604] Commit new sealing work                  number=79 sealhash=0ff90b..0773ea uncles=0 txs=0 gas=0 fees=0 elapsed="99.284µs"
+INFO [12-18|19:52:54.604] Commit new sealing work                  number=79 sealhash=0ff90b..0773ea uncles=0 txs=0 gas=0 fees=0 elapsed="203.189µs"
+INFO [12-18|19:52:55.216] Successfully sealed new block            number=79 sealhash=0ff90b..0773ea hash=0b99c8..4ac8a9 elapsed=612.434ms
+INFO [12-18|19:52:55.216] 🔗 block reached canonical chain          number=72 hash=c888b8..f3ce9b
+INFO [12-18|19:52:55.217] 🔨 mined potential block                  number=79 hash=0b99c8..4ac8a9
+INFO [12-18|19:52:55.217] Commit new sealing work                  number=80 sealhash=18c16f..fde7b1 uncles=0 txs=0 gas=0 fees=0 elapsed="129.739µs"
+INFO [12-18|19:52:55.217] Commit new sealing work                  number=80 sealhash=18c16f..fde7b1 uncles=0 txs=0 gas=0 fees=0 elapsed="224.708µs"
+INFO [12-18|19:52:56.803] Successfully sealed new block            number=80 sealhash=18c16f..fde7b1 hash=cd88a3..84d24b elapsed=1.586s
+INFO [12-18|19:52:56.803] 🔗 block reached canonical chain          number=73 hash=62c9cf..9958bc
+INFO [12-18|19:52:56.805] Commit new sealing work                  number=81 sealhash=b576a1..560fd4 uncles=0 txs=0 gas=0 fees=0 elapsed=1.907ms
+INFO [12-18|19:52:56.805] Commit new sealing work                  number=81 sealhash=b576a1..560fd4 uncles=0 txs=0 gas=0 fees=0 elapsed=2.049ms
+INFO [12-18|19:52:56.805] 🔨 mined potential block                  number=80 hash=cd88a3..84d24b
+INFO [12-18|19:52:59.232] Successfully sealed new block            number=81 sealhash=b576a1..560fd4 hash=9e124a..c819c8 elapsed=2.428s
+INFO [12-18|19:52:59.234] 🔗 block reached canonical chain          number=74 hash=c63cbc..2453f6
+INFO [12-18|19:52:59.235] Commit new sealing work                  number=82 sealhash=8e446e..e2847b uncles=0 txs=0 gas=0 fees=0 elapsed=2.265ms
+INFO [12-18|19:52:59.235] Commit new sealing work                  number=82 sealhash=8e446e..e2847b uncles=0 txs=0 gas=0 fees=0 elapsed=2.738ms
+INFO [12-18|19:52:59.235] 🔨 mined potential block                  number=81 hash=9e124a..c819c8
+INFO [12-18|19:52:59.951] Successfully sealed new block            number=82 sealhash=8e446e..e2847b hash=348666..b81f47 elapsed=718.731ms
+INFO [12-18|19:52:59.951] 🔗 block reached canonical chain          number=75 hash=97a795..075de0
+INFO [12-18|19:52:59.952] Commit new sealing work                  number=83 sealhash=bb6146..65bb74 uncles=0 txs=0 gas=0 fees=0 elapsed="446.896µs"
+INFO [12-18|19:52:59.952] Commit new sealing work                  number=83 sealhash=bb6146..65bb74 uncles=0 txs=0 gas=0 fees=0 elapsed="622.778µs"
+INFO [12-18|19:52:59.952] 🔨 mined potential block                  number=82 hash=348666..b81f47
+INFO [12-18|19:53:00.461] Successfully sealed new block            number=83 sealhash=bb6146..65bb74 hash=5ea0b6..a833c2 elapsed=509.548ms
+INFO [12-18|19:53:00.461] 🔗 block reached canonical chain          number=76 hash=d7358b..bb3e33
+INFO [12-18|19:53:00.462] Commit new sealing work                  number=84 sealhash=c8029c..56d2d0 uncles=0 txs=0 gas=0 fees=0 elapsed="562.818µs"
+INFO [12-18|19:53:00.462] Commit new sealing work                  number=84 sealhash=c8029c..56d2d0 uncles=0 txs=0 gas=0 fees=0 elapsed="714.649µs"
+INFO [12-18|19:53:00.462] 🔨 mined potential block                  number=83 hash=5ea0b6..a833c2
+INFO [12-18|19:53:00.526] Successfully sealed new block            number=84 sealhash=c8029c..56d2d0 hash=c34b9f..f72184 elapsed=64.554ms
+INFO [12-18|19:53:00.526] 🔗 block reached canonical chain          number=77 hash=9e928d..010a4a
+INFO [12-18|19:53:00.526] Commit new sealing work                  number=85 sealhash=88407c..5e2c92 uncles=0 txs=0 gas=0 fees=0 elapsed="337.269µs"
+INFO [12-18|19:53:00.526] Commit new sealing work                  number=85 sealhash=88407c..5e2c92 uncles=0 txs=0 gas=0 fees=0 elapsed="578.187µs"
+INFO [12-18|19:53:00.526] 🔨 mined potential block                  number=84 hash=c34b9f..f72184
+INFO [12-18|19:53:01.601] Successfully sealed new block            number=85 sealhash=88407c..5e2c92 hash=502e42..486f11 elapsed=1.074s
+INFO [12-18|19:53:01.601] 🔗 block reached canonical chain          number=78 hash=d59ae0..1a421b
+INFO [12-18|19:53:01.604] Commit new sealing work                  number=86 sealhash=97926d..5d13f8 uncles=0 txs=0 gas=0 fees=0 elapsed=3.131ms
+INFO [12-18|19:53:01.605] Commit new sealing work                  number=86 sealhash=97926d..5d13f8 uncles=0 txs=0 gas=0 fees=0 elapsed=3.892ms
+INFO [12-18|19:53:01.605] 🔨 mined potential block                  number=85 hash=502e42..486f11
+INFO [12-18|19:53:02.489] Successfully sealed new block            number=86 sealhash=97926d..5d13f8 hash=a1fa6b..0b02bb elapsed=887.345ms
+INFO [12-18|19:53:02.489] 🔗 block reached canonical chain          number=79 hash=0b99c8..4ac8a9
+INFO [12-18|19:53:02.489] 🔨 mined potential block                  number=86 hash=a1fa6b..0b02bb
+INFO [12-18|19:53:02.489] Commit new sealing work                  number=87 sealhash=7ac21a..72f996 uncles=0 txs=0 gas=0 fees=0 elapsed="152.022µs"
+INFO [12-18|19:53:02.493] Commit new sealing work                  number=87 sealhash=7ac21a..72f996 uncles=0 txs=0 gas=0 fees=0 elapsed=4.379ms
+INFO [12-18|19:53:02.909] Successfully sealed new block            number=87 sealhash=7ac21a..72f996 hash=bd05a0..c6dc67 elapsed=419.585ms
+INFO [12-18|19:53:02.909] 🔗 block reached canonical chain          number=80 hash=cd88a3..84d24b
+INFO [12-18|19:53:02.909] 🔨 mined potential block                  number=87 hash=bd05a0..c6dc67
+INFO [12-18|19:53:02.909] Commit new sealing work                  number=88 sealhash=ecda87..b457a8 uncles=0 txs=0 gas=0 fees=0 elapsed="161.417µs"
+INFO [12-18|19:53:02.909] Commit new sealing work                  number=88 sealhash=ecda87..b457a8 uncles=0 txs=0 gas=0 fees=0 elapsed="248.382µs"
+INFO [12-18|19:53:04.150] Successfully sealed new block            number=88 sealhash=ecda87..b457a8 hash=4f2166..774c9b elapsed=1.241s
+INFO [12-18|19:53:04.151] 🔗 block reached canonical chain          number=81 hash=9e124a..c819c8
+INFO [12-18|19:53:04.151] Commit new sealing work                  number=89 sealhash=6038de..4b8445 uncles=0 txs=0 gas=0 fees=0 elapsed="997.362µs"
+INFO [12-18|19:53:04.152] Commit new sealing work                  number=89 sealhash=6038de..4b8445 uncles=0 txs=0 gas=0 fees=0 elapsed=1.311ms
+INFO [12-18|19:53:04.152] 🔨 mined potential block                  number=88 hash=4f2166..774c9b
+INFO [12-18|19:53:04.906] Successfully sealed new block            number=89 sealhash=6038de..4b8445 hash=fff77f..9024c0 elapsed=755.753ms
+INFO [12-18|19:53:04.906] 🔗 block reached canonical chain          number=82 hash=348666..b81f47
+INFO [12-18|19:53:04.907] 🔨 mined potential block                  number=89 hash=fff77f..9024c0
+INFO [12-18|19:53:04.907] Commit new sealing work                  number=90 sealhash=e6a1e6..2f9a01 uncles=0 txs=0 gas=0 fees=0 elapsed="143.731µs"
+INFO [12-18|19:53:04.907] Commit new sealing work                  number=90 sealhash=e6a1e6..2f9a01 uncles=0 txs=0 gas=0 fees=0 elapsed="219.836µs"
+INFO [12-18|19:53:07.603] Successfully sealed new block            number=90 sealhash=e6a1e6..2f9a01 hash=1c8cb0..75cbb4 elapsed=2.696s
+INFO [12-18|19:53:07.603] 🔗 block reached canonical chain          number=83 hash=5ea0b6..a833c2
+INFO [12-18|19:53:07.604] Commit new sealing work                  number=91 sealhash=010b30..05c500 uncles=0 txs=0 gas=0 fees=0 elapsed="707.655µs"
+INFO [12-18|19:53:07.604] Commit new sealing work                  number=91 sealhash=010b30..05c500 uncles=0 txs=0 gas=0 fees=0 elapsed="887.43µs"
+INFO [12-18|19:53:07.604] 🔨 mined potential block                  number=90 hash=1c8cb0..75cbb4
+INFO [12-18|19:53:07.920] Successfully sealed new block            number=91 sealhash=010b30..05c500 hash=941461..be34d6 elapsed=316.632ms
+INFO [12-18|19:53:07.920] 🔗 block reached canonical chain          number=84 hash=c34b9f..f72184
+INFO [12-18|19:53:07.920] 🔨 mined potential block                  number=91 hash=941461..be34d6
+INFO [12-18|19:53:07.920] Commit new sealing work                  number=92 sealhash=fb3839..31258f uncles=0 txs=0 gas=0 fees=0 elapsed="123.293µs"
+INFO [12-18|19:53:07.920] Commit new sealing work                  number=92 sealhash=fb3839..31258f uncles=0 txs=0 gas=0 fees=0 elapsed="280.218µs"
+INFO [12-18|19:53:08.247] Successfully sealed new block            number=92 sealhash=fb3839..31258f hash=fd17c6..263934 elapsed=326.451ms
+INFO [12-18|19:53:08.247] 🔗 block reached canonical chain          number=85 hash=502e42..486f11
+INFO [12-18|19:53:08.247] 🔨 mined potential block                  number=92 hash=fd17c6..263934
+INFO [12-18|19:53:08.247] Commit new sealing work                  number=93 sealhash=a4fb0d..8848d4 uncles=0 txs=0 gas=0 fees=0 elapsed="138.311µs"
+INFO [12-18|19:53:08.247] Commit new sealing work                  number=93 sealhash=a4fb0d..8848d4 uncles=0 txs=0 gas=0 fees=0 elapsed="272.295µs"
+INFO [12-18|19:53:08.548] Successfully sealed new block            number=93 sealhash=a4fb0d..8848d4 hash=098f10..fe182c elapsed=300.865ms
+INFO [12-18|19:53:08.548] 🔗 block reached canonical chain          number=86 hash=a1fa6b..0b02bb
+INFO [12-18|19:53:08.548] Commit new sealing work                  number=94 sealhash=3ea922..732997 uncles=0 txs=0 gas=0 fees=0 elapsed="472.019µs"
+INFO [12-18|19:53:08.548] Commit new sealing work                  number=94 sealhash=3ea922..732997 uncles=0 txs=0 gas=0 fees=0 elapsed="673.106µs"
+INFO [12-18|19:53:08.549] 🔨 mined potential block                  number=93 hash=098f10..fe182c
+INFO [12-18|19:53:09.331] Successfully sealed new block            number=94 sealhash=3ea922..732997 hash=73055d..093601 elapsed=782.647ms
+INFO [12-18|19:53:09.331] 🔗 block reached canonical chain          number=87 hash=bd05a0..c6dc67
+INFO [12-18|19:53:09.331] Commit new sealing work                  number=95 sealhash=1e7cb1..4ea4e2 uncles=0 txs=0 gas=0 fees=0 elapsed="608.89µs"
+INFO [12-18|19:53:09.331] Commit new sealing work                  number=95 sealhash=1e7cb1..4ea4e2 uncles=0 txs=0 gas=0 fees=0 elapsed="723.118µs"
+INFO [12-18|19:53:09.331] 🔨 mined potential block                  number=94 hash=73055d..093601
+INFO [12-18|19:53:09.653] Successfully sealed new block            number=95 sealhash=1e7cb1..4ea4e2 hash=e835f9..6eacf8 elapsed=322.316ms
+INFO [12-18|19:53:09.653] 🔗 block reached canonical chain          number=88 hash=4f2166..774c9b
+INFO [12-18|19:53:09.653] 🔨 mined potential block                  number=95 hash=e835f9..6eacf8
+INFO [12-18|19:53:09.653] Commit new sealing work                  number=96 sealhash=daae76..4a1c07 uncles=0 txs=0 gas=0 fees=0 elapsed="171.108µs"
+INFO [12-18|19:53:09.653] Commit new sealing work                  number=96 sealhash=daae76..4a1c07 uncles=0 txs=0 gas=0 fees=0 elapsed="244.896µs"
+INFO [12-18|19:53:09.731] Successfully sealed new block            number=96 sealhash=daae76..4a1c07 hash=525d58..29f946 elapsed=78.115ms
+INFO [12-18|19:53:09.732] 🔗 block reached canonical chain          number=89 hash=fff77f..9024c0
+INFO [12-18|19:53:09.732] 🔨 mined potential block                  number=96 hash=525d58..29f946
+INFO [12-18|19:53:09.732] Commit new sealing work                  number=97 sealhash=5216ee..bfe966 uncles=0 txs=0 gas=0 fees=0 elapsed="305.385µs"
+INFO [12-18|19:53:09.732] Commit new sealing work                  number=97 sealhash=5216ee..bfe966 uncles=0 txs=0 gas=0 fees=0 elapsed="472.596µs"
+INFO [12-18|19:53:09.795] Successfully sealed new block            number=97 sealhash=5216ee..bfe966 hash=72f21b..b79f2a elapsed=63.777ms
+INFO [12-18|19:53:09.796] 🔗 block reached canonical chain          number=90 hash=1c8cb0..75cbb4
+INFO [12-18|19:53:09.796] Commit new sealing work                  number=98 sealhash=f547e9..aa268d uncles=0 txs=0 gas=0 fees=0 elapsed="212.35µs"
+INFO [12-18|19:53:09.796] 🔨 mined potential block                  number=97 hash=72f21b..b79f2a
+INFO [12-18|19:53:09.796] Commit new sealing work                  number=98 sealhash=f547e9..aa268d uncles=0 txs=0 gas=0 fees=0 elapsed="391.757µs"
+INFO [12-18|19:53:09.958] Successfully sealed new block            number=98 sealhash=f547e9..aa268d hash=bae4a2..aa7938 elapsed=162.687ms
+INFO [12-18|19:53:09.959] 🔗 block reached canonical chain          number=91 hash=941461..be34d6
+INFO [12-18|19:53:09.959] 🔨 mined potential block                  number=98 hash=bae4a2..aa7938
+INFO [12-18|19:53:09.959] Commit new sealing work                  number=99 sealhash=d901c4..d8fa45 uncles=0 txs=0 gas=0 fees=0 elapsed="285.614µs"
+INFO [12-18|19:53:09.959] Commit new sealing work                  number=99 sealhash=d901c4..d8fa45 uncles=0 txs=0 gas=0 fees=0 elapsed="446.535µs"
+INFO [12-18|19:53:11.124] Successfully sealed new block            number=99 sealhash=d901c4..d8fa45 hash=328cc6..316531 elapsed=1.165s
+INFO [12-18|19:53:11.125] 🔗 block reached canonical chain          number=92 hash=fd17c6..263934
+INFO [12-18|19:53:11.125] Commit new sealing work                  number=100 sealhash=7142fe..3b04d7 uncles=0 txs=0 gas=0 fees=0 elapsed="591.137µs"
+INFO [12-18|19:53:11.125] Commit new sealing work                  number=100 sealhash=7142fe..3b04d7 uncles=0 txs=0 gas=0 fees=0 elapsed="764.153µs"
+INFO [12-18|19:53:11.125] 🔨 mined potential block                  number=99  hash=328cc6..316531
+INFO [12-18|19:53:11.488] Successfully sealed new block            number=100 sealhash=7142fe..3b04d7 hash=51909c..ab02ac elapsed=363.601ms
+INFO [12-18|19:53:11.488] 🔗 block reached canonical chain          number=93  hash=098f10..fe182c
+INFO [12-18|19:53:11.488] 🔨 mined potential block                  number=100 hash=51909c..ab02ac
+INFO [12-18|19:53:11.488] Commit new sealing work                  number=101 sealhash=053ab5..96bc62 uncles=0 txs=0 gas=0 fees=0 elapsed="155.43µs"
+INFO [12-18|19:53:11.488] Commit new sealing work                  number=101 sealhash=053ab5..96bc62 uncles=0 txs=0 gas=0 fees=0 elapsed="207.892µs"
+INFO [12-18|19:53:11.679] Successfully sealed new block            number=101 sealhash=053ab5..96bc62 hash=fe6567..3bebae elapsed=190.493ms
+INFO [12-18|19:53:11.679] 🔗 block reached canonical chain          number=94  hash=73055d..093601
+INFO [12-18|19:53:11.680] 🔨 mined potential block                  number=101 hash=fe6567..3bebae
+INFO [12-18|19:53:11.680] Commit new sealing work                  number=102 sealhash=25650e..e9d35b uncles=0 txs=0 gas=0 fees=0 elapsed="667.341µs"
+INFO [12-18|19:53:11.680] Commit new sealing work                  number=102 sealhash=25650e..e9d35b uncles=0 txs=0 gas=0 fees=0 elapsed="785.639µs"
+INFO [12-18|19:53:12.329] Successfully sealed new block            number=102 sealhash=25650e..e9d35b hash=db9378..7c694e elapsed=649.699ms
+INFO [12-18|19:53:12.329] 🔗 block reached canonical chain          number=95  hash=e835f9..6eacf8
+INFO [12-18|19:53:12.329] 🔨 mined potential block                  number=102 hash=db9378..7c694e
+INFO [12-18|19:53:12.329] Commit new sealing work                  number=103 sealhash=44cdf8..742439 uncles=0 txs=0 gas=0 fees=0 elapsed="121.834µs"
+INFO [12-18|19:53:12.329] Commit new sealing work                  number=103 sealhash=44cdf8..742439 uncles=0 txs=0 gas=0 fees=0 elapsed="187.501µs"
+INFO [12-18|19:53:12.712] Successfully sealed new block            number=103 sealhash=44cdf8..742439 hash=795d94..b05090 elapsed=382.705ms
+INFO [12-18|19:53:12.712] 🔗 block reached canonical chain          number=96  hash=525d58..29f946
+INFO [12-18|19:53:12.712] Commit new sealing work                  number=104 sealhash=474150..5836f5 uncles=0 txs=0 gas=0 fees=0 elapsed="213.012µs"
+INFO [12-18|19:53:12.712] Commit new sealing work                  number=104 sealhash=474150..5836f5 uncles=0 txs=0 gas=0 fees=0 elapsed="333.947µs"
+INFO [12-18|19:53:12.712] 🔨 mined potential block                  number=103 hash=795d94..b05090
+INFO [12-18|19:53:12.850] Successfully sealed new block            number=104 sealhash=474150..5836f5 hash=c234d2..0ca965 elapsed=138.267ms
+INFO [12-18|19:53:12.850] 🔗 block reached canonical chain          number=97  hash=72f21b..b79f2a
+INFO [12-18|19:53:12.850] 🔨 mined potential block                  number=104 hash=c234d2..0ca965
+INFO [12-18|19:53:12.850] Commit new sealing work                  number=105 sealhash=aecf26..447e20 uncles=0 txs=0 gas=0 fees=0 elapsed="115.092µs"
+INFO [12-18|19:53:12.850] Commit new sealing work                  number=105 sealhash=aecf26..447e20 uncles=0 txs=0 gas=0 fees=0 elapsed="240.519µs"
+INFO [12-18|19:53:12.919] Successfully sealed new block            number=105 sealhash=aecf26..447e20 hash=838c02..8d9ca3 elapsed=68.737ms
+INFO [12-18|19:53:12.919] 🔗 block reached canonical chain          number=98  hash=bae4a2..aa7938
+INFO [12-18|19:53:12.920] 🔨 mined potential block                  number=105 hash=838c02..8d9ca3
+INFO [12-18|19:53:12.920] Commit new sealing work                  number=106 sealhash=d40856..821c28 uncles=0 txs=0 gas=0 fees=0 elapsed="547.789µs"
+INFO [12-18|19:53:12.920] Commit new sealing work                  number=106 sealhash=d40856..821c28 uncles=0 txs=0 gas=0 fees=0 elapsed="663.714µs"
+INFO [12-18|20:40:38.217] Writing clean trie cache to disk         path=/home/aoinamai/eth_program/connect-test/data/geth/triecache threads=1
+INFO [12-18|20:40:38.216] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [12-18|20:40:38.224] Persisted the clean trie cache           path=/home/aoinamai/eth_program/connect-test/data/geth/triecache elapsed=5.447ms
+INFO [12-18|21:40:57.064] Writing clean trie cache to disk         path=/home/aoinamai/eth_program/connect-test/data/geth/triecache threads=1
+INFO [12-18|21:40:57.065] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [12-18|21:40:57.066] Persisted the clean trie cache           path=/home/aoinamai/eth_program/connect-test/data/geth/triecache elapsed=1.143ms
+INFO [12-18|22:40:57.064] Writing clean trie cache to disk         path=/home/aoinamai/eth_program/connect-test/data/geth/triecache threads=1
+INFO [12-18|22:40:57.065] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [12-18|22:40:57.065] Persisted the clean trie cache           path=/home/aoinamai/eth_program/connect-test/data/geth/triecache elapsed="739.435µs"
+INFO [12-18|23:40:57.064] Writing clean trie cache to disk         path=/home/aoinamai/eth_program/connect-test/data/geth/triecache threads=1
+INFO [12-18|23:40:57.065] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [12-18|23:40:57.065] Persisted the clean trie cache           path=/home/aoinamai/eth_program/connect-test/data/geth/triecache elapsed="766.6µs"
+INFO [12-19|00:40:57.066] Writing clean trie cache to disk         path=/home/aoinamai/eth_program/connect-test/data/geth/triecache threads=1
+INFO [12-19|00:40:57.066] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [12-19|00:40:57.068] Persisted the clean trie cache           path=/home/aoinamai/eth_program/connect-test/data/geth/triecache elapsed=1.674ms
+INFO [12-19|01:40:57.066] Writing clean trie cache to disk         path=/home/aoinamai/eth_program/connect-test/data/geth/triecache threads=1
+INFO [12-19|01:40:57.067] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [12-19|01:40:57.071] Persisted the clean trie cache           path=/home/aoinamai/eth_program/connect-test/data/geth/triecache elapsed=4.265ms
+INFO [12-19|02:40:57.064] Writing clean trie cache to disk         path=/home/aoinamai/eth_program/connect-test/data/geth/triecache threads=1
+INFO [12-19|02:40:57.066] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [12-19|02:40:57.069] Persisted the clean trie cache           path=/home/aoinamai/eth_program/connect-test/data/geth/triecache elapsed=3.823ms
+INFO [12-19|03:40:57.065] Writing clean trie cache to disk         path=/home/aoinamai/eth_program/connect-test/data/geth/triecache threads=1
+INFO [12-19|03:40:57.066] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [12-19|03:40:57.066] Persisted the clean trie cache           path=/home/aoinamai/eth_program/connect-test/data/geth/triecache elapsed="918.248µs"
+INFO [12-19|04:40:57.065] Writing clean trie cache to disk         path=/home/aoinamai/eth_program/connect-test/data/geth/triecache threads=1
+INFO [12-19|04:40:57.065] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [12-19|04:40:57.069] Persisted the clean trie cache           path=/home/aoinamai/eth_program/connect-test/data/geth/triecache elapsed=3.514ms
+INFO [12-19|05:40:57.065] Writing clean trie cache to disk         path=/home/aoinamai/eth_program/connect-test/data/geth/triecache threads=1
+INFO [12-19|05:40:57.066] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [12-19|05:40:57.069] Persisted the clean trie cache           path=/home/aoinamai/eth_program/connect-test/data/geth/triecache elapsed=3.087ms
+INFO [12-19|06:40:57.064] Writing clean trie cache to disk         path=/home/aoinamai/eth_program/connect-test/data/geth/triecache threads=1
+INFO [12-19|06:40:57.065] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [12-19|06:40:57.069] Persisted the clean trie cache           path=/home/aoinamai/eth_program/connect-test/data/geth/triecache elapsed=4.496ms
+INFO [12-19|07:40:57.065] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [12-19|07:40:57.065] Writing clean trie cache to disk         path=/home/aoinamai/eth_program/connect-test/data/geth/triecache threads=1
+INFO [12-19|07:40:57.069] Persisted the clean trie cache           path=/home/aoinamai/eth_program/connect-test/data/geth/triecache elapsed=2.867ms
+INFO [12-19|08:40:57.064] Writing clean trie cache to disk         path=/home/aoinamai/eth_program/connect-test/data/geth/triecache threads=1
+INFO [12-19|08:40:57.066] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [12-19|08:40:57.068] Persisted the clean trie cache           path=/home/aoinamai/eth_program/connect-test/data/geth/triecache elapsed=2.785ms
+INFO [12-19|09:40:57.065] Writing clean trie cache to disk         path=/home/aoinamai/eth_program/connect-test/data/geth/triecache threads=1
+INFO [12-19|09:40:57.065] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [12-19|09:40:57.066] Persisted the clean trie cache           path=/home/aoinamai/eth_program/connect-test/data/geth/triecache elapsed=1.085ms
+INFO [12-19|10:41:00.103] Writing clean trie cache to disk         path=/home/aoinamai/eth_program/connect-test/data/geth/triecache threads=1
+INFO [12-19|10:41:00.105] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [12-19|10:41:00.106] Persisted the clean trie cache           path=/home/aoinamai/eth_program/connect-test/data/geth/triecache elapsed=2.714ms
+INFO [12-19|11:41:06.089] Writing clean trie cache to disk         path=/home/aoinamai/eth_program/connect-test/data/geth/triecache threads=1
+INFO [12-19|11:41:06.090] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [12-19|11:41:06.092] Persisted the clean trie cache           path=/home/aoinamai/eth_program/connect-test/data/geth/triecache elapsed=3.097ms
+INFO [12-19|12:41:15.594] Writing clean trie cache to disk         path=/home/aoinamai/eth_program/connect-test/data/geth/triecache threads=1
+INFO [12-19|12:41:15.595] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [12-19|12:41:15.597] Persisted the clean trie cache           path=/home/aoinamai/eth_program/connect-test/data/geth/triecache elapsed=2.298ms
+INFO [12-19|13:41:26.859] Writing clean trie cache to disk         path=/home/aoinamai/eth_program/connect-test/data/geth/triecache threads=1
+INFO [12-19|13:41:26.861] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [12-19|13:41:26.863] Persisted the clean trie cache           path=/home/aoinamai/eth_program/connect-test/data/geth/triecache elapsed=2.712ms
+INFO [12-19|14:41:38.979] Writing clean trie cache to disk         path=/home/aoinamai/eth_program/connect-test/data/geth/triecache threads=1
+INFO [12-19|14:41:38.980] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [12-19|14:41:38.982] Persisted the clean trie cache           path=/home/aoinamai/eth_program/connect-test/data/geth/triecache elapsed=2.717ms
+INFO [12-19|15:41:48.932] Writing clean trie cache to disk         path=/home/aoinamai/eth_program/connect-test/data/geth/triecache threads=1
+INFO [12-19|15:41:48.933] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [12-19|15:41:48.936] Persisted the clean trie cache           path=/home/aoinamai/eth_program/connect-test/data/geth/triecache elapsed=4.003ms
+INFO [12-19|16:41:55.715] Writing clean trie cache to disk         path=/home/aoinamai/eth_program/connect-test/data/geth/triecache threads=1
+INFO [12-19|16:41:55.716] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [12-19|16:41:55.719] Persisted the clean trie cache           path=/home/aoinamai/eth_program/connect-test/data/geth/triecache elapsed=3.824ms
+INFO [12-19|17:42:00.889] Writing clean trie cache to disk         path=/home/aoinamai/eth_program/connect-test/data/geth/triecache threads=1
+INFO [12-19|17:42:00.890] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [12-19|17:42:00.892] Persisted the clean trie cache           path=/home/aoinamai/eth_program/connect-test/data/geth/triecache elapsed=2.464ms
+INFO [12-19|18:42:05.470] Writing clean trie cache to disk         path=/home/aoinamai/eth_program/connect-test/data/geth/triecache threads=1
+INFO [12-19|18:42:05.470] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [12-19|18:42:05.473] Persisted the clean trie cache           path=/home/aoinamai/eth_program/connect-test/data/geth/triecache elapsed=2.997ms
+INFO [12-19|19:42:05.963] Writing clean trie cache to disk         path=/home/aoinamai/eth_program/connect-test/data/geth/triecache threads=1
+INFO [12-19|19:42:05.964] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [12-19|19:42:05.966] Persisted the clean trie cache           path=/home/aoinamai/eth_program/connect-test/data/geth/triecache elapsed=2.662ms
+INFO [12-19|20:42:05.963] Writing clean trie cache to disk         path=/home/aoinamai/eth_program/connect-test/data/geth/triecache threads=1
+INFO [12-19|20:42:05.964] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [12-19|20:42:05.966] Persisted the clean trie cache           path=/home/aoinamai/eth_program/connect-test/data/geth/triecache elapsed=2.323ms
+INFO [12-19|21:42:05.964] Writing clean trie cache to disk         path=/home/aoinamai/eth_program/connect-test/data/geth/triecache threads=1
+INFO [12-19|21:42:05.964] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [12-19|21:42:05.967] Persisted the clean trie cache           path=/home/aoinamai/eth_program/connect-test/data/geth/triecache elapsed=2.723ms
+INFO [12-19|22:42:07.551] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [12-19|22:42:07.552] Writing clean trie cache to disk         path=/home/aoinamai/eth_program/connect-test/data/geth/triecache threads=1
+INFO [12-19|22:42:07.555] Persisted the clean trie cache           path=/home/aoinamai/eth_program/connect-test/data/geth/triecache elapsed=2.856ms
+INFO [12-19|23:42:07.551] Writing clean trie cache to disk         path=/home/aoinamai/eth_program/connect-test/data/geth/triecache threads=1
+INFO [12-19|23:42:07.552] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [12-19|23:42:07.555] Persisted the clean trie cache           path=/home/aoinamai/eth_program/connect-test/data/geth/triecache elapsed=3.547ms
+INFO [12-20|00:42:07.551] Writing clean trie cache to disk         path=/home/aoinamai/eth_program/connect-test/data/geth/triecache threads=1
+INFO [12-20|00:42:07.552] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [12-20|00:42:07.556] Persisted the clean trie cache           path=/home/aoinamai/eth_program/connect-test/data/geth/triecache elapsed=3.697ms
+WARN [12-20|00:57:43.293] HTTP server graceful shutdown timed out 
+INFO [12-20|00:57:43.293] HTTP server stopped                      endpoint=127.0.0.1:8551
+INFO [12-20|00:57:43.295] Ethereum protocol stopped 
+INFO [12-20|00:57:43.295] Transaction pool stopped 
+INFO [12-20|00:57:43.296] Looking for peers                        peercount=0 tried=0 static=1
+INFO [12-20|00:57:43.297] Writing cached state to disk             block=105 hash=838c02..8d9ca3 root=ba162e..192511
+INFO [12-20|00:57:43.297] Persisted trie from memory database      nodes=1 size=148.00B time="202.348µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=55 livesize=7.80KiB
+INFO [12-20|00:57:43.297] Writing cached state to disk             block=104 hash=c234d2..0ca965 root=7a48f4..cadc6d
+INFO [12-20|00:57:43.297] Persisted trie from memory database      nodes=1 size=148.00B time="53.79µs"   gcnodes=0 gcsize=0.00B gctime=0s livenodes=54 livesize=7.66KiB
+INFO [12-20|00:57:43.297] Writing snapshot state to disk           root=56e81f..63b421
+INFO [12-20|00:57:43.297] Persisted trie from memory database      nodes=0 size=0.00B   time="1.17µs"    gcnodes=0 gcsize=0.00B gctime=0s livenodes=54 livesize=7.66KiB
+INFO [12-20|00:57:43.298] Writing clean trie cache to disk         path=/home/aoinamai/eth_program/connect-test/data/geth/triecache threads=4
+INFO [12-20|00:57:43.299] Persisted the clean trie cache           path=/home/aoinamai/eth_program/connect-test/data/geth/triecache elapsed=1.173ms
+INFO [12-20|00:57:43.299] Blockchain stopped 
