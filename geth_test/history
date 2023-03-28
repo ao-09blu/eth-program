@@ -89,3 +89,13 @@ miner.stop()
 admin.peers
 eth.accounts
 admin.peers
+eth.accounts
+admin.nodeInfo.enode
+admin.addPeer("enode://b813495a5d78e2eb5c9e1ebc464cf89309a5111d6e4b66253f582e94dd40df8ee129a49e476336fccd62b96090bc838ed4eb0d7a042b951600e488e48c517f7b@192.168.72.129:30303?discport=0")
+net.peerCount
+admin.nodeInfo.enode
+miner.start()
+eth.blockNumber
+miner.start(1)
+eth.coinbase
+eth.accounts
