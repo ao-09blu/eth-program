@@ -1,0 +1,41 @@
+=============== Mar 27, 2023 (PDT) ===============
+23:03:40.698328 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+23:03:40.700263 db@open opening
+23:03:40.702906 version@stat F·[] S·0B[] Sc·[]
+23:03:40.703639 db@janitor F·2 G·0
+23:03:40.703681 db@open done T·3.392269ms
+23:12:47.768120 db@close closing
+23:12:47.768197 db@close done T·75.445µs
+=============== Mar 27, 2023 (PDT) ===============
+23:14:20.054004 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+23:14:20.054135 version@stat F·[] S·0B[] Sc·[]
+23:14:20.054162 db@open opening
+23:14:20.054190 journal@recovery F·1
+23:14:20.056460 journal@recovery recovering @1
+23:14:20.078577 memdb@flush created L0@2 N·21275 S·2MiB "\x00\x00\xae..\x82\x88\x11,v497":"\xff\xfc\x94..\xa5\x05\xa1,v626"
+23:14:20.080206 version@stat F·[1] S·2MiB[2MiB] Sc·[0.25]
+23:14:20.084317 db@janitor F·3 G·0
+23:14:20.084383 db@open done T·30.214276ms
+23:20:58.694745 db@close closing
+23:20:58.694805 db@close done T·58.742µs
+=============== Mar 27, 2023 (PDT) ===============
+23:21:27.252711 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+23:21:27.253234 version@stat F·[1] S·2MiB[2MiB] Sc·[0.25]
+23:21:27.253262 db@open opening
+23:21:27.253298 journal@recovery F·1
+23:21:27.254838 journal@recovery recovering @3
+23:21:27.255783 memdb@flush created L0@5 N·5 S·301B "Sna..tor,v21279":"unc..own,v21277"
+23:21:27.255918 version@stat F·[2] S·2MiB[2MiB] Sc·[0.50]
+23:21:27.258565 db@janitor F·4 G·0
+23:21:27.258586 db@open done T·5.318116ms
+=============== Mar 27, 2023 (PDT) ===============
+23:21:44.928704 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+23:21:44.928941 version@stat F·[2] S·2MiB[2MiB] Sc·[0.50]
+23:21:44.928988 db@open opening
+23:21:44.929038 journal@recovery F·1
+23:21:44.932311 journal@recovery recovering @6
+23:21:44.933904 version@stat F·[2] S·2MiB[2MiB] Sc·[0.50]
+23:21:44.937253 db@janitor F·4 G·0
+23:21:44.937331 db@open done T·8.322451ms
+23:22:58.695049 db@close closing
+23:22:58.695145 db@close done T·113.628µs

@@ -1,0 +1,32 @@
+=============== Mar 27, 2023 (PDT) ===============
+23:34:07.659657 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+23:34:07.661942 db@open opening
+23:34:07.663169 version@stat F·[] S·0B[] Sc·[]
+23:34:07.663708 db@janitor F·2 G·0
+23:34:07.663774 db@open done T·1.798544ms
+23:34:07.671475 db@close closing
+23:34:07.671568 db@close done T·91.543µs
+=============== Mar 27, 2023 (PDT) ===============
+23:35:54.291144 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+23:35:54.291362 version@stat F·[] S·0B[] Sc·[]
+23:35:54.291410 db@open opening
+23:35:54.291466 journal@recovery F·1
+23:35:54.294162 journal@recovery recovering @1
+23:35:54.295343 memdb@flush created L0@2 N·11 S·653B "H{...~\x042,v4":"r\x00\x00..~\x042,v6"
+23:35:54.297210 version@stat F·[1] S·653B[653B] Sc·[0.25]
+23:35:54.300354 db@janitor F·3 G·0
+23:35:54.300404 db@open done T·8.959515ms
+23:35:56.410365 db@close closing
+23:35:56.410565 db@close done T·240.356µs
+=============== Mar 27, 2023 (PDT) ===============
+23:37:01.921661 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+23:37:01.921752 version@stat F·[1] S·653B[653B] Sc·[0.25]
+23:37:01.921772 db@open opening
+23:37:01.921796 journal@recovery F·1
+23:37:02.126739 journal@recovery recovering @3
+23:37:02.127766 memdb@flush created L0@5 N·7 S·341B "Dat..ion,v13":"unc..own,v18"
+23:37:02.129256 version@stat F·[2] S·994B[994B] Sc·[0.50]
+23:37:02.131778 db@janitor F·4 G·0
+23:37:02.131799 db@open done T·210.02042ms
+23:39:27.450065 db@close closing
+23:39:27.450121 db@close done T·54.912µs

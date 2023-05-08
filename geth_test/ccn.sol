@@ -40,17 +40,20 @@ contract Greeter {
         return (id-1);
     }
 
-    function regist_router(string[] memory _URI, string[] memory _neighbor)public returns(uint){
+    function regist_router(string[] memory _URI, string[] memory _neighbor)public{
         Link_DB[msg.sender].RouterID = ID;
         Link_DB[msg.sender].content_URI = _URI;
         Link_DB[msg.sender].neighbor = _neighbor;
         ID = ID + 1;
-        return Link_DB[msg.sender].RouterID;
     }
 
     function update_router(string[] memory _URI, string[] memory _neighbor) public{
         Link_DB[msg.sender].content_URI = _URI;
         Link_DB[msg.sender].neighbor = _neighbor;
+    }
+
+    function show_router() view public returns (uint){
+        return Link_DB[msg.sender].RouterID;
     }
 
     function update_topology(string[] memory _URI, string[] memory _neighbor) public{

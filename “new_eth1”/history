@@ -1,0 +1,2 @@
+eth.getBlock(0)
+eth.accounts

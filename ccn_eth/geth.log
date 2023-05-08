@@ -1,0 +1,241 @@
+INFO [03-27|23:03:40.690] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [03-27|23:03:40.692] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+INFO [03-27|23:03:40.693] Set global gas cap                       cap=50,000,000
+INFO [03-27|23:03:40.695] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [03-27|23:03:40.696] Using leveldb as the backing database 
+INFO [03-27|23:03:40.697] Allocated cache and file handles         database=/home/aoinamai/eth_program/ccn_eth/geth/chaindata cache=512.00MiB handles=2048
+INFO [03-27|23:03:40.703] Using LevelDB as the backing database 
+INFO [03-27|23:03:40.708] Opened ancient database                  database=/home/aoinamai/eth_program/ccn_eth/geth/chaindata/ancient/chain readonly=false
+INFO [03-27|23:03:40.708] Disk storage enabled for ethash caches   dir=/home/aoinamai/eth_program/ccn_eth/geth/ethash count=3
+INFO [03-27|23:03:40.708] Disk storage enabled for ethash DAGs     dir=/home/aoinamai/.ethash count=2
+INFO [03-27|23:03:40.709] Initialising Ethereum protocol           network=22 dbversion=<nil>
+INFO [03-27|23:03:40.709] Writing default main-net genesis block 
+INFO [03-27|23:03:40.910] Persisted trie from memory database      nodes=12356 size=1.78MiB time=18.271034ms gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [03-27|23:03:40.922]  
+INFO [03-27|23:03:40.923] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [03-27|23:03:40.923] Chain ID:  1 (mainnet) 
+INFO [03-27|23:03:40.923] Consensus: Beacon (proof-of-stake), merged from Ethash (proof-of-work) 
+INFO [03-27|23:03:40.923]  
+INFO [03-27|23:03:40.923] Pre-Merge hard forks (block based): 
+INFO [03-27|23:03:40.923]  - Homestead:                   #1150000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/homestead.md) 
+INFO [03-27|23:03:40.923]  - DAO Fork:                    #1920000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/dao-fork.md) 
+INFO [03-27|23:03:40.923]  - Tangerine Whistle (EIP 150): #2463000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/tangerine-whistle.md) 
+INFO [03-27|23:03:40.923]  - Spurious Dragon/1 (EIP 155): #2675000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [03-27|23:03:40.923]  - Spurious Dragon/2 (EIP 158): #2675000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [03-27|23:03:40.923]  - Byzantium:                   #4370000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/byzantium.md) 
+INFO [03-27|23:03:40.923]  - Constantinople:              #7280000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/constantinople.md) 
+INFO [03-27|23:03:40.923]  - Petersburg:                  #7280000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/petersburg.md) 
+INFO [03-27|23:03:40.923]  - Istanbul:                    #9069000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/istanbul.md) 
+INFO [03-27|23:03:40.923]  - Muir Glacier:                #9200000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/muir-glacier.md) 
+INFO [03-27|23:03:40.923]  - Berlin:                      #12244000 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/berlin.md) 
+INFO [03-27|23:03:40.923]  - London:                      #12965000 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/london.md) 
+INFO [03-27|23:03:40.923]  - Arrow Glacier:               #13773000 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/arrow-glacier.md) 
+INFO [03-27|23:03:40.923]  - Gray Glacier:                #15050000 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/gray-glacier.md) 
+INFO [03-27|23:03:40.923]  
+INFO [03-27|23:03:40.923] Merge configured: 
+INFO [03-27|23:03:40.923]  - Hard-fork specification:    https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/paris.md 
+INFO [03-27|23:03:40.923]  - Network known to be merged: true 
+INFO [03-27|23:03:40.923]  - Total terminal difficulty:  58750000000000000000000 
+INFO [03-27|23:03:40.923]  
+INFO [03-27|23:03:40.923] Post-Merge hard forks (timestamp based): 
+INFO [03-27|23:03:40.923]  
+INFO [03-27|23:03:40.923] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [03-27|23:03:40.923]  
+INFO [03-27|23:03:40.924] Loaded most recent local header          number=0 hash=d4e567..cb8fa3 td=17,179,869,184 age=54y4d6h
+INFO [03-27|23:03:40.924] Loaded most recent local full block      number=0 hash=d4e567..cb8fa3 td=17,179,869,184 age=54y4d6h
+INFO [03-27|23:03:40.924] Loaded most recent local fast block      number=0 hash=d4e567..cb8fa3 td=17,179,869,184 age=54y4d6h
+WARN [03-27|23:03:40.924] Failed to load snapshot                  err="missing or corrupted snapshot"
+INFO [03-27|23:03:40.924] Rebuilding state snapshot 
+INFO [03-27|23:03:40.924] Resuming state snapshot generation       root=d7f897..0f0544 accounts=0 slots=0 storage=0.00B dangling=0 elapsed="202.375µs"
+INFO [03-27|23:03:40.924] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [03-27|23:03:40.925] Chain post-merge, sync via beacon client 
+INFO [03-27|23:03:40.925] Gasprice oracle is ignoring threshold set threshold=2
+WARN [03-27|23:03:40.926] Error reading unclean shutdown markers   error="leveldb: not found"
+WARN [03-27|23:03:40.926] Engine API enabled                       protocol=eth
+INFO [03-27|23:03:40.926] Starting peer-to-peer node               instance=Geth/v1.11.0-stable-18b641b0/linux-amd64/go1.19.5
+INFO [03-27|23:03:40.931] IPC endpoint opened                      url=/home/aoinamai/eth_program/ccn_eth/geth.ipc
+INFO [03-27|23:03:40.931] Generated JWT secret                     path=/home/aoinamai/eth_program/ccn_eth/geth/jwtsecret
+INFO [03-27|23:03:40.931] HTTP server started                      endpoint=127.0.0.1:8101 auth=false prefix= cors= vhosts=*
+INFO [03-27|23:03:40.931] WebSocket enabled                        url=ws://127.0.0.1:8551
+INFO [03-27|23:03:40.931] HTTP server started                      endpoint=127.0.0.1:8551 auth=true  prefix= cors=localhost vhosts=localhost
+INFO [03-27|23:03:40.931] New local node record                    seq=1,679,983,420,931 id=f59249a5254aa5f0 ip=127.0.0.1 udp=0 tcp=30303
+INFO [03-27|23:03:40.932] Started P2P networking                   self="enode://4bbe00af5e46e33190ba98a82a224d2ff346427b5d213b474fe107f2ba464230bdd4b1cb8d064fa87fd0e77f14e61da085662acc35bcd5161e89b46160807a59@127.0.0.1:30303?discport=0"
+INFO [03-27|23:03:40.951] Generated state snapshot                 accounts=8893 slots=0 storage=409.64KiB dangling=0 elapsed=27.291ms
+WARN [03-27|23:03:40.959] Served eth_coinbase                      reqid=3 duration="11.786µs" err="etherbase must be explicitly specified"
+WARN [03-27|23:04:15.928] Post-merge network, but no beacon client seen. Please launch one to follow the chain! 
+WARN [03-27|23:09:15.976] Post-merge network, but no beacon client seen. Please launch one to follow the chain! 
+INFO [03-27|23:11:11.045] Looking for peers                        peercount=0 tried=0 static=1
+INFO [03-27|23:11:46.047] Looking for peers                        peercount=0 tried=1 static=1
+INFO [03-27|23:12:21.049] Looking for peers                        peercount=0 tried=1 static=1
+INFO [03-27|23:12:47.761] HTTP server stopped                      endpoint=127.0.0.1:8101
+INFO [03-27|23:12:47.761] HTTP server stopped                      endpoint=127.0.0.1:8551
+INFO [03-27|23:12:47.761] IPC endpoint closed                      url=/home/aoinamai/eth_program/ccn_eth/geth.ipc
+INFO [03-27|23:12:47.761] Ethereum protocol stopped 
+INFO [03-27|23:12:47.761] Transaction pool stopped 
+INFO [03-27|23:12:47.761] Writing snapshot state to disk           root=d7f897..0f0544
+INFO [03-27|23:12:47.761] Persisted trie from memory database      nodes=0     size=0.00B   time="4.658µs"   gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [03-27|23:12:47.761] Writing clean trie cache to disk         path=/home/aoinamai/eth_program/ccn_eth/geth/triecache threads=4
+INFO [03-27|23:12:47.767] Persisted the clean trie cache           path=/home/aoinamai/eth_program/ccn_eth/geth/triecache elapsed=5.958ms
+INFO [03-27|23:12:47.767] Blockchain stopped 
+INFO [03-27|23:14:20.048] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [03-27|23:14:20.049] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+INFO [03-27|23:14:20.052] Set global gas cap                       cap=50,000,000
+INFO [03-27|23:14:20.053] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [03-27|23:14:20.053] Using leveldb as the backing database 
+INFO [03-27|23:14:20.053] Allocated cache and file handles         database=/home/aoinamai/eth_program/ccn_eth/geth/chaindata cache=512.00MiB handles=2048
+INFO [03-27|23:14:20.084] Using LevelDB as the backing database 
+INFO [03-27|23:14:20.086] Opened ancient database                  database=/home/aoinamai/eth_program/ccn_eth/geth/chaindata/ancient/chain readonly=false
+INFO [03-27|23:14:20.087] Disk storage enabled for ethash caches   dir=/home/aoinamai/eth_program/ccn_eth/geth/ethash count=3
+INFO [03-27|23:14:20.087] Disk storage enabled for ethash DAGs     dir=/home/aoinamai/.ethash count=2
+INFO [03-27|23:14:20.088] Initialising Ethereum protocol           network=22 dbversion=8
+INFO [03-27|23:14:20.105]  
+INFO [03-27|23:14:20.105] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [03-27|23:14:20.105] Chain ID:  1 (mainnet) 
+INFO [03-27|23:14:20.105] Consensus: Beacon (proof-of-stake), merged from Ethash (proof-of-work) 
+INFO [03-27|23:14:20.105]  
+INFO [03-27|23:14:20.105] Pre-Merge hard forks (block based): 
+INFO [03-27|23:14:20.105]  - Homestead:                   #1150000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/homestead.md) 
+INFO [03-27|23:14:20.106]  - DAO Fork:                    #1920000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/dao-fork.md) 
+INFO [03-27|23:14:20.106]  - Tangerine Whistle (EIP 150): #2463000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/tangerine-whistle.md) 
+INFO [03-27|23:14:20.106]  - Spurious Dragon/1 (EIP 155): #2675000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [03-27|23:14:20.106]  - Spurious Dragon/2 (EIP 158): #2675000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [03-27|23:14:20.106]  - Byzantium:                   #4370000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/byzantium.md) 
+INFO [03-27|23:14:20.106]  - Constantinople:              #7280000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/constantinople.md) 
+INFO [03-27|23:14:20.106]  - Petersburg:                  #7280000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/petersburg.md) 
+INFO [03-27|23:14:20.106]  - Istanbul:                    #9069000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/istanbul.md) 
+INFO [03-27|23:14:20.106]  - Muir Glacier:                #9200000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/muir-glacier.md) 
+INFO [03-27|23:14:20.106]  - Berlin:                      #12244000 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/berlin.md) 
+INFO [03-27|23:14:20.106]  - London:                      #12965000 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/london.md) 
+INFO [03-27|23:14:20.106]  - Arrow Glacier:               #13773000 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/arrow-glacier.md) 
+INFO [03-27|23:14:20.106]  - Gray Glacier:                #15050000 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/gray-glacier.md) 
+INFO [03-27|23:14:20.106]  
+INFO [03-27|23:14:20.106] Merge configured: 
+INFO [03-27|23:14:20.106]  - Hard-fork specification:    https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/paris.md 
+INFO [03-27|23:14:20.106]  - Network known to be merged: true 
+INFO [03-27|23:14:20.106]  - Total terminal difficulty:  58750000000000000000000 
+INFO [03-27|23:14:20.106]  
+INFO [03-27|23:14:20.106] Post-Merge hard forks (timestamp based): 
+INFO [03-27|23:14:20.106]  
+INFO [03-27|23:14:20.106] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [03-27|23:14:20.106]  
+INFO [03-27|23:14:20.106] Loaded most recent local header          number=0 hash=d4e567..cb8fa3 td=17,179,869,184 age=54y4d6h
+INFO [03-27|23:14:20.106] Loaded most recent local full block      number=0 hash=d4e567..cb8fa3 td=17,179,869,184 age=54y4d6h
+INFO [03-27|23:14:20.106] Loaded most recent local fast block      number=0 hash=d4e567..cb8fa3 td=17,179,869,184 age=54y4d6h
+INFO [03-27|23:14:20.106] Loaded local transaction journal         transactions=0 dropped=0
+INFO [03-27|23:14:20.106] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [03-27|23:14:20.107] Chain post-merge, sync via beacon client 
+INFO [03-27|23:14:20.107] Gasprice oracle is ignoring threshold set threshold=2
+WARN [03-27|23:14:20.107] Engine API enabled                       protocol=eth
+INFO [03-27|23:14:20.107] Starting peer-to-peer node               instance=Geth/v1.11.0-stable-18b641b0/linux-amd64/go1.19.5
+INFO [03-27|23:14:20.120] New local node record                    seq=1,679,983,420,932 id=f59249a5254aa5f0 ip=127.0.0.1 udp=0 tcp=30303
+INFO [03-27|23:14:20.120] Started P2P networking                   self="enode://4bbe00af5e46e33190ba98a82a224d2ff346427b5d213b474fe107f2ba464230bdd4b1cb8d064fa87fd0e77f14e61da085662acc35bcd5161e89b46160807a59@127.0.0.1:30303?discport=0"
+INFO [03-27|23:14:20.121] IPC endpoint opened                      url=/home/aoinamai/eth_program/ccn_eth/geth.ipc
+INFO [03-27|23:14:20.121] Loaded JWT secret file                   path=/home/aoinamai/eth_program/ccn_eth/geth/jwtsecret crc32=0x7e1c3b9d
+INFO [03-27|23:14:20.122] HTTP server started                      endpoint=192.168.72.128:8101 auth=false prefix= cors= vhosts=*
+INFO [03-27|23:14:20.122] WebSocket enabled                        url=ws://127.0.0.1:8551
+INFO [03-27|23:14:20.122] HTTP server started                      endpoint=127.0.0.1:8551      auth=true  prefix= cors=localhost vhosts=localhost
+WARN [03-27|23:14:20.163] Served eth_coinbase                      reqid=3 duration="17.808µs" err="etherbase must be explicitly specified"
+WARN [03-27|23:14:55.109] Post-merge network, but no beacon client seen. Please launch one to follow the chain! 
+INFO [03-27|23:16:39.047] Looking for peers                        peercount=1 tried=0 static=0
+WARN [03-27|23:16:39.074] Dropping unsynced node during sync       id=8abcfa54c4455a0e conn=inbound addr=192.168.72.129:33524 type=Geth/v1.10.26-stable...
+INFO [03-27|23:17:14.050] Looking for peers                        peercount=1 tried=0 static=0
+WARN [03-27|23:17:14.051] Dropping unsynced node during sync       id=8abcfa54c4455a0e conn=inbound addr=192.168.72.129:33526 type=Geth/v1.10.26-stable...
+INFO [03-27|23:17:32.978] Looking for peers                        peercount=0 tried=0 static=1
+WARN [03-27|23:17:33.008] Dropping unsynced node during sync       id=8abcfa54c4455a0e conn=staticdial addr=192.168.72.129:30303 type=Geth/v1.10.26-stable...
+INFO [03-27|23:17:49.052] Looking for peers                        peercount=1 tried=1 static=1
+WARN [03-27|23:17:49.053] Dropping unsynced node during sync       id=8abcfa54c4455a0e conn=inbound    addr=192.168.72.129:33528 type=Geth/v1.10.26-stable...
+INFO [03-27|23:18:07.978] Looking for peers                        peercount=0 tried=0 static=1
+INFO [03-27|23:18:42.979] Looking for peers                        peercount=0 tried=1 static=1
+INFO [03-27|23:19:17.980] Looking for peers                        peercount=0 tried=1 static=1
+INFO [03-27|23:19:52.980] Looking for peers                        peercount=0 tried=1 static=1
+WARN [03-27|23:19:55.156] Post-merge network, but no beacon client seen. Please launch one to follow the chain! 
+INFO [03-27|23:20:27.982] Looking for peers                        peercount=0 tried=1 static=1
+INFO [03-27|23:20:58.688] HTTP server stopped                      endpoint=192.168.72.128:8101
+INFO [03-27|23:20:58.688] HTTP server stopped                      endpoint=127.0.0.1:8551
+INFO [03-27|23:20:58.688] IPC endpoint closed                      url=/home/aoinamai/eth_program/ccn_eth/geth.ipc
+INFO [03-27|23:20:58.688] Ethereum protocol stopped 
+INFO [03-27|23:20:58.688] Transaction pool stopped 
+INFO [03-27|23:20:58.688] Writing snapshot state to disk           root=d7f897..0f0544
+INFO [03-27|23:20:58.688] Persisted trie from memory database      nodes=0 size=0.00B time="4.143µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [03-27|23:20:58.688] Writing clean trie cache to disk         path=/home/aoinamai/eth_program/ccn_eth/geth/triecache threads=4
+INFO [03-27|23:20:58.694] Persisted the clean trie cache           path=/home/aoinamai/eth_program/ccn_eth/geth/triecache elapsed=5.564ms
+INFO [03-27|23:20:58.694] Blockchain stopped 
+INFO [03-27|23:21:44.923] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [03-27|23:21:44.924] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+INFO [03-27|23:21:44.926] Set global gas cap                       cap=50,000,000
+INFO [03-27|23:21:44.928] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [03-27|23:21:44.928] Using leveldb as the backing database 
+INFO [03-27|23:21:44.928] Allocated cache and file handles         database=/home/aoinamai/eth_program/ccn_eth/geth/chaindata cache=512.00MiB handles=2048
+INFO [03-27|23:21:44.937] Using LevelDB as the backing database 
+INFO [03-27|23:21:44.937] Opened ancient database                  database=/home/aoinamai/eth_program/ccn_eth/geth/chaindata/ancient/chain readonly=false
+INFO [03-27|23:21:44.938] Disk storage enabled for ethash caches   dir=/home/aoinamai/eth_program/ccn_eth/geth/ethash count=3
+INFO [03-27|23:21:44.938] Disk storage enabled for ethash DAGs     dir=/home/aoinamai/.ethash count=2
+INFO [03-27|23:21:44.939] Initialising Ethereum protocol           network=22 dbversion=8
+INFO [03-27|23:21:44.953]  
+INFO [03-27|23:21:44.953] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [03-27|23:21:44.953] Chain ID:  1 (mainnet) 
+INFO [03-27|23:21:44.953] Consensus: Beacon (proof-of-stake), merged from Ethash (proof-of-work) 
+INFO [03-27|23:21:44.953]  
+INFO [03-27|23:21:44.953] Pre-Merge hard forks (block based): 
+INFO [03-27|23:21:44.953]  - Homestead:                   #1150000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/homestead.md) 
+INFO [03-27|23:21:44.953]  - DAO Fork:                    #1920000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/dao-fork.md) 
+INFO [03-27|23:21:44.953]  - Tangerine Whistle (EIP 150): #2463000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/tangerine-whistle.md) 
+INFO [03-27|23:21:44.953]  - Spurious Dragon/1 (EIP 155): #2675000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [03-27|23:21:44.953]  - Spurious Dragon/2 (EIP 158): #2675000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [03-27|23:21:44.953]  - Byzantium:                   #4370000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/byzantium.md) 
+INFO [03-27|23:21:44.953]  - Constantinople:              #7280000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/constantinople.md) 
+INFO [03-27|23:21:44.953]  - Petersburg:                  #7280000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/petersburg.md) 
+INFO [03-27|23:21:44.953]  - Istanbul:                    #9069000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/istanbul.md) 
+INFO [03-27|23:21:44.953]  - Muir Glacier:                #9200000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/muir-glacier.md) 
+INFO [03-27|23:21:44.953]  - Berlin:                      #12244000 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/berlin.md) 
+INFO [03-27|23:21:44.953]  - London:                      #12965000 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/london.md) 
+INFO [03-27|23:21:44.953]  - Arrow Glacier:               #13773000 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/arrow-glacier.md) 
+INFO [03-27|23:21:44.953]  - Gray Glacier:                #15050000 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/gray-glacier.md) 
+INFO [03-27|23:21:44.953]  
+INFO [03-27|23:21:44.953] Merge configured: 
+INFO [03-27|23:21:44.953]  - Hard-fork specification:    https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/paris.md 
+INFO [03-27|23:21:44.953]  - Network known to be merged: true 
+INFO [03-27|23:21:44.953]  - Total terminal difficulty:  58750000000000000000000 
+INFO [03-27|23:21:44.953]  
+INFO [03-27|23:21:44.953] Post-Merge hard forks (timestamp based): 
+INFO [03-27|23:21:44.953]  
+INFO [03-27|23:21:44.953] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [03-27|23:21:44.953]  
+INFO [03-27|23:21:44.953] Loaded most recent local header          number=0 hash=d4e567..cb8fa3 td=17,179,869,184 age=54y4d6h
+INFO [03-27|23:21:44.954] Loaded most recent local full block      number=0 hash=d4e567..cb8fa3 td=17,179,869,184 age=54y4d6h
+INFO [03-27|23:21:44.954] Loaded most recent local fast block      number=0 hash=d4e567..cb8fa3 td=17,179,869,184 age=54y4d6h
+INFO [03-27|23:21:44.954] Loaded local transaction journal         transactions=0 dropped=0
+INFO [03-27|23:21:44.954] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [03-27|23:21:44.954] Chain post-merge, sync via beacon client 
+INFO [03-27|23:21:44.954] Gasprice oracle is ignoring threshold set threshold=2
+WARN [03-27|23:21:44.954] Engine API enabled                       protocol=eth
+INFO [03-27|23:21:44.954] Starting peer-to-peer node               instance=Geth/v1.11.0-stable-18b641b0/linux-amd64/go1.19.5
+INFO [03-27|23:21:44.961] IPC endpoint opened                      url=/home/aoinamai/eth_program/ccn_eth/geth.ipc
+INFO [03-27|23:21:44.961] New local node record                    seq=1,679,983,420,933 id=f59249a5254aa5f0 ip=127.0.0.1 udp=0 tcp=30303
+INFO [03-27|23:21:44.961] Started P2P networking                   self="enode://4bbe00af5e46e33190ba98a82a224d2ff346427b5d213b474fe107f2ba464230bdd4b1cb8d064fa87fd0e77f14e61da085662acc35bcd5161e89b46160807a59@127.0.0.1:30303?discport=0"
+INFO [03-27|23:21:44.961] Loaded JWT secret file                   path=/home/aoinamai/eth_program/ccn_eth/geth/jwtsecret crc32=0x7e1c3b9d
+INFO [03-27|23:21:44.962] HTTP server started                      endpoint=192.168.72.128:8101 auth=false prefix= cors= vhosts=*
+INFO [03-27|23:21:44.962] WebSocket enabled                        url=ws://127.0.0.1:8551
+INFO [03-27|23:21:44.962] HTTP server started                      endpoint=127.0.0.1:8551      auth=true  prefix= cors=localhost vhosts=localhost
+WARN [03-27|23:21:45.013] Served eth_coinbase                      reqid=3 duration="10.852µs" err="etherbase must be explicitly specified"
+INFO [03-27|23:22:10.509] Looking for peers                        peercount=0 tried=0 static=1
+WARN [03-27|23:22:10.514] Dropping unsynced node during sync       id=8abcfa54c4455a0e conn=staticdial addr=192.168.72.129:30303 type=Geth/v1.10.26-stable...
+WARN [03-27|23:22:13.769] Dropping unsynced node during sync       id=8abcfa54c4455a0e conn=inbound    addr=192.168.72.129:33534 type=Geth/v1.10.26-stable...
+WARN [03-27|23:22:19.956] Post-merge network, but no beacon client seen. Please launch one to follow the chain! 
+INFO [03-27|23:22:43.342] Updated mining threads                   threads=4
+INFO [03-27|23:22:43.342] Transaction pool price threshold updated price=1,000,000,000
+ERROR[03-27|23:22:43.342] Cannot start mining without etherbase    err="etherbase must be explicitly specified"
+WARN [03-27|23:22:43.342] Served miner_start                       reqid=10 duration="245.994µs" err="etherbase missing: etherbase must be explicitly specified"
+INFO [03-27|23:22:45.510] Looking for peers                        peercount=0 tried=1 static=1
+WARN [03-27|23:22:45.518] Dropping unsynced node during sync       id=8abcfa54c4455a0e conn=staticdial addr=192.168.72.129:30303 type=Geth/v1.10.26-stable...
+WARN [03-27|23:22:48.770] Dropping unsynced node during sync       id=8abcfa54c4455a0e conn=inbound    addr=192.168.72.129:33536 type=Geth/v1.10.26-stable...
+INFO [03-27|23:22:58.684] HTTP server stopped                      endpoint=192.168.72.128:8101
+INFO [03-27|23:22:58.684] HTTP server stopped                      endpoint=127.0.0.1:8551
+INFO [03-27|23:22:58.684] IPC endpoint closed                      url=/home/aoinamai/eth_program/ccn_eth/geth.ipc
+INFO [03-27|23:22:58.684] Ethereum protocol stopped 
+INFO [03-27|23:22:58.684] Transaction pool stopped 
+INFO [03-27|23:22:58.684] Writing snapshot state to disk           root=d7f897..0f0544
+INFO [03-27|23:22:58.684] Persisted trie from memory database      nodes=0 size=0.00B time="4.809µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [03-27|23:22:58.684] Writing clean trie cache to disk         path=/home/aoinamai/eth_program/ccn_eth/geth/triecache threads=4
+INFO [03-27|23:22:58.694] Persisted the clean trie cache           path=/home/aoinamai/eth_program/ccn_eth/geth/triecache elapsed=9.926ms
+INFO [03-27|23:22:58.694] Blockchain stopped 
