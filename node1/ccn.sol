@@ -16,13 +16,14 @@ contract Greeter {
         string Pname;
         address ip_add;
     }
-    struct Router{
+    struct Router{//ルータ情報を保存
         uint RouterID;
-        string[] content_URI;
-        string[] neighbor; 
+        string[] content_URI;//所持しているコンテンツのURIの情報
+        string[] neighbor;//接続ルータのIPアドレス??nodeID??
+        uint[] hop_count;
     }
-    mapping(string=>Contents_Inf) public content_array;
-    mapping(address=>Router) public Link_DB;
+    mapping(string=>Contents_Inf) public content_array;//コンテンツ名でアクセスできるようにマッピング
+    mapping(address=>Router) public Link_DB;//アドレスでアクセスできるようにマッピング
     uint public ID = 0;
     address[] R_add;//添字がルータID,中身がそのルータのaddress
     bool[] flag;
@@ -43,7 +44,6 @@ contract Greeter {
         Link_DB[msg.sender].neighbor = _neighbor;
         R_add.push(msg.sender);
         ID = ID + 1;
-        flag.push(false);
         return Link_DB[msg.sender].RouterID;
     }
 
@@ -52,21 +52,6 @@ contract Greeter {
         Link_DB[msg.sender].neighbor = _neighbor;
     }
 
-    function update_topology(string[] memory _URI, string[] memory _neighbor) public{
-        
-    }
-
-    function search_start(uint _RID) public{
-        for(uint i=0; i<flag.length; i++){
-            hop[i] = 0;
-            if(i==_RID){
-                flag[i] = true;
-            }
-            else{
-                flag[i] = false;
-            }
-        }
-    }
     /*
     function show_contents() view public returns (Contents_info[] memory) {
         uint list_length = contents_list.length;
