@@ -103,7 +103,7 @@ http_port = 8101
 my_ip_addr = read_ip_add() #get IP addr.
 
 helloPrefix = "ccnx:/" + "hello"
-func_array = ["/connect", "/ABI", "/C_addr"]
+func_array = ["/connect", "/ABI", "/C_addr", "/hop_list"]
 #FIBから接続しているノードのFace番号とIPaddrを取得
 facenum = facenum_FIB(helloPrefix)
 faceaddr = []
@@ -169,7 +169,7 @@ compiled_sol = compile_source(
         struct Contents_info{
             string name; //コンテンツ名
             address producer; //コンテンツの配信者のアドレス
-            string URI; //コンテンツのURI(実際に検索するための文字列)
+            uint router_ID;
             string[] keyword;
         }
         //コンテンツ配信者の登録
@@ -179,23 +179,37 @@ compiled_sol = compile_source(
         }
         struct Router{
             uint RouterID;
-            string[] content_URI;
             string[] neighbor; 
         }
+
         Contents_info[] public contents_list;//contents_infoの配列宣言
         mapping(address=>Router) public Link_DB;
         uint ID = 0;
         //関数
 
         //コンテンツの登録
-        function regist_content(string memory _name, string memory _URI, string[] memory _keyword) public returns(uint){
+        function regist_content(string memory _name, uint _routerID, string[] memory _keyword) public returns(uint){
             uint id = contents_list.push(Contents_info({
                 name: _name,
                 producer: msg.sender,
-                URI: _URI,
+                router_ID: _routerID,
                 keyword: _keyword
             }));
             return (id-1);
+        }
+
+        function regist_router(string[] memory _neighbor)public{
+            Link_DB[msg.sender].RouterID = ID;
+            Link_DB[msg.sender].neighbor = _neighbor;
+            ID = ID + 1;
+        }
+
+        function update_router(string[] memory _neighbor) public{
+            Link_DB[msg.sender].neighbor = _neighbor;
+        }
+
+        function show_router() view public returns (uint){
+            return Link_DB[msg.sender].RouterID;
         }
 
         function show_contents() view public returns (Contents_info[] memory) {
@@ -203,17 +217,6 @@ compiled_sol = compile_source(
             Contents_info[] memory content_array = new Contents_info[](list_length);
             content_array = contents_list;
             return content_array;
-        }
-
-        function regist_router(string[] memory _URI, string[] memory _neighbor)public{
-            Link_DB[msg.sender].RouterID = ID;
-            Link_DB[msg.sender].content_URI = _URI;
-            Link_DB[msg.sender].neighbor = _neighbor;
-            ID = ID + 1;
-        }
-
-        function show_router() view public returns (uint){
-            return Link_DB[msg.sender].RouterID;
         }
     }
     ''',
@@ -261,9 +264,8 @@ NCI_C = w3.toChecksumAddress(Networking_contract_id)
 contract_instance = w3.eth.contract(abi=abi, address=NCI_C)
 
 #初期登録情報の登録
-my_content_URI = ["ccnx:/content1", "ccnx:/content2"]#自分の所持しているコンテンツのURI
 neighbor = []#自分の近隣情報(string型にしないとまずいかも?)
-tx = contract_instance.functions.regist_router(my_content_URI, neighbor).buildTransaction({
+tx = contract_instance.functions.regist_router(neighbor).buildTransaction({
     'from': myAddr,
     'nonce': w3.eth.getTransactionCount(myAddr),
     'gas': 1728712,
@@ -276,10 +278,12 @@ tx_receipt = w3.eth.wait_for_transaction_receipt(tx_hash)
 
 my_router_id = contract_instance.functions.show_router().call()
 print(my_router_id)
+my_interest_prefix = "ccnx:/node" +str(my_router_id)
+
 
 #content1の登録
 key = ["hello", "test", "key"]
-tx = contract_instance.functions.regist_content("content1", "ccnx:/content1", key).buildTransaction({
+tx = contract_instance.functions.regist_content("content1", my_router_id ,key).buildTransaction({
     'from': myAddr,
     'nonce': w3.eth.getTransactionCount(myAddr),
     'gas': 1728712,
@@ -292,7 +296,7 @@ tx_receipt = w3.eth.wait_for_transaction_receipt(tx_hash)
 
 #content2の登録
 key = ["introduction", "connect", "words"]
-tx = contract_instance.functions.regist_content("content2", "ccnx:/content2", key).buildTransaction({
+tx = contract_instance.functions.regist_content("content2", my_router_id, key).buildTransaction({
     'from': myAddr,
     'nonce': w3.eth.getTransactionCount(myAddr),
     'gas': 1728712,
@@ -302,6 +306,7 @@ signed_tx = w3.eth.account.signTransaction(tx, privatekey)
 #トランザクションの送信
 tx_hash =w3.eth.sendRawTransaction(signed_tx.rawTransaction)
 tx_receipt = w3.eth.wait_for_transaction_receipt(tx_hash)
+hop_count = [0] * 100 #hop数を管理するカウント
 
 print("Contract value: {}".format(contract_instance.functions.show_contents().call()))
 
@@ -313,6 +318,7 @@ print("Contract value: {}".format(contract_instance.functions.show_contents().ca
 with cefpyco.create_handle() as handle:
     #handle.send_interest()#最初のノードはやらない
     handle.register(helloPrefix)#helloを受信する用
+    handle.register(my_interest_prefix)
 
     #接続ループをつくるべき? 接続でfunc_array = ["connect", "ABI", "C_addr"]きたら削除??
     while True:
@@ -330,6 +336,13 @@ with cefpyco.create_handle() as handle:
                     elif func_array[2] in info.name:
                         print("Receive Networking contract ID Interest: {}" .format(info))
                         handle.send_data(info.name, Networking_contract_id, info.chunk_num ,expiry=3600000, cache_time=360000000)
+                    elif func_array[3] in info.name:
+                        print("Receive hop_list Interest: {}" .format(info))
+                        handle.send_data(info.name, hop_count, info.chunk_num, expiry=3600000, cache_time=36000000)
+                    
+                elif my_interest_prefix in info.name:
+                    print("Receive interest: {}".format(info))
+                    handle.send_data(info.name, "data", info.chunk_num, expiry=3600000, cache_time=36000000)
   
             if info.is_data:#dataパケットの場合
                 if helloPrefix in info.name:#接続要求パケットに対するDataの場合
@@ -349,13 +362,21 @@ with cefpyco.create_handle() as handle:
                         Networking_contract_id = info.payload
                         print("get contract ID")
                         print(Networking_contract_id)
+                    
+                    elif func_array[3] in info.name:
+                        print(info.payload)
+                        #payloadを分割する必要あり??配列になっている??
+                        print(info.payload[0])
+                            
+
 
 
         end_time = time.time()
         elapsed_time = end_time - start_time
         contract_instance = w3.eth.contract(abi=abi, address=Networking_contract_id)
-        if(elapsed_time > 20):#20秒に一回コンテンツリストの確認
-            print("Contract value: {}".format(contract_instance.functions.show_contents().call()))
+        if(elapsed_time > 20):#20秒立ったら
+            print("Contract value: {}".format(contract_instance.functions.show_contents().call()))#コンテンツリストの確認
+            start_time = end_time #現在時間から計測
 
 
                 

@@ -10,7 +10,7 @@ contract Greeter {
     struct Contents_info{
         string name; //コンテンツ名
         address producer; //コンテンツの配信者のアドレス
-        string URI; //コンテンツのURI(実際に検索するための文字列)
+        uint router_ID;
         string[] keyword;
     }
     //コンテンツ配信者の登録
@@ -20,7 +20,6 @@ contract Greeter {
     }
     struct Router{
         uint RouterID;
-        string[] content_URI;
         string[] neighbor; 
     }
 
@@ -30,34 +29,28 @@ contract Greeter {
     //関数
 
     //コンテンツの登録
-    function regist_content(string memory _name, string memory _URI, string[] memory _keyword) public returns(uint){
+    function regist_content(string memory _name, uint _routerID, string[] memory _keyword) public returns(uint){
         uint id = contents_list.push(Contents_info({
             name: _name,
             producer: msg.sender,
-            URI: _URI,
+            router_ID: _routerID,
             keyword: _keyword
         }));
         return (id-1);
     }
 
-    function regist_router(string[] memory _URI, string[] memory _neighbor)public{
+    function regist_router(string[] memory _neighbor)public{
         Link_DB[msg.sender].RouterID = ID;
-        Link_DB[msg.sender].content_URI = _URI;
         Link_DB[msg.sender].neighbor = _neighbor;
         ID = ID + 1;
     }
 
-    function update_router(string[] memory _URI, string[] memory _neighbor) public{
-        Link_DB[msg.sender].content_URI = _URI;
+    function update_router(string[] memory _neighbor) public{
         Link_DB[msg.sender].neighbor = _neighbor;
     }
 
     function show_router() view public returns (uint){
         return Link_DB[msg.sender].RouterID;
-    }
-
-    function update_topology(string[] memory _URI, string[] memory _neighbor) public{
-        
     }
 
     function show_contents() view public returns (Contents_info[] memory) {
