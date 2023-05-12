@@ -145,7 +145,7 @@ print("enode_addr: " + enode_addr)
 #自身のアドレス設定と鍵の入手
 myAddr = w3.toChecksumAddress(w3.eth.accounts[1])
 #privatekey = get_private_key(myAddr, Pass_word)
-P_key="33 16 226 84 72 62 245 87 75 45 59 236 222 156 181 194 202 105 197 208 123 102 49 195 176 153 31 250 69 47 83 104"
+P_key="228 94 164 36 198 138 157 92 50 54 114 182 218 242 108 214 112 185 206 33 146 188 81 62 79 144 164 208 216 192 26 68"
 privatekey = make_private_key(P_key)
 print("privatekey")
 print(privatekey)
