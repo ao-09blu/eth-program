@@ -15,6 +15,14 @@ def get_private_key(account_addr_C, Pass):#checksumをしておく
         privatekey += key_array[i]
     return privatekey
 
+def make_private_key(P_key):
+    key_array = re.findall("\d+",P_key)#keyの中身を配列に格納
+    privatekey = ""
+    for i in range(len(key_array)):
+        key_array[i] = format(int(key_array[i]), 'x')
+        privatekey += key_array[i]
+    return privatekey
+
 def read_ip_add():#自身のIPアドレスを取得
     proc = subprocess.run("ip a", shell=True, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)#ip aコマンド結果取得
     address_array = re.findall("192\.168\.72\.\d+", proc.stdout.decode("cp932"))#ipアドレス取得
@@ -115,6 +123,10 @@ my_Account_num = 0 #アカウントの番号
 
 #イーサリアムに接続
 w3 = Web3(web3.HTTPProvider("http://" + my_ip_addr + ":" + str(http_port)))
+
+#秘密鍵の生成
+P_key = "171 6 240 134 108 38 125 158 162 105 96 44 109 138 19 195 181 12 64 251 182 151 106 243 232 75 187 84 126 95 11 116"
+privatekey = make_private_key(P_key)
 
 
 

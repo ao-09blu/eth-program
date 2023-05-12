@@ -1,0 +1,126 @@
+INFO [05-11|23:34:19.579] Maximum peer count                       ETH=10 LES=0 total=10
+INFO [05-11|23:34:19.580] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+INFO [05-11|23:34:19.583] Set global gas cap                       cap=50,000,000
+INFO [05-11|23:34:19.584] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [05-11|23:34:19.585] Allocated cache and file handles         database=/home/aoinamai/work/progress/eth-program/progress/node2/geth/chaindata cache=512.00MiB handles=2048
+INFO [05-11|23:34:19.622] Opened ancient database                  database=/home/aoinamai/work/progress/eth-program/progress/node2/geth/chaindata/ancient/chain readonly=false
+INFO [05-11|23:34:19.622] Writing default main-net genesis block 
+INFO [05-11|23:34:19.841] Persisted trie from memory database      nodes=12356 size=1.78MiB time=27.608047ms gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [05-11|23:34:19.853]  
+INFO [05-11|23:34:19.853] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [05-11|23:34:19.853] Chain ID:  1 (mainnet) 
+INFO [05-11|23:34:19.853] Consensus: Beacon (proof-of-stake), merged from Ethash (proof-of-work) 
+INFO [05-11|23:34:19.853]  
+INFO [05-11|23:34:19.853] Pre-Merge hard forks: 
+INFO [05-11|23:34:19.853]  - Homestead:                   1150000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/homestead.md) 
+INFO [05-11|23:34:19.853]  - DAO Fork:                    1920000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/dao-fork.md) 
+INFO [05-11|23:34:19.853]  - Tangerine Whistle (EIP 150): 2463000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/tangerine-whistle.md) 
+INFO [05-11|23:34:19.853]  - Spurious Dragon/1 (EIP 155): 2675000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [05-11|23:34:19.853]  - Spurious Dragon/2 (EIP 158): 2675000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [05-11|23:34:19.853]  - Byzantium:                   4370000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/byzantium.md) 
+INFO [05-11|23:34:19.853]  - Constantinople:              7280000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/constantinople.md) 
+INFO [05-11|23:34:19.853]  - Petersburg:                  7280000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/petersburg.md) 
+INFO [05-11|23:34:19.853]  - Istanbul:                    9069000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/istanbul.md) 
+INFO [05-11|23:34:19.853]  - Muir Glacier:                9200000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/muir-glacier.md) 
+INFO [05-11|23:34:19.853]  - Berlin:                      12244000 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/berlin.md) 
+INFO [05-11|23:34:19.853]  - London:                      12965000 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/london.md) 
+INFO [05-11|23:34:19.853]  - Arrow Glacier:               13773000 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/arrow-glacier.md) 
+INFO [05-11|23:34:19.853]  - Gray Glacier:                15050000 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/gray-glacier.md) 
+INFO [05-11|23:34:19.853]  
+INFO [05-11|23:34:19.853] Merge configured: 
+INFO [05-11|23:34:19.853]  - Hard-fork specification:    https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/paris.md 
+INFO [05-11|23:34:19.853]  - Network known to be merged: true 
+INFO [05-11|23:34:19.853]  - Total terminal difficulty:  58750000000000000000000 
+INFO [05-11|23:34:19.853]  - Merge netsplit block:       <nil> 
+INFO [05-11|23:34:19.853] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [05-11|23:34:19.853]  
+INFO [05-11|23:34:19.853] Disk storage enabled for ethash caches   dir=/home/aoinamai/work/progress/eth-program/progress/node2/geth/ethash count=3
+INFO [05-11|23:34:19.853] Disk storage enabled for ethash DAGs     dir=/home/aoinamai/.ethash count=2
+INFO [05-11|23:34:19.853] Initialising Ethereum protocol           network=100 dbversion=<nil>
+INFO [05-11|23:34:19.853] Loaded most recent local header          number=0 hash=d4e567..cb8fa3 td=17,179,869,184 age=54y1mo2w
+INFO [05-11|23:34:19.853] Loaded most recent local full block      number=0 hash=d4e567..cb8fa3 td=17,179,869,184 age=54y1mo2w
+INFO [05-11|23:34:19.853] Loaded most recent local fast block      number=0 hash=d4e567..cb8fa3 td=17,179,869,184 age=54y1mo2w
+WARN [05-11|23:34:19.853] Failed to load snapshot, regenerating    err="missing or corrupted snapshot"
+INFO [05-11|23:34:19.854] Rebuilding state snapshot 
+INFO [05-11|23:34:19.854] Resuming state snapshot generation       root=d7f897..0f0544 accounts=0 slots=0 storage=0.00B dangling=0 elapsed="200.398µs"
+INFO [05-11|23:34:19.854] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [05-11|23:34:19.855] Chain post-merge, sync via beacon client 
+INFO [05-11|23:34:19.855] Gasprice oracle is ignoring threshold set threshold=2
+WARN [05-11|23:34:19.855] Error reading unclean shutdown markers   error="leveldb: not found"
+WARN [05-11|23:34:19.855] Engine API enabled                       protocol=eth
+INFO [05-11|23:34:19.856] Starting peer-to-peer node               instance=Geth/v1.10.26-stable-e5eb32ac/linux-amd64/go1.18.5
+INFO [05-11|23:34:19.860] IPC endpoint opened                      url=/home/aoinamai/work/progress/eth-program/progress/node2/geth.ipc
+ERROR[05-11|23:34:19.860] Unavailable modules in HTTP API list     unavailable=[db] available="[admin debug web3 eth txpool personal ethash miner net]"
+INFO [05-11|23:34:19.860] New local node record                    seq=1,683,873,259,860 id=796250599a1dd5a2 ip=127.0.0.1 udp=0 tcp=30303
+INFO [05-11|23:34:19.860] Started P2P networking                   self="enode://da667ade7e0b2e2309fc76039d2f51a529e465a5c5ed8b177ecf347972965bb92a55081e3dd56bc2cf159569b59884289de0931aaf3ed296620f74e9477005e3@127.0.0.1:30303?discport=0"
+INFO [05-11|23:34:19.860] Generated JWT secret                     path=/home/aoinamai/work/progress/eth-program/progress/node2/geth/jwtsecret
+INFO [05-11|23:34:19.860] HTTP server started                      endpoint=192.168.72.129:8101 auth=false prefix= cors= vhosts=localhost
+INFO [05-11|23:34:19.861] WebSocket enabled                        url=ws://127.0.0.1:8551
+INFO [05-11|23:34:19.861] HTTP server started                      endpoint=127.0.0.1:8551      auth=true  prefix= cors=localhost vhosts=localhost
+WARN [05-11|23:34:19.887] Served eth_coinbase                      reqid=3 duration="26.867µs" err="etherbase must be explicitly specified"
+INFO [05-11|23:34:19.901] Generated state snapshot                 accounts=8893 slots=0 storage=409.64KiB dangling=0 elapsed=47.193ms
+WARN [05-11|23:34:54.858] Post-merge network, but no beacon client seen. Please launch one to follow the chain! 
+WARN [05-11|23:39:54.902] Post-merge network, but no beacon client seen. Please launch one to follow the chain! 
+INFO [05-11|23:52:03.982] Maximum peer count                       ETH=10 LES=0 total=10
+INFO [05-11|23:52:03.984] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+INFO [05-11|23:52:03.987] Set global gas cap                       cap=50,000,000
+INFO [05-11|23:52:03.988] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [05-11|23:52:03.988] Using leveldb as the backing database 
+INFO [05-11|23:52:03.988] Allocated cache and file handles         database=/home/aoinamai/work/progress/eth-program/progress/node2/geth/chaindata cache=512.00MiB handles=2048
+INFO [05-11|23:52:04.045] Using LevelDB as the backing database 
+INFO [05-11|23:52:04.046] Opened ancient database                  database=/home/aoinamai/work/progress/eth-program/progress/node2/geth/chaindata/ancient/chain readonly=false
+INFO [05-11|23:52:04.047] Disk storage enabled for ethash caches   dir=/home/aoinamai/work/progress/eth-program/progress/node2/geth/ethash count=3
+INFO [05-11|23:52:04.047] Disk storage enabled for ethash DAGs     dir=/home/aoinamai/.ethash count=2
+INFO [05-11|23:52:04.047] Initialising Ethereum protocol           network=100 dbversion=8
+INFO [05-11|23:52:04.048]  
+INFO [05-11|23:52:04.048] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [05-11|23:52:04.048] Chain ID:  1 (mainnet) 
+INFO [05-11|23:52:04.048] Consensus: Beacon (proof-of-stake), merged from Ethash (proof-of-work) 
+INFO [05-11|23:52:04.048]  
+INFO [05-11|23:52:04.048] Pre-Merge hard forks (block based): 
+INFO [05-11|23:52:04.048]  - Homestead:                   #1150000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/homestead.md) 
+INFO [05-11|23:52:04.048]  - DAO Fork:                    #1920000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/dao-fork.md) 
+INFO [05-11|23:52:04.048]  - Tangerine Whistle (EIP 150): #2463000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/tangerine-whistle.md) 
+INFO [05-11|23:52:04.048]  - Spurious Dragon/1 (EIP 155): #2675000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [05-11|23:52:04.048]  - Spurious Dragon/2 (EIP 158): #2675000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [05-11|23:52:04.048]  - Byzantium:                   #4370000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/byzantium.md) 
+INFO [05-11|23:52:04.048]  - Constantinople:              #7280000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/constantinople.md) 
+INFO [05-11|23:52:04.048]  - Petersburg:                  #7280000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/petersburg.md) 
+INFO [05-11|23:52:04.048]  - Istanbul:                    #9069000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/istanbul.md) 
+INFO [05-11|23:52:04.048]  - Muir Glacier:                #9200000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/muir-glacier.md) 
+INFO [05-11|23:52:04.048]  - Berlin:                      #12244000 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/berlin.md) 
+INFO [05-11|23:52:04.048]  - London:                      #12965000 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/london.md) 
+INFO [05-11|23:52:04.048]  - Arrow Glacier:               #13773000 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/arrow-glacier.md) 
+INFO [05-11|23:52:04.048]  - Gray Glacier:                #15050000 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/gray-glacier.md) 
+INFO [05-11|23:52:04.048]  
+INFO [05-11|23:52:04.048] Merge configured: 
+INFO [05-11|23:52:04.048]  - Hard-fork specification:    https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/paris.md 
+INFO [05-11|23:52:04.048]  - Network known to be merged: true 
+INFO [05-11|23:52:04.048]  - Total terminal difficulty:  58750000000000000000000 
+INFO [05-11|23:52:04.048]  
+INFO [05-11|23:52:04.048] Post-Merge hard forks (timestamp based): 
+INFO [05-11|23:52:04.048]  - Shanghai:                    @1681338455 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/shanghai.md) 
+INFO [05-11|23:52:04.048]  
+INFO [05-11|23:52:04.048] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [05-11|23:52:04.048]  
+INFO [05-11|23:52:04.048] Loaded most recent local block           number=0 hash=d4e567..cb8fa3 td=17,179,869,184 age=54y1mo2w
+WARN [05-11|23:52:04.049] Loaded snapshot journal                  diffs=missing
+INFO [05-11|23:52:04.049] Loaded local transaction journal         transactions=0 dropped=0
+INFO [05-11|23:52:04.049] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [05-11|23:52:04.049] Chain post-merge, sync via beacon client 
+INFO [05-11|23:52:04.049] Gasprice oracle is ignoring threshold set threshold=2
+WARN [05-11|23:52:04.049] Unclean shutdown detected                booted=2023-05-11T23:39:19-0700 age=12m45s
+WARN [05-11|23:52:04.049] Engine API enabled                       protocol=eth
+INFO [05-11|23:52:04.049] Starting peer-to-peer node               instance=Geth/v1.11.6-stable-ea9e62ca/linux-amd64/go1.20.3
+INFO [05-11|23:52:04.054] IPC endpoint opened                      url=/home/aoinamai/work/progress/eth-program/progress/node2/geth.ipc
+ERROR[05-11|23:52:04.054] Unavailable modules in HTTP API list     unavailable=[db] available="[admin debug web3 eth txpool personal ethash miner net]"
+INFO [05-11|23:52:04.054] New local node record                    seq=1,683,873,259,861 id=796250599a1dd5a2 ip=127.0.0.1 udp=0 tcp=30303
+INFO [05-11|23:52:04.055] Started P2P networking                   self="enode://da667ade7e0b2e2309fc76039d2f51a529e465a5c5ed8b177ecf347972965bb92a55081e3dd56bc2cf159569b59884289de0931aaf3ed296620f74e9477005e3@127.0.0.1:30303?discport=0"
+INFO [05-11|23:52:04.055] Loaded JWT secret file                   path=/home/aoinamai/work/progress/eth-program/progress/node2/geth/jwtsecret crc32=0xe471eb34
+INFO [05-11|23:52:04.055] HTTP server started                      endpoint=192.168.72.129:8101 auth=false prefix= cors= vhosts=localhost
+INFO [05-11|23:52:04.055] WebSocket enabled                        url=ws://127.0.0.1:8551
+INFO [05-11|23:52:04.055] HTTP server started                      endpoint=127.0.0.1:8551      auth=true  prefix= cors=localhost vhosts=localhost
+WARN [05-11|23:52:04.084] Served eth_coinbase                      reqid=3 duration="14.201µs" err="etherbase must be explicitly specified"
+WARN [05-11|23:52:39.052] Post-merge network, but no beacon client seen. Please launch one to follow the chain! 
+WARN [05-11|23:57:39.104] Post-merge network, but no beacon client seen. Please launch one to follow the chain! 
+WARN [05-12|00:02:39.153] Post-merge network, but no beacon client seen. Please launch one to follow the chain! 
