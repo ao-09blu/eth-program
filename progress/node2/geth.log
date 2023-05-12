@@ -124,3 +124,5 @@ WARN [05-11|23:52:04.084] Served eth_coinbase                      reqid=3 durat
 WARN [05-11|23:52:39.052] Post-merge network, but no beacon client seen. Please launch one to follow the chain! 
 WARN [05-11|23:57:39.104] Post-merge network, but no beacon client seen. Please launch one to follow the chain! 
 WARN [05-12|00:02:39.153] Post-merge network, but no beacon client seen. Please launch one to follow the chain! 
+WARN [05-12|00:07:39.197] Post-merge network, but no beacon client seen. Please launch one to follow the chain! 
+WARN [05-12|00:12:39.237] Post-merge network, but no beacon client seen. Please launch one to follow the chain! 
