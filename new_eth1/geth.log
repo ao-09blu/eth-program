@@ -9679,3 +9679,75 @@ INFO [05-08|00:30:13.395] "🔗 block reached canonical chain"        number=776
 INFO [05-08|00:30:13.395] "🔨 mined potential block"                number=783 hash=1de500..8b2310
 INFO [05-08|00:30:13.395] Commit new sealing work                  number=784 sealhash=1219f8..a7c301 uncles=0 txs=0 gas=0         fees=0           elapsed="217.95µs"
 INFO [05-08|00:30:13.395] Commit new sealing work                  number=784 sealhash=1219f8..a7c301 uncles=0 txs=0 gas=0         fees=0           elapsed="349.842µs"
+INFO [05-28|21:28:41.725] Maximum peer count                       ETH=10 LES=0 total=10
+INFO [05-28|21:28:41.727] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+INFO [05-28|21:28:41.730] Set global gas cap                       cap=50,000,000
+INFO [05-28|21:28:41.733] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [05-28|21:28:41.733] Using leveldb as the backing database 
+INFO [05-28|21:28:41.733] Allocated cache and file handles         database=/home/aoinamai/eth_program/new_eth1/geth/chaindata cache=512.00MiB handles=2048
+INFO [05-28|21:28:41.752] Using LevelDB as the backing database 
+INFO [05-28|21:28:41.756] Opened ancient database                  database=/home/aoinamai/eth_program/new_eth1/geth/chaindata/ancient/chain readonly=false
+INFO [05-28|21:28:41.759] Disk storage enabled for ethash caches   dir=/home/aoinamai/eth_program/new_eth1/geth/ethash count=3
+INFO [05-28|21:28:41.759] Disk storage enabled for ethash DAGs     dir=/home/aoinamai/.ethash count=2
+INFO [05-28|21:28:41.760] Initialising Ethereum protocol           network=100 dbversion=8
+INFO [05-28|21:28:41.761]  
+INFO [05-28|21:28:41.761] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [05-28|21:28:41.761] Chain ID:  100 (unknown) 
+INFO [05-28|21:28:41.761] Consensus: unknown 
+INFO [05-28|21:28:41.761]  
+INFO [05-28|21:28:41.761] Pre-Merge hard forks (block based): 
+INFO [05-28|21:28:41.761]  - Homestead:                   #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/homestead.md) 
+INFO [05-28|21:28:41.761]  - Tangerine Whistle (EIP 150): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/tangerine-whistle.md) 
+INFO [05-28|21:28:41.761]  - Spurious Dragon/1 (EIP 155): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [05-28|21:28:41.761]  - Spurious Dragon/2 (EIP 158): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [05-28|21:28:41.761]  - Byzantium:                   #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/byzantium.md) 
+INFO [05-28|21:28:41.761]  - Constantinople:              #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/constantinople.md) 
+INFO [05-28|21:28:41.761]  - Petersburg:                  #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/petersburg.md) 
+INFO [05-28|21:28:41.762]  - Istanbul:                    #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/istanbul.md) 
+INFO [05-28|21:28:41.762]  - Berlin:                      #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/berlin.md) 
+INFO [05-28|21:28:41.762]  - London:                      #<nil> (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/london.md) 
+INFO [05-28|21:28:41.762]  
+INFO [05-28|21:28:41.762] The Merge is not yet available for this network! 
+INFO [05-28|21:28:41.762]  - Hard-fork specification: https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/paris.md 
+INFO [05-28|21:28:41.762]  
+INFO [05-28|21:28:41.762] Post-Merge hard forks (timestamp based): 
+INFO [05-28|21:28:41.762]  
+INFO [05-28|21:28:41.762] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [05-28|21:28:41.762]  
+INFO [05-28|21:28:41.763] Loaded most recent local header          number=783 hash=1de500..8b2310 td=117,314,004 age=2w6d20h
+INFO [05-28|21:28:41.763] Loaded most recent local full block      number=783 hash=1de500..8b2310 td=117,314,004 age=2w6d20h
+INFO [05-28|21:28:41.763] Loaded most recent local fast block      number=783 hash=1de500..8b2310 td=117,314,004 age=2w6d20h
+WARN [05-28|21:28:41.763] Head state missing, repairing            number=783 hash=1de500..8b2310 snaproot=d8a91e..103c2b
+INFO [05-28|21:28:41.790] Loaded most recent local header          number=783 hash=1de500..8b2310 td=117,314,004 age=2w6d20h
+INFO [05-28|21:28:41.790] Loaded most recent local full block      number=0   hash=9443da..989dcb td=16384       age=54y2mo6d
+INFO [05-28|21:28:41.790] Loaded most recent local fast block      number=783 hash=1de500..8b2310 td=117,314,004 age=2w6d20h
+WARN [05-28|21:28:41.790] Enabling snapshot recovery               chainhead=0 diskbase=1
+WARN [05-28|21:28:41.804] Snapshot is not continuous with chain    snaproot=33bffe..3bd46b chainroot=56e81f..63b421
+INFO [05-28|21:28:41.804] Loaded local transaction journal         transactions=0 dropped=0
+INFO [05-28|21:28:41.805] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [05-28|21:28:41.805] Gasprice oracle is ignoring threshold set threshold=2
+WARN [05-28|21:28:41.805] Unclean shutdown detected                booted=2023-04-02T23:01:29-0700 age=1mo3w4d
+WARN [05-28|21:28:41.805] Unclean shutdown detected                booted=2023-04-09T22:58:11-0700 age=1mo2w4d
+WARN [05-28|21:28:41.805] Unclean shutdown detected                booted=2023-04-12T02:49:36-0700 age=1mo2w2d
+WARN [05-28|21:28:41.805] Unclean shutdown detected                booted=2023-05-08T00:59:09-0700 age=2w6d20h
+WARN [05-28|21:28:41.805] Engine API enabled                       protocol=eth
+WARN [05-28|21:28:41.805] Engine API started but chain not configured for merge yet 
+INFO [05-28|21:28:41.805] Starting peer-to-peer node               instance=Geth/v1.11.0-stable-18b641b0/linux-amd64/go1.19.5
+INFO [05-28|21:28:41.822] New local node record                    seq=1,679,987,268,074 id=5a6f6a632c692b34 ip=127.0.0.1 udp=0 tcp=30303
+INFO [05-28|21:28:41.822] Started P2P networking                   self="enode://398ad8d4d13e89130b79f0965b4ea10fd0914dae1c93e7224f7330e8a6373f8894eff9bb8a0f2406c78d3c3cb43a33f1063d3c5f24795d3985087c2e6247b381@127.0.0.1:30303?discport=0"
+INFO [05-28|21:28:41.822] IPC endpoint opened                      url=/home/aoinamai/eth_program/new_eth1/geth.ipc
+ERROR[05-28|21:28:41.822] Unavailable modules in HTTP API list     unavailable=[db] available="[admin debug web3 eth txpool personal ethash miner net]"
+INFO [05-28|21:28:41.823] Loaded JWT secret file                   path=/home/aoinamai/eth_program/new_eth1/geth/jwtsecret crc32=0xa3d50386
+INFO [05-28|21:28:41.823] HTTP server started                      endpoint=192.168.72.128:8101 auth=false prefix= cors= vhosts=localhost
+INFO [05-28|21:28:41.824] WebSocket enabled                        url=ws://127.0.0.1:8551
+INFO [05-28|21:28:41.824] HTTP server started                      endpoint=127.0.0.1:8551      auth=true  prefix= cors=localhost vhosts=localhost
+WARN [05-28|21:28:41.865] Served eth_coinbase                      reqid=3 duration="34.695µs" err="etherbase must be explicitly specified"
+INFO [05-28|21:38:01.255] HTTP server stopped                      endpoint=192.168.72.128:8101
+INFO [05-28|21:38:01.255] HTTP server stopped                      endpoint=127.0.0.1:8551
+INFO [05-28|21:38:01.255] IPC endpoint closed                      url=/home/aoinamai/eth_program/new_eth1/geth.ipc
+INFO [05-28|21:38:01.255] Ethereum protocol stopped 
+INFO [05-28|21:38:01.255] Transaction pool stopped 
+ERROR[05-28|21:38:01.255] Failed to journal state snapshot         err="snapshot [0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421] missing"
+INFO [05-28|21:38:01.255] Writing clean trie cache to disk         path=/home/aoinamai/eth_program/new_eth1/geth/triecache threads=4
+INFO [05-28|21:38:01.257] Persisted the clean trie cache           path=/home/aoinamai/eth_program/new_eth1/geth/triecache elapsed=2.025ms
+INFO [05-28|21:38:01.257] Blockchain stopped 
