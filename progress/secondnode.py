@@ -7,6 +7,7 @@ import re
 import cefpyco
 import time
 import sys
+import ast
 
 
 def get_private_key(account_addr_C, Pass):#checksumをしておく
@@ -154,7 +155,6 @@ def dijkstra(graph, start):
     
     return nextid
         
-
 def make_FIB(neigbor_array, myrouterID,content_array, IP_addr, registed_num):
     #dijkstra法
     n = len(neigbor_array)
@@ -205,48 +205,57 @@ def make_FIB(neigbor_array, myrouterID,content_array, IP_addr, registed_num):
     nextid = []
     for i in range(n):
         if(i==myrouterID):#startノードの場合
-            nextid = -1
+            nextid.append(-1)
         else:#それ以外の場合
-            nextid.push(path[i][1])#スタートノードの次を格納
+            nextid.append(path[i][1])#スタートノードの次を格納
 
 
     for i in range(len(content_array)-registed_num):#登録していないコンテンツに対してループ
-        Prefix = "ccnx:/" + content_array[i+registed_num].name#コンテンツ名を取得
-        nearest_ID = find_nearest(distance, content_array)
+        Prefix = "ccnx:/" + content_array[i+registed_num][0]#コンテンツ名を取得
+        print(Prefix)
+        nearest_ID = find_nearest(distance, content_array[i+registed_num][2], myrouterID=myrouterID)
+        print("New Content:" + content_array[i+registed_num][0] + " Nearest content holder is Node" + str(nearest_ID))
+        print(myrouterID)
         if(nearest_ID!=myrouterID):#一番近いノードが自分でない場合
             addroute='sudo cefroute add ' + Prefix + ' udp ' + IP_addr[nextid[nearest_ID]]
             proc = subprocess.run(addroute, shell=True)
-            print("Add route " + Prefix)
+            print("Add route " + Prefix + " Next Face:" + str(nextid[nearest_ID]))
 
         
-def find_nearest(distance_list, holder_list):
+def find_nearest(distance_list, content_holder,myrouterID):
     min_distance = sys.maxsize
-    for i in range(len(holder_list)):
-        if distance_list[holder_list[i]] < min_distance:#距離が小さいものの場合
-            min_distance = distance_list[holder_list[i]]
-            nearest_id = holder_list[i]
-    
+    nearest_id = myrouterID
+    print(distance_list)
+    for i in range(len(content_holder)):#コンテンツ所持者の数だけループ
+        if distance_list[content_holder[i]]!=0 and distance_list[content_holder[i]] < min_distance:#自分以外かつ距離が小さいものの場合
+            print("find min")
+            min_distance = distance_list[content_holder[i]]
+            nearest_id = content_holder[i] 
+   
     return nearest_id
-
 
 def make_neighbor(connection_target, registed_router_num):
     neighbor_list = []#登録するルータは0それ以外は1を登録
     for i in range(registed_router_num):
         if(i in connection_target):
-            neighbor_list.push(1)
+            neighbor_list.append(1)
         else:
-            neighbor_list.push(0)
+            neighbor_list.append(0)
     return neighbor_list
 
 
 
-networkid = 200
+
+
+
+networkid = 101
 maxpeers = 10
 http_port = 8101
 my_ip_addr = read_ip_add() #get IP addr.
 
 helloPrefix = "ccnx:/" + "hello"
 func_array = ["/connect", "/ABI", "/C_addr"]
+my_content_array = [] #自分の持っているコンテンツを登録
 Req_flag = [0,0,0]
 #FIBから接続しているノードのFace番号とIPaddrを取得
 facenum = facenum_FIB(helloPrefix)
@@ -289,7 +298,7 @@ print("enode_addr: " + enode_addr)
 #自身のアドレス設定と鍵の入手
 myAddr = w3.toChecksumAddress(w3.eth.accounts[0])
 #privatekey = get_private_key(myAddr, Pass_word)
-P_key="187 224 155 157 113 243 134 8 122 44 113 56 221 55 169 236 176 142 215 119 40 34 34 86 151 159 152 43 7 169 141 231"
+P_key="12 189 28 87 76 155 162 0 23 17 110 242 125 41 180 39 43 248 222 66 105 72 252 90 82 212 238 237 86 234 11 153"
 privatekey = make_private_key(P_key)
 print("privatekey")
 print(privatekey)
@@ -301,7 +310,9 @@ start_time = time.time()
 with cefpyco.create_handle() as handle:
     #handle.send_interest()#最初のノードはやらない
     connect_prefix = helloPrefix + func_array[0]
-    handle.send_interest(connect_prefix,0)#connect_interestの送信
+    print("send hello Interest")
+    print(connect_prefix)
+    handle.send_interest(connect_prefix, 0)#connect_interestの送信
     handle.register(helloPrefix)#helloを受信する用
 
     #接続用ループ
@@ -319,12 +330,15 @@ with cefpyco.create_handle() as handle:
                         Req_flag[0] = 1
                         handle.register(helloPrefix)
                     elif func_array[1] in info.name:
-                        abi = info.payload
+                        abi = info.payload_s
                         print("get abi")
                         print(abi)
                         Req_flag[1] = 1
+                        #修正
+                        abi = ast.literal_eval(abi)
+                        print(type(abi))
                     elif func_array[2] in info.name:
-                        Networking_contract_id = info.payload
+                        Networking_contract_id = info.payload_s
                         print("get contract ID")
                         print(Networking_contract_id)
                         Req_flag[2] = 1
@@ -333,6 +347,7 @@ with cefpyco.create_handle() as handle:
     
     #スマートコントラクト利用設定
     NCI_C = w3.toChecksumAddress(Networking_contract_id)
+    #contract_instance = w3.eth.contract(abi=abi, address=NCI_C)
     contract_instance = w3.eth.contract(abi=abi, address=NCI_C)
     #ルータの登録
     print("regist_router")
@@ -345,7 +360,7 @@ with cefpyco.create_handle() as handle:
     signed_tx = w3.eth.account.sign_transaction(tx, privatekey)
     tx_hash = w3.eth.sendRawTransaction(signed_tx.rawTransaction)
     tx_receipt = w3.eth.wait_for_transaction_receipt(tx_hash)
-    my_router_id = contract_instance.functions.show_router().call()
+    my_router_id = contract_instance.functions.show_router().call({"from": myAddr})
     print("myrouter_ID:" + str(my_router_id))
 
     neighbor_array = contract_instance.functions.show_networks().call()
@@ -367,11 +382,11 @@ with cefpyco.create_handle() as handle:
     #コンテンツ呼び出し
     content_array = contract_instance.functions.show_contents().call()
     print("content_array: {}".format(content_array))
-    registed_content_num = len(content_array)#登録済みコンテンツ数
-    #コンテンツ登録
+    #registed_content_num = len(content_array)#登録済みコンテンツ数
+    #コンテンツ3の登録(FIBは作らない)
     key = ["Router1", "include", "movie"]
     regist_id = [my_router_id]
-    tx = contract_instance.functions.regist_content("content3", regist_id, key).buildTransaction({
+    tx = contract_instance.functions.regist_content("content3", regist_id, key, False).buildTransaction({
         'from': myAddr,
         'nonce': w3.eth.getTransactionCount(myAddr),
         'gas': 1728712,
@@ -380,6 +395,20 @@ with cefpyco.create_handle() as handle:
     signed_tx = w3.eth.account.signTransaction(tx, privatekey)
     tx_hash =w3.eth.sendRawTransaction(signed_tx.rawTransaction)
     tx_receipt = w3.eth.wait_for_transaction_receipt(tx_hash)
+    
+    handle.register("ccnx:/content3")#Interest受信用
+
+    sender = contract_instance.functions.return_sender().call({"from": myAddr})
+    print("sender")
+    print(sender)
+    nowID = contract_instance.functions.return_nowID().call()
+    print("nowID: " + str(nowID))
+    ip_addr_list = contract_instance.functions.return_ipadd().call({"from": myAddr})
+    print("IPaddlist")
+    print(ip_addr_list)
+    registed_content_num = 0
+
+
 
 
     while True:
@@ -432,7 +461,6 @@ with cefpyco.create_handle() as handle:
         contract_instance = w3.eth.contract(abi=abi, address=Networking_contract_id)
         if(elapsed_time > 60):#60秒立ったら
             content_array = contract_instance.functions.show_contents().call()
-            my_router_id = contract_instance.functions.show_router().call()
             neighbor_array = contract_instance.functions.show_networks().call()
             networks = contract_instance.functions.show_networks().call()
             ip_addr_list = contract_instance.functions.return_ipadd().call()
@@ -440,10 +468,20 @@ with cefpyco.create_handle() as handle:
             print("neigbor_array: {}".format(neighbor_array))
             print("networks: {}".format(networks))
             print("IP_addr_list: {}".format(ip_addr_list))
-            make_FIB(neighbor_array, myrouterID=my_router_id, content_array=content_array, IP_addr=ip_addr_list, registed_num=registed_num)
-            registed_num = len(content_array)
+            make_FIB(neighbor_array, myrouterID=my_router_id, content_array=content_array, IP_addr=ip_addr_list, registed_num=registed_content_num)
+            registed_content_num = len(content_array)
+            registed_router_num = len(neighbor_array)#登録済みルータ数
+            neighbor_array = make_neighbor(connection_target=connection_target, registed_router_num=registed_router_num)
+            tx = contract_instance.functions.regist_neigbor(neighbor_list).build_transaction({
+                "from": myAddr,
+                "nonce": w3.eth.getTransactionCount(myAddr),
+                "gas": 1728712,
+                "gasPrice": w3.toWei("21", "gwei")
+            })
+            signed_tx = w3.eth.account.signTransaction(tx, privatekey)
+            tx_hash =w3.eth.sendRawTransaction(signed_tx.rawTransaction)
+            tx_receipt = w3.eth.wait_for_transaction_receipt(tx_hash)
             start_time = end_time #現在時間から計測
-
 
 
 

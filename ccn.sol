@@ -12,6 +12,8 @@ contract Greeter {
         address producer; //コンテンツの配信者のアドレス
         uint[] router_ID;
         string[] keyword;
+        bool flag;
+        uint pri;
     }
     //コンテンツ配信者の登録
     struct Producer{
@@ -22,6 +24,13 @@ contract Greeter {
         uint RouterID;
         string[] neighbor; 
     }
+    //コンテンツの名前に対して情報を登録する手法に変更
+    struct Contents_key{
+        address producer;
+        uint[] router_ID;
+        string[] keyword;
+    }
+
     //二次元配列の宣言
     uint[][] public neighbor_array = new uint[][](0);//隣接行列
     string[] public ip_addr;//ipaddr配列
@@ -36,12 +45,14 @@ contract Greeter {
     //関数
 
     //コンテンツの登録
-    function regist_content(string memory _name, uint[] memory _routerID, string[] memory _keyword) public returns(uint){
+    function regist_content(string memory _name, uint[] memory _routerID, string[] memory _keyword, bool _flag) public returns(uint){
         uint id = contents_list.push(Contents_info({
             name: _name,
             producer: msg.sender,
             router_ID: _routerID,
-            keyword: _keyword
+            keyword: _keyword,
+            flag: _flag,
+            pri: 3
         }));
         return (id-1);
     }
@@ -74,9 +85,9 @@ contract Greeter {
 
     function show_contents() view public returns (Contents_info[] memory) {
         uint list_length = contents_list.length;
-        Contents_info[] memory content_array = new Contents_info[](list_length);
-        content_array = contents_list;
-        return content_array;
+        Contents_info[] memory content_now = new Contents_info[](list_length);
+        content_now = contents_list;
+        return content_now;
     }
 
     function show_networks() view public returns (uint[][] memory){
