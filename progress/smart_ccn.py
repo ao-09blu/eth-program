@@ -8,6 +8,9 @@ import cefpyco
 import time
 import sys
 
+noFIB = {}#FIBを作成しないものの最近傍ルータを理解しておく
+distance_glo = []
+nextID_glo = []
 
 def get_private_key(account_addr_C, Pass):#checksumをしておく
     proc = subprocess.run('node get_key.js '+ account_addr_C + " " +  Pass, shell=True, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)#jsonファイルとパスワードからkeyを取得
@@ -129,7 +132,7 @@ def dijkstra(graph, start):
                 if new_distance < distance[v]:
                     distance[v] = new_distance
                     previous[v] = u
-            
+   
     # 最短経路の頂点リストを作成する
     path = []
     for i in range(n):
@@ -157,6 +160,9 @@ def dijkstra(graph, start):
 
 def make_FIB(neigbor_array, myrouterID,content_array, IP_addr, registed_num):
     #dijkstra法
+    global distance_glo
+    global noFIB
+    global nextID_glo
     n = len(neigbor_array)
     visited = [False] * n
     distance = [sys.maxsize] * n
@@ -186,7 +192,8 @@ def make_FIB(neigbor_array, myrouterID,content_array, IP_addr, registed_num):
                 if new_distance < distance[v]:
                     distance[v] = new_distance
                     previous[v] = u
-            
+
+    distance_glo = distance#グローバル変数の書き換え      
     # 最短経路の頂点リストを作成する
     path = []
     for i in range(n):
@@ -208,17 +215,30 @@ def make_FIB(neigbor_array, myrouterID,content_array, IP_addr, registed_num):
             nextid.append(-1)
         else:#それ以外の場合
             nextid.append(path[i][1])#スタートノードの次を格納
-
-
+    
+    #グローバル変数に代入
+    nextID_glo = nextid
     for i in range(len(content_array)-registed_num):#登録していないコンテンツに対してループ
         Prefix = "ccnx:/" + content_array[i+registed_num][0]#コンテンツ名を取得
         print(Prefix)
         nearest_ID = find_nearest(distance, content_array[i+registed_num][2], myrouterID=myrouterID)
         print("New Content:" + content_array[i+registed_num][0] + " Nearest content holder is Node" + str(nearest_ID))
-        if(nearest_ID!=myrouterID):#一番近いノードが自分でない場合
-            addroute='sudo cefroute add ' + Prefix + ' udp ' + IP_addr[nextid[nearest_ID]]
-            proc = subprocess.run(addroute, shell=True)
-            print("Add route " + Prefix + " Next Face:" + str(nextid[nearest_ID]))
+        if(content_array[i+registed_num][5]==1):#優先度1の場合
+            #FIBの作成
+            if(nearest_ID!=myrouterID):#一番近いノードが自分でない場合
+                addroute='sudo cefroute add ' + Prefix + ' udp ' + IP_addr[nextid[nearest_ID]]
+                proc = subprocess.run(addroute, shell=True)
+                print("Add route " + Prefix + " Next Face:" + str(nextid[nearest_ID]))
+        elif(content_array[i+registed_num][5]==2):#優先度2の場合
+            print("あとで直す")
+        if(content_array[i+registed_num][4]):#FIBに登録しておくコンテンツの場合
+            if(nearest_ID!=myrouterID):#一番近いノードが自分でない場合
+                addroute='sudo cefroute add ' + Prefix + ' udp ' + IP_addr[nextid[nearest_ID]]
+                proc = subprocess.run(addroute, shell=True)
+                print("Add route " + Prefix + " Next Face:" + str(nextid[nearest_ID]))
+        else:#FIBに登録しないコンテンツの場合
+            noFIB[content_array[i+registed_num][0]] = nearest_ID#一番近いものに対してコンテンツ名でマッピング
+
 
         
 def find_nearest(distance_list, content_holder,myrouterID):
@@ -239,9 +259,22 @@ def make_neighbor(connection_target, registed_router_num):
             neighbor_list.append(0)
     return neighbor_list
 
+def makeFIBsudden(name, myrouterID, IPaddrs):
+    global distance_glo
+    global nextID_glo
+    global noFIB
+    Prefix = "ccnx:/" + name
+    if(noFIB[name]!=myrouterID):#一番近いノードが自分でない場合
+        addroute='sudo cefroute add ' + Prefix + ' udp ' + IPaddrs[nextID_glo[noFIB[name]]]
+        proc = subprocess.run(addroute, shell=True)
+        print("Add route " + Prefix + " Next Face:" + str(nextID_glo[noFIB[name]]))
+    
 
 
-networkid = 150
+
+
+
+networkid = 190
 maxpeers = 10
 http_port = 8101
 my_ip_addr = read_ip_add() #get IP addr.
@@ -290,7 +323,7 @@ print("enode_addr: " + enode_addr)
 #自身のアドレス設定と鍵の入手
 myAddr = w3.toChecksumAddress(w3.eth.accounts[0])
 #privatekey = get_private_key(myAddr, Pass_word)
-P_key="165 16 208 109 131 127 45 4 22 208 207 59 190 190 248 213 13 228 124 101 149 37 18 151 1 168 226 201 118 157 68 238"
+P_key="73 149 158 4 119 20 35 194 106 93 33 210 220 69 26 144 8 233 18 225 136 216 76 221 178 253 157 73 60 76 254 29"
 privatekey = make_private_key(P_key)
 print("privatekey")
 print(privatekey)
@@ -316,6 +349,7 @@ compiled_sol = compile_source(
             address producer; //コンテンツの配信者のアドレス
             uint[] router_ID;
             string[] keyword;
+            bool flag;
         }
         //コンテンツ配信者の登録
         struct Producer{
@@ -326,6 +360,13 @@ compiled_sol = compile_source(
             uint RouterID;
             string[] neighbor; 
         }
+        //コンテンツの名前に対して情報を登録する手法に変更
+        struct Contents_key{
+            address producer;
+            uint[] router_ID;
+            string[] keyword;
+        }
+
         //二次元配列の宣言
         uint[][] public neighbor_array = new uint[][](0);//隣接行列
         string[] public ip_addr;//ipaddr配列
@@ -340,12 +381,13 @@ compiled_sol = compile_source(
         //関数
 
         //コンテンツの登録
-        function regist_content(string memory _name, uint[] memory _routerID, string[] memory _keyword) public returns(uint){
+        function regist_content(string memory _name, uint[] memory _routerID, string[] memory _keyword, bool _flag) public returns(uint){
             uint id = contents_list.push(Contents_info({
                 name: _name,
                 producer: msg.sender,
                 router_ID: _routerID,
-                keyword: _keyword
+                keyword: _keyword,
+                flag: _flag
             }));
             return (id-1);
         }
@@ -378,9 +420,9 @@ compiled_sol = compile_source(
 
         function show_contents() view public returns (Contents_info[] memory) {
             uint list_length = contents_list.length;
-            Contents_info[] memory content_array = new Contents_info[](list_length);
-            content_array = contents_list;
-            return content_array;
+            Contents_info[] memory content_now = new Contents_info[](list_length);
+            content_now = contents_list;
+            return content_now;
         }
 
         function show_networks() view public returns (uint[][] memory){
@@ -413,6 +455,7 @@ compiled_sol = compile_source(
             return ID;
         }
     }
+
     ''',
     output_values=['abi', 'bin']
 )
@@ -499,7 +542,7 @@ tx_receipt = w3.eth.wait_for_transaction_receipt(tx_hash)
 #content1の登録
 key = ["hello", "test", "key"]
 regist_id = [my_router_id]
-tx = contract_instance.functions.regist_content("content1", regist_id ,key).buildTransaction({
+tx = contract_instance.functions.regist_content("content1", regist_id ,key, True).buildTransaction({
     'from': myAddr,
     'nonce': w3.eth.getTransactionCount(myAddr),
     'gas': 1728712,
@@ -513,7 +556,7 @@ tx_receipt = w3.eth.wait_for_transaction_receipt(tx_hash)
 #content2の登録
 key = ["introduction", "connect", "words"]
 regist_id = [my_router_id]
-tx = contract_instance.functions.regist_content("content2", regist_id, key).buildTransaction({
+tx = contract_instance.functions.regist_content("content2", regist_id, key, True).buildTransaction({
     'from': myAddr,
     'nonce': w3.eth.getTransactionCount(myAddr),
     'gas': 1728712,
@@ -541,6 +584,8 @@ registed_router_num = len(neighbor_array)#登録済みルータ数
 
 
 connection_target = [1, 2]
+
+test_flag = 0
 
 
 
@@ -603,6 +648,15 @@ with cefpyco.create_handle() as handle:
         elapsed_time = end_time - start_time
         contract_instance = w3.eth.contract(abi=abi, address=Networking_contract_id)
         if(elapsed_time > 60):#60秒立ったら
+            if(len(noFIB)!=0 and test_flag==0):#FIBを作らないと行けないものがある場合
+                print(noFIB)
+                noFIBcontname = "content3"#今回はコンテンツ3に関してtest
+                makeFIBsudden(name=noFIBcontname, myrouterID=my_router_id, IPaddrs=ip_addr_list)#FIBの作成
+                interest_prefix = "ccnx:/" + noFIBcontname
+                handle.send_interest(interest_prefix, 0)
+                print("Send Interest (not regular FIB entry): " + interest_prefix)
+                test_flag=1#2度目は行わない
+
             content_array = contract_instance.functions.show_contents().call()
             my_router_id = contract_instance.functions.show_router().call()
             neighbor_array = contract_instance.functions.show_networks().call()
